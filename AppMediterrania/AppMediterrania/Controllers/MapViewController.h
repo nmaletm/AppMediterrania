@@ -10,6 +10,27 @@
 
 @interface MapViewController : UIViewController
 
+
+@property (strong, nonatomic) IBOutlet UIButton *b_stage1;
+@property (strong, nonatomic) IBOutlet UIButton *b_stage2;
+@property (strong, nonatomic) IBOutlet UIButton *b_stage3;
+@property (strong, nonatomic) IBOutlet UIButton *b_stage4;
+@property (strong, nonatomic) IBOutlet UIButton *b_stage5;
+@property (strong, nonatomic) IBOutlet UIButton *b_stage6;
+@property (strong, nonatomic) IBOutlet UIButton *b_stage7;
+@property (strong, nonatomic) IBOutlet UIButton *b_stage8;
+
+
 - (IBAction)showInformation:(id)sender;
+
+- (IBAction)stage1:(id)sender;
+- (IBAction)stage2:(id)sender;
+- (IBAction)stage3:(id)sender;
+- (IBAction)stage4:(id)sender;
+- (IBAction)stage5:(id)sender;
+- (IBAction)stage6:(id)sender;
+- (IBAction)stage7:(id)sender;
+- (IBAction)stage8:(id)sender;
+
 
 @end

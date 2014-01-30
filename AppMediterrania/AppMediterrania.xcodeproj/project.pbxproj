@@ -21,6 +21,12 @@
 		6CDCDDC21897F07A002EBDED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CDCDDBC1897F07A002EBDED /* Images.xcassets */; };
 		6CDCDDCB1897F236002EBDED /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDCDDC91897F236002EBDED /* MapViewController.m */; };
 		6CDCDDCC1897F236002EBDED /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CDCDDCA1897F236002EBDED /* MapView.xib */; };
+		6CFD1BC9189A122400CB7B15 /* StageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD1BC8189A122400CB7B15 /* StageView.xib */; };
+		6CFD1BCC189A12EE00CB7B15 /* pantalla_mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD1BCB189A12EE00CB7B15 /* pantalla_mapa.png */; };
+		6CFD1BCF189A13B500CB7B15 /* StageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD1BCE189A13B500CB7B15 /* StageViewController.m */; };
+		6CFD1BD2189A14AF00CB7B15 /* Stage8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD1BD1189A14AF00CB7B15 /* Stage8ViewController.m */; };
+		6CFD1BD5189A170E00CB7B15 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD1BD3189A170E00CB7B15 /* lock.png */; };
+		6CFD1BD6189A170E00CB7B15 /* stage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD1BD4189A170E00CB7B15 /* stage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +57,15 @@
 		6CDCDDBC1897F07A002EBDED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6CDCDDC81897F236002EBDED /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		6CDCDDC91897F236002EBDED /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		6CDCDDCA1897F236002EBDED /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapView.xib; path = ../Controllers/MapView.xib; sourceTree = "<group>"; };
+		6CDCDDCA1897F236002EBDED /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		6CFD1BC8189A122400CB7B15 /* StageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StageView.xib; path = Stages/StageView.xib; sourceTree = "<group>"; };
+		6CFD1BCB189A12EE00CB7B15 /* pantalla_mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_mapa.png; sourceTree = "<group>"; };
+		6CFD1BCD189A13B500CB7B15 /* StageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StageViewController.h; path = Stages/StageViewController.h; sourceTree = "<group>"; };
+		6CFD1BCE189A13B500CB7B15 /* StageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StageViewController.m; path = Stages/StageViewController.m; sourceTree = "<group>"; };
+		6CFD1BD0189A14AF00CB7B15 /* Stage8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stage8ViewController.h; path = Stages/Stage8ViewController.h; sourceTree = "<group>"; };
+		6CFD1BD1189A14AF00CB7B15 /* Stage8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stage8ViewController.m; path = Stages/Stage8ViewController.m; sourceTree = "<group>"; };
+		6CFD1BD3189A170E00CB7B15 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		6CFD1BD4189A170E00CB7B15 /* stage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +199,7 @@
 		6CDCDDC31897F0DD002EBDED /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6CFD1BC7189A120B00CB7B15 /* Stages */,
 				6CDCDDCA1897F236002EBDED /* MapView.xib */,
 			);
 			path = Views;
@@ -193,6 +208,7 @@
 		6CDCDDC41897F0F0002EBDED /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6CFD1BCA189A12B200CB7B15 /* Stages */,
 				6CDCDDC81897F236002EBDED /* MapViewController.h */,
 				6CDCDDC91897F236002EBDED /* MapViewController.m */,
 			);
@@ -202,8 +218,30 @@
 		6CDCDDC51897F10B002EBDED /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6CFD1BD3189A170E00CB7B15 /* lock.png */,
+				6CFD1BD4189A170E00CB7B15 /* stage.png */,
+				6CFD1BCB189A12EE00CB7B15 /* pantalla_mapa.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		6CFD1BC7189A120B00CB7B15 /* Stages */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD1BC8189A122400CB7B15 /* StageView.xib */,
+			);
+			name = Stages;
+			sourceTree = "<group>";
+		};
+		6CFD1BCA189A12B200CB7B15 /* Stages */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD1BCD189A13B500CB7B15 /* StageViewController.h */,
+				6CFD1BCE189A13B500CB7B15 /* StageViewController.m */,
+				6CFD1BD0189A14AF00CB7B15 /* Stage8ViewController.h */,
+				6CFD1BD1189A14AF00CB7B15 /* Stage8ViewController.m */,
+			);
+			name = Stages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,7 +320,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CDCDDBF1897F07A002EBDED /* AppMediterrania-Info.plist in Resources */,
+				6CFD1BCC189A12EE00CB7B15 /* pantalla_mapa.png in Resources */,
+				6CFD1BD5189A170E00CB7B15 /* lock.png in Resources */,
+				6CFD1BC9189A122400CB7B15 /* StageView.xib in Resources */,
 				6CDCDDC21897F07A002EBDED /* Images.xcassets in Resources */,
+				6CFD1BD6189A170E00CB7B15 /* stage.png in Resources */,
 				6CDCDDCC1897F236002EBDED /* MapView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +347,8 @@
 				6CDCDDCB1897F236002EBDED /* MapViewController.m in Sources */,
 				6CDCDDC01897F07A002EBDED /* main.m in Sources */,
 				6CDCDDBE1897F07A002EBDED /* AppDelegate.m in Sources */,
+				6CFD1BD2189A14AF00CB7B15 /* Stage8ViewController.m in Sources */,
+				6CFD1BCF189A13B500CB7B15 /* StageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +543,7 @@
 				6CDCDDA81897EEB9002EBDED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CDCDDA91897EEB9002EBDED /* Build configuration list for PBXNativeTarget "AppMediterraniaTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +552,7 @@
 				6CDCDDAB1897EEB9002EBDED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
