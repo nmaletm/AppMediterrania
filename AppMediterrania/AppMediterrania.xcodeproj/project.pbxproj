@@ -18,6 +18,7 @@
 		6CD57A55189BA472005538D1 /* LevelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A54189BA472005538D1 /* LevelManager.m */; };
 		6CD57A57189BA699005538D1 /* LevelSelectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD57A56189BA699005538D1 /* LevelSelectorView.xib */; };
 		6CD57A5A189BA7C8005538D1 /* LevelSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A59189BA7C8005538D1 /* LevelSelectorViewController.m */; };
+		6CD57A5C189BAD08005538D1 /* stage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD57A5B189BAD08005538D1 /* stage1.png */; };
 		6CDCDD7E1897EEB6002EBDED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDCDD7D1897EEB6002EBDED /* Foundation.framework */; };
 		6CDCDD801897EEB6002EBDED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDCDD7F1897EEB6002EBDED /* CoreGraphics.framework */; };
 		6CDCDD821897EEB6002EBDED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDCDD811897EEB6002EBDED /* UIKit.framework */; };
@@ -69,6 +70,7 @@
 		6CD57A56189BA699005538D1 /* LevelSelectorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelSelectorView.xib; sourceTree = "<group>"; };
 		6CD57A58189BA7C8005538D1 /* LevelSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectorViewController.h; sourceTree = "<group>"; };
 		6CD57A59189BA7C8005538D1 /* LevelSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelectorViewController.m; sourceTree = "<group>"; };
+		6CD57A5B189BAD08005538D1 /* stage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stage1.png; sourceTree = "<group>"; };
 		6CDCDD7A1897EEB6002EBDED /* AppMediterrania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMediterrania.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDCDD7D1897EEB6002EBDED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6CDCDD7F1897EEB6002EBDED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -284,6 +286,7 @@
 			children = (
 				6CFD1BD3189A170E00CB7B15 /* lock.png */,
 				6CFD1BD4189A170E00CB7B15 /* stage.png */,
+				6CD57A5B189BAD08005538D1 /* stage1.png */,
 				6CFD1BCB189A12EE00CB7B15 /* pantalla_mapa.png */,
 			);
 			path = Resources;
@@ -377,6 +380,7 @@
 				6CFD1BCC189A12EE00CB7B15 /* pantalla_mapa.png in Resources */,
 				6CFD1BD5189A170E00CB7B15 /* lock.png in Resources */,
 				6CFD1BC9189A122400CB7B15 /* StageView.xib in Resources */,
+				6CD57A5C189BAD08005538D1 /* stage1.png in Resources */,
 				6CDCDDC21897F07A002EBDED /* Images.xcassets in Resources */,
 				6CD57A57189BA699005538D1 /* LevelSelectorView.xib in Resources */,
 				6CFD1BD6189A170E00CB7B15 /* stage.png in Resources */,

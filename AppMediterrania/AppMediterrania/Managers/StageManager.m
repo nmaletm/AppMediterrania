@@ -30,7 +30,7 @@
 - (void)loadData{
     self.lastEndendStage = [[NSUserDefaults standardUserDefaults] valueForKey:ST_DEFAULTS_STAGE];
     if(self.lastEndendStage == nil){
-        self.lastEndendStage = [NSNumber numberWithInt:1];
+        self.lastEndendStage = [NSNumber numberWithInt:0];
     }
 }
 

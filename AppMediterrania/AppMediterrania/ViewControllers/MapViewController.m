@@ -17,7 +17,11 @@
 
 #import "LevelSelectorViewController.h"
 
-@interface MapViewController ()
+@interface MapViewController (){
+    NSArray *stagesUnblocked;
+    NSArray *stagesBlocked;
+    NSArray *stagesButtons;
+}
 
 @end
 
@@ -36,7 +40,8 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        stagesUnblocked = [[NSArray alloc] initWithObjects:@"stage.png", @"stage1.png", @"stage.png", @"stage.png", @"stage.png", @"stage.png", @"stage.png", @"stage.png", nil];
+        stagesBlocked = [[NSArray alloc] initWithObjects:@"lock.png", @"lock.png", @"lock.png", @"lock.png", @"lock.png", @"lock.png", @"lock.png", @"lock.png", nil];
     }
     return self;
 }
@@ -46,6 +51,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    stagesButtons = [[NSArray alloc] initWithObjects:b_stage1, b_stage2, b_stage3, b_stage4, b_stage5, b_stage6, b_stage7, b_stage8, nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(closeModal:) name:BACK_TO_MAP object:nil];
 
 
@@ -54,6 +60,7 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated{
+    
     if([[LevelManager sharedInstance] level] == nil){
         [self showLevelSelector:nil];
     }
@@ -62,12 +69,29 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
 
-- (void) refreshStageStatus{
-    NSNumber *currentStage = [[StageManager sharedInstance] lastEndendStage];
+- (void) refreshStageStatus
+{
+    int currentStage = [[[StageManager sharedInstance] lastEndendStage] integerValue];
+    
+    for (int i = 1; i <= 8; i++){
+        UIButton *button = [stagesButtons objectAtIndex:i-1];
+        NSString *imageName;
+        if(i < currentStage || i < 2){
+            imageName = [stagesUnblocked objectAtIndex:i-1];
+            [button setEnabled: YES];
+        }
+        else{
+            imageName = [stagesBlocked objectAtIndex:i-1];
+            [button setEnabled: NO];
+        }
+        
+        [button setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
+        [button setImage:[UIImage imageNamed:imageName] forState:UIControlStateHighlighted];
+    }
 }
 
 - (void) presentStage:(id<StageDataSource>)dataSource{
