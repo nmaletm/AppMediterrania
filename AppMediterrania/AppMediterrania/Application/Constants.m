@@ -8,5 +8,7 @@
 
 #import "Constants.h"
 
+BOOL *const DEBUG_APP = NO;
+
 NSString * const ST_DEFAULTS_STAGE = @"ST_DEFAULTS_STAGE";
 NSString * const ST_DEFAULTS_LEVEL = @"ST_DEFAULTS_LEVEL";

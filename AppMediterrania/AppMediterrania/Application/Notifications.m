@@ -8,4 +8,5 @@
 
 #import "Notifications.h"
 
-NSString * const BACK_TO_MAP = @"BACK_TO_MAP";
+NSString * const NOT_BACK_TO_MAP = @"NOT_BACK_TO_MAP";
+NSString * const NOT_NEXT_SUB_LEVEL = @"NOT_NEXT_SUB_LEVEL";

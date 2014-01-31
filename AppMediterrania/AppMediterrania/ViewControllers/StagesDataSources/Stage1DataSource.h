@@ -1,5 +1,5 @@
 //
-//  Constants.h
+//  Stage1DataSource.h
 //  AppMediterrania
 //
 //  Created by Nestor Malet on 31/01/14.
@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "StageDataSource.h"
 
-extern BOOL * const DEBUG_APP;
+@interface Stage1DataSource : NSObject <StageDataSource>
 
-extern NSString * const ST_DEFAULTS_STAGE;
-extern NSString * const ST_DEFAULTS_LEVEL;
+@end

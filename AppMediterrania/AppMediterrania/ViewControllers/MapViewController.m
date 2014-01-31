@@ -9,6 +9,7 @@
 #import "MapViewController.h"
 
 #import "StageDataSource.h"
+#import "Stage1DataSource.h"
 #import "Stage8DataSource.h"
 #import "StageViewController.h"
 
@@ -52,11 +53,16 @@
 {
     [super viewDidLoad];
     stagesButtons = [[NSArray alloc] initWithObjects:b_stage1, b_stage2, b_stage3, b_stage4, b_stage5, b_stage6, b_stage7, b_stage8, nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(closeModal:) name:BACK_TO_MAP object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(closeModal:) name:NOT_BACK_TO_MAP object:nil];
 
 
     
     [self refreshStageStatus];
+    
+    if(DEBUG_APP){
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"App en debug" message:@"La app està en debug, estan totes les etapes desbloquejades" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Pues vale...",nil];
+        [alert show];
+    }
 }
 
 - (void)viewDidAppear:(BOOL)animated{
@@ -75,18 +81,18 @@
 
 - (void) refreshStageStatus
 {
-    int currentStage = [[[StageManager sharedInstance] lastEndendStage] integerValue];
+    int currentStage = [[[StageManager sharedInstance] lastEndendStage] intValue];
     
     for (int i = 1; i <= 8; i++){
         UIButton *button = [stagesButtons objectAtIndex:i-1];
         NSString *imageName;
         if(i < currentStage || i < 2){
             imageName = [stagesUnblocked objectAtIndex:i-1];
-            [button setEnabled: YES];
+            [button setEnabled: (!DEBUG_APP || YES)];
         }
         else{
             imageName = [stagesBlocked objectAtIndex:i-1];
-            [button setEnabled: NO];
+            [button setEnabled: (!DEBUG_APP || NO)];
         }
         
         [button setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
@@ -114,7 +120,8 @@
 
 #pragma mark Actions stages
 - (IBAction)stage1:(id)sender{
-    
+    id<StageDataSource> dataSource = [[Stage1DataSource alloc] init];
+    [self presentStage: dataSource];
 }
 
 - (IBAction)stage2:(id)sender{

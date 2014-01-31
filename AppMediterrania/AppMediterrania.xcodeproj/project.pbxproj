@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C2A83FA189BD114002EEA2C /* pantalla_joc.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A83F9189BD114002EEA2C /* pantalla_joc.png */; };
+		6C2A83FD189BD2E8002EEA2C /* Stage1Sub1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A83FC189BD2E8002EEA2C /* Stage1Sub1ViewController.m */; };
+		6C2A8400189BD2FD002EEA2C /* Stage1Sub2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A83FF189BD2FD002EEA2C /* Stage1Sub2ViewController.m */; };
+		6C2A8403189BD30F002EEA2C /* Stage1Sub3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A8402189BD30F002EEA2C /* Stage1Sub3ViewController.m */; };
+		6C2A8406189BD31E002EEA2C /* Stage1Sub4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A8405189BD31E002EEA2C /* Stage1Sub4ViewController.m */; };
+		6C2A8409189BD32A002EEA2C /* Stage1Sub5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A8408189BD32A002EEA2C /* Stage1Sub5ViewController.m */; };
+		6C2A840E189BD387002EEA2C /* Stage1DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A840D189BD387002EEA2C /* Stage1DataSource.m */; };
+		6C2A8414189BD67A002EEA2C /* Stage1Sub1View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A840F189BD67A002EEA2C /* Stage1Sub1View.xib */; };
+		6C2A8415189BD67A002EEA2C /* Stage1Sub2View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8410189BD67A002EEA2C /* Stage1Sub2View.xib */; };
+		6C2A8416189BD67A002EEA2C /* Stage1Sub3View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8411189BD67A002EEA2C /* Stage1Sub3View.xib */; };
+		6C2A8417189BD67A002EEA2C /* Stage1Sub4View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8412189BD67A002EEA2C /* Stage1Sub4View.xib */; };
+		6C2A8418189BD67A002EEA2C /* Stage1Sub5View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8413189BD67A002EEA2C /* Stage1Sub5View.xib */; };
 		6CD57A37189B9918005538D1 /* Stage8View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD57A36189B9918005538D1 /* Stage8View.xib */; };
 		6CD57A3A189B9C63005538D1 /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A39189B9C63005538D1 /* Notifications.m */; };
 		6CD57A3D189BA29C005538D1 /* StageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A3C189BA29C005538D1 /* StageManager.m */; };
@@ -49,6 +61,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C2A83F9189BD114002EEA2C /* pantalla_joc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_joc.png; sourceTree = "<group>"; };
+		6C2A83FB189BD2E8002EEA2C /* Stage1Sub1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1Sub1ViewController.h; sourceTree = "<group>"; };
+		6C2A83FC189BD2E8002EEA2C /* Stage1Sub1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1Sub1ViewController.m; sourceTree = "<group>"; };
+		6C2A83FE189BD2FD002EEA2C /* Stage1Sub2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1Sub2ViewController.h; sourceTree = "<group>"; };
+		6C2A83FF189BD2FD002EEA2C /* Stage1Sub2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1Sub2ViewController.m; sourceTree = "<group>"; };
+		6C2A8401189BD30F002EEA2C /* Stage1Sub3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1Sub3ViewController.h; sourceTree = "<group>"; };
+		6C2A8402189BD30F002EEA2C /* Stage1Sub3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1Sub3ViewController.m; sourceTree = "<group>"; };
+		6C2A8404189BD31E002EEA2C /* Stage1Sub4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1Sub4ViewController.h; sourceTree = "<group>"; };
+		6C2A8405189BD31E002EEA2C /* Stage1Sub4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1Sub4ViewController.m; sourceTree = "<group>"; };
+		6C2A8407189BD32A002EEA2C /* Stage1Sub5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1Sub5ViewController.h; sourceTree = "<group>"; };
+		6C2A8408189BD32A002EEA2C /* Stage1Sub5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1Sub5ViewController.m; sourceTree = "<group>"; };
+		6C2A840C189BD387002EEA2C /* Stage1DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1DataSource.h; sourceTree = "<group>"; };
+		6C2A840D189BD387002EEA2C /* Stage1DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1DataSource.m; sourceTree = "<group>"; };
+		6C2A840F189BD67A002EEA2C /* Stage1Sub1View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1Sub1View.xib; path = Stages/Stage1Sub1View.xib; sourceTree = "<group>"; };
+		6C2A8410189BD67A002EEA2C /* Stage1Sub2View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1Sub2View.xib; path = Stages/Stage1Sub2View.xib; sourceTree = "<group>"; };
+		6C2A8411189BD67A002EEA2C /* Stage1Sub3View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1Sub3View.xib; path = Stages/Stage1Sub3View.xib; sourceTree = "<group>"; };
+		6C2A8412189BD67A002EEA2C /* Stage1Sub4View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1Sub4View.xib; path = Stages/Stage1Sub4View.xib; sourceTree = "<group>"; };
+		6C2A8413189BD67A002EEA2C /* Stage1Sub5View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1Sub5View.xib; path = Stages/Stage1Sub5View.xib; sourceTree = "<group>"; };
 		6CD57A36189B9918005538D1 /* Stage8View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage8View.xib; path = Stages/Stage8View.xib; sourceTree = "<group>"; };
 		6CD57A38189B9C63005538D1 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
 		6CD57A39189B9C63005538D1 /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
@@ -117,6 +147,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C2A840A189BD351002EEA2C /* Stage1 */ = {
+			isa = PBXGroup;
+			children = (
+				6C2A83FB189BD2E8002EEA2C /* Stage1Sub1ViewController.h */,
+				6C2A83FC189BD2E8002EEA2C /* Stage1Sub1ViewController.m */,
+				6C2A83FE189BD2FD002EEA2C /* Stage1Sub2ViewController.h */,
+				6C2A83FF189BD2FD002EEA2C /* Stage1Sub2ViewController.m */,
+				6C2A8401189BD30F002EEA2C /* Stage1Sub3ViewController.h */,
+				6C2A8402189BD30F002EEA2C /* Stage1Sub3ViewController.m */,
+				6C2A8404189BD31E002EEA2C /* Stage1Sub4ViewController.h */,
+				6C2A8405189BD31E002EEA2C /* Stage1Sub4ViewController.m */,
+				6C2A8407189BD32A002EEA2C /* Stage1Sub5ViewController.h */,
+				6C2A8408189BD32A002EEA2C /* Stage1Sub5ViewController.m */,
+			);
+			name = Stage1;
+			sourceTree = "<group>";
+		};
+		6C2A840B189BD358002EEA2C /* Stage8 */ = {
+			isa = PBXGroup;
+			children = (
+				6CD57A43189BA2DA005538D1 /* Stage8ViewController.h */,
+				6CD57A44189BA2DA005538D1 /* Stage8ViewController.m */,
+			);
+			name = Stage8;
+			sourceTree = "<group>";
+		};
 		6CD57A3E189BA2BC005538D1 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,10 +200,10 @@
 		6CD57A42189BA2DA005538D1 /* Stages */ = {
 			isa = PBXGroup;
 			children = (
-				6CD57A43189BA2DA005538D1 /* Stage8ViewController.h */,
-				6CD57A44189BA2DA005538D1 /* Stage8ViewController.m */,
 				6CD57A45189BA2DA005538D1 /* StageViewController.h */,
 				6CD57A46189BA2DA005538D1 /* StageViewController.m */,
+				6C2A840A189BD351002EEA2C /* Stage1 */,
+				6C2A840B189BD358002EEA2C /* Stage8 */,
 			);
 			path = Stages;
 			sourceTree = "<group>";
@@ -155,6 +211,8 @@
 		6CD57A47189BA2DA005538D1 /* StagesDataSources */ = {
 			isa = PBXGroup;
 			children = (
+				6C2A840C189BD387002EEA2C /* Stage1DataSource.h */,
+				6C2A840D189BD387002EEA2C /* Stage1DataSource.m */,
 				6CD57A48189BA2DA005538D1 /* Stage8DataSource.h */,
 				6CD57A49189BA2DA005538D1 /* Stage8DataSource.m */,
 				6CD57A4A189BA2DA005538D1 /* StageDataSource.h */,
@@ -288,6 +346,7 @@
 				6CFD1BD4189A170E00CB7B15 /* stage.png */,
 				6CD57A5B189BAD08005538D1 /* stage1.png */,
 				6CFD1BCB189A12EE00CB7B15 /* pantalla_mapa.png */,
+				6C2A83F9189BD114002EEA2C /* pantalla_joc.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -296,6 +355,11 @@
 			isa = PBXGroup;
 			children = (
 				6CFD1BC8189A122400CB7B15 /* StageView.xib */,
+				6C2A840F189BD67A002EEA2C /* Stage1Sub1View.xib */,
+				6C2A8410189BD67A002EEA2C /* Stage1Sub2View.xib */,
+				6C2A8411189BD67A002EEA2C /* Stage1Sub3View.xib */,
+				6C2A8412189BD67A002EEA2C /* Stage1Sub4View.xib */,
+				6C2A8413189BD67A002EEA2C /* Stage1Sub5View.xib */,
 				6CD57A36189B9918005538D1 /* Stage8View.xib */,
 			);
 			name = Stages;
@@ -376,15 +440,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C2A83FA189BD114002EEA2C /* pantalla_joc.png in Resources */,
 				6CDCDDBF1897F07A002EBDED /* AppMediterrania-Info.plist in Resources */,
+				6C2A8418189BD67A002EEA2C /* Stage1Sub5View.xib in Resources */,
 				6CFD1BCC189A12EE00CB7B15 /* pantalla_mapa.png in Resources */,
 				6CFD1BD5189A170E00CB7B15 /* lock.png in Resources */,
+				6C2A8417189BD67A002EEA2C /* Stage1Sub4View.xib in Resources */,
+				6C2A8416189BD67A002EEA2C /* Stage1Sub3View.xib in Resources */,
 				6CFD1BC9189A122400CB7B15 /* StageView.xib in Resources */,
 				6CD57A5C189BAD08005538D1 /* stage1.png in Resources */,
 				6CDCDDC21897F07A002EBDED /* Images.xcassets in Resources */,
 				6CD57A57189BA699005538D1 /* LevelSelectorView.xib in Resources */,
 				6CFD1BD6189A170E00CB7B15 /* stage.png in Resources */,
 				6CD57A37189B9918005538D1 /* Stage8View.xib in Resources */,
+				6C2A8415189BD67A002EEA2C /* Stage1Sub2View.xib in Resources */,
+				6C2A8414189BD67A002EEA2C /* Stage1Sub1View.xib in Resources */,
 				6CDCDDCC1897F236002EBDED /* MapView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,14 +474,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C2A840E189BD387002EEA2C /* Stage1DataSource.m in Sources */,
+				6C2A83FD189BD2E8002EEA2C /* Stage1Sub1ViewController.m in Sources */,
 				6CD57A3D189BA29C005538D1 /* StageManager.m in Sources */,
 				6CD57A4D189BA2DA005538D1 /* StageViewController.m in Sources */,
 				6CD57A5A189BA7C8005538D1 /* LevelSelectorViewController.m in Sources */,
+				6C2A8406189BD31E002EEA2C /* Stage1Sub4ViewController.m in Sources */,
 				6CD57A3A189B9C63005538D1 /* Notifications.m in Sources */,
 				6CD57A4E189BA2DA005538D1 /* Stage8DataSource.m in Sources */,
 				6CD57A4B189BA2DA005538D1 /* MapViewController.m in Sources */,
+				6C2A8409189BD32A002EEA2C /* Stage1Sub5ViewController.m in Sources */,
+				6C2A8400189BD2FD002EEA2C /* Stage1Sub2ViewController.m in Sources */,
 				6CDCDDC01897F07A002EBDED /* main.m in Sources */,
 				6CD57A55189BA472005538D1 /* LevelManager.m in Sources */,
+				6C2A8403189BD30F002EEA2C /* Stage1Sub3ViewController.m in Sources */,
 				6CDCDDBE1897F07A002EBDED /* AppDelegate.m in Sources */,
 				6CD57A4C189BA2DA005538D1 /* Stage8ViewController.m in Sources */,
 				6CD57A51189BA39B005538D1 /* Constants.m in Sources */,

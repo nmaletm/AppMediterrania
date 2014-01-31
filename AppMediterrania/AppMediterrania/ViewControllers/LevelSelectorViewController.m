@@ -38,15 +38,15 @@
 
 - (IBAction)level1:(id)sender{
     [[LevelManager sharedInstance] setNewLevel:[NSNumber numberWithInt:1]];
-    [[NSNotificationCenter defaultCenter] postNotificationName:BACK_TO_MAP object:self];
+    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
 }
 - (IBAction)level2:(id)sender{
     [[LevelManager sharedInstance] setNewLevel:[NSNumber numberWithInt:2]];
-    [[NSNotificationCenter defaultCenter] postNotificationName:BACK_TO_MAP object:self];
+    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
 }
 - (IBAction)level3:(id)sender{
     [[LevelManager sharedInstance] setNewLevel:[NSNumber numberWithInt:3]];
-    [[NSNotificationCenter defaultCenter] postNotificationName:BACK_TO_MAP object:self];
+    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
 }
 
 @end

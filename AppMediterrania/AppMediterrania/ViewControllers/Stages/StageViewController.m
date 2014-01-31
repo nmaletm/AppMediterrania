@@ -29,6 +29,12 @@
     [super viewDidLoad];
     [self.dataSource initView];
     
+    [self loadViewController];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nextSubLevel:) name:NOT_NEXT_SUB_LEVEL object:nil];
+}
+
+- (void) loadViewController{
     UIViewController *stageViewController = [self.dataSource viewController];
     
     stageViewController.view.frame = self.self.stageView.bounds;
@@ -36,7 +42,6 @@
     [self.stageView addSubview:stageViewController.view];
     [stageViewController didMoveToParentViewController:self];
     [self addChildViewController:stageViewController];
-
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,10 +49,19 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+#pragma mark - Actions
 
 - (IBAction)backMap:(id)sender{
-    [[NSNotificationCenter defaultCenter] postNotificationName:BACK_TO_MAP object:self];
+    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
 }
 
 
+#pragma mark - Notifications
+- (void) nextSubLevel:(NSNotification *)notification
+{
+    if([self.dataSource respondsToSelector:@selector(goNextSubLevel)]){
+        [self.dataSource goNextSubLevel];
+        [self loadViewController];
+    }
+}
 @end

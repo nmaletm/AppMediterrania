@@ -8,4 +8,5 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString * const BACK_TO_MAP;
+extern NSString * const NOT_BACK_TO_MAP;
+extern NSString * const NOT_NEXT_SUB_LEVEL;

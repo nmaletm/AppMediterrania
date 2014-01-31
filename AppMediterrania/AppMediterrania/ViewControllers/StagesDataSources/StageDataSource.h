@@ -23,5 +23,6 @@
 
 @property (readonly) NSString *text;
 
+- (void) goNextSubLevel;
 
 @end
