@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CD57A37189B9918005538D1 /* Stage8View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD57A36189B9918005538D1 /* Stage8View.xib */; };
+		6CD57A3A189B9C63005538D1 /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A39189B9C63005538D1 /* Notifications.m */; };
+		6CD57A3D189BA29C005538D1 /* StageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A3C189BA29C005538D1 /* StageManager.m */; };
+		6CD57A4B189BA2DA005538D1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A41189BA2DA005538D1 /* MapViewController.m */; };
+		6CD57A4C189BA2DA005538D1 /* Stage8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A44189BA2DA005538D1 /* Stage8ViewController.m */; };
+		6CD57A4D189BA2DA005538D1 /* StageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A46189BA2DA005538D1 /* StageViewController.m */; };
+		6CD57A4E189BA2DA005538D1 /* Stage8DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A49189BA2DA005538D1 /* Stage8DataSource.m */; };
+		6CD57A51189BA39B005538D1 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A50189BA39B005538D1 /* Constants.m */; };
+		6CD57A55189BA472005538D1 /* LevelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A54189BA472005538D1 /* LevelManager.m */; };
+		6CD57A57189BA699005538D1 /* LevelSelectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD57A56189BA699005538D1 /* LevelSelectorView.xib */; };
+		6CD57A5A189BA7C8005538D1 /* LevelSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A59189BA7C8005538D1 /* LevelSelectorViewController.m */; };
 		6CDCDD7E1897EEB6002EBDED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDCDD7D1897EEB6002EBDED /* Foundation.framework */; };
 		6CDCDD801897EEB6002EBDED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDCDD7F1897EEB6002EBDED /* CoreGraphics.framework */; };
 		6CDCDD821897EEB6002EBDED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDCDD811897EEB6002EBDED /* UIKit.framework */; };
@@ -19,12 +30,9 @@
 		6CDCDDBF1897F07A002EBDED /* AppMediterrania-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CDCDDB21897F07A002EBDED /* AppMediterrania-Info.plist */; };
 		6CDCDDC01897F07A002EBDED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDCDDB41897F07A002EBDED /* main.m */; };
 		6CDCDDC21897F07A002EBDED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CDCDDBC1897F07A002EBDED /* Images.xcassets */; };
-		6CDCDDCB1897F236002EBDED /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDCDDC91897F236002EBDED /* MapViewController.m */; };
 		6CDCDDCC1897F236002EBDED /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CDCDDCA1897F236002EBDED /* MapView.xib */; };
 		6CFD1BC9189A122400CB7B15 /* StageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD1BC8189A122400CB7B15 /* StageView.xib */; };
 		6CFD1BCC189A12EE00CB7B15 /* pantalla_mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD1BCB189A12EE00CB7B15 /* pantalla_mapa.png */; };
-		6CFD1BCF189A13B500CB7B15 /* StageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD1BCE189A13B500CB7B15 /* StageViewController.m */; };
-		6CFD1BD2189A14AF00CB7B15 /* Stage8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD1BD1189A14AF00CB7B15 /* Stage8ViewController.m */; };
 		6CFD1BD5189A170E00CB7B15 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD1BD3189A170E00CB7B15 /* lock.png */; };
 		6CFD1BD6189A170E00CB7B15 /* stage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD1BD4189A170E00CB7B15 /* stage.png */; };
 /* End PBXBuildFile section */
@@ -40,6 +48,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6CD57A36189B9918005538D1 /* Stage8View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage8View.xib; path = Stages/Stage8View.xib; sourceTree = "<group>"; };
+		6CD57A38189B9C63005538D1 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
+		6CD57A39189B9C63005538D1 /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
+		6CD57A3B189BA29C005538D1 /* StageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StageManager.h; path = Managers/StageManager.h; sourceTree = "<group>"; };
+		6CD57A3C189BA29C005538D1 /* StageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StageManager.m; path = Managers/StageManager.m; sourceTree = "<group>"; };
+		6CD57A40189BA2DA005538D1 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		6CD57A41189BA2DA005538D1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		6CD57A43189BA2DA005538D1 /* Stage8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage8ViewController.h; sourceTree = "<group>"; };
+		6CD57A44189BA2DA005538D1 /* Stage8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage8ViewController.m; sourceTree = "<group>"; };
+		6CD57A45189BA2DA005538D1 /* StageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageViewController.h; sourceTree = "<group>"; };
+		6CD57A46189BA2DA005538D1 /* StageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageViewController.m; sourceTree = "<group>"; };
+		6CD57A48189BA2DA005538D1 /* Stage8DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage8DataSource.h; sourceTree = "<group>"; };
+		6CD57A49189BA2DA005538D1 /* Stage8DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage8DataSource.m; sourceTree = "<group>"; };
+		6CD57A4A189BA2DA005538D1 /* StageDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageDataSource.h; sourceTree = "<group>"; };
+		6CD57A4F189BA39B005538D1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		6CD57A50189BA39B005538D1 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		6CD57A53189BA472005538D1 /* LevelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LevelManager.h; path = Managers/LevelManager.h; sourceTree = "<group>"; };
+		6CD57A54189BA472005538D1 /* LevelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LevelManager.m; path = Managers/LevelManager.m; sourceTree = "<group>"; };
+		6CD57A56189BA699005538D1 /* LevelSelectorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelSelectorView.xib; sourceTree = "<group>"; };
+		6CD57A58189BA7C8005538D1 /* LevelSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectorViewController.h; sourceTree = "<group>"; };
+		6CD57A59189BA7C8005538D1 /* LevelSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelectorViewController.m; sourceTree = "<group>"; };
 		6CDCDD7A1897EEB6002EBDED /* AppMediterrania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMediterrania.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDCDD7D1897EEB6002EBDED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6CDCDD7F1897EEB6002EBDED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,15 +84,9 @@
 		6CDCDDB31897F07A002EBDED /* AppMediterrania-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppMediterrania-Prefix.pch"; sourceTree = "<group>"; };
 		6CDCDDB41897F07A002EBDED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CDCDDBC1897F07A002EBDED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6CDCDDC81897F236002EBDED /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		6CDCDDC91897F236002EBDED /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		6CDCDDCA1897F236002EBDED /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
 		6CFD1BC8189A122400CB7B15 /* StageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StageView.xib; path = Stages/StageView.xib; sourceTree = "<group>"; };
 		6CFD1BCB189A12EE00CB7B15 /* pantalla_mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_mapa.png; sourceTree = "<group>"; };
-		6CFD1BCD189A13B500CB7B15 /* StageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StageViewController.h; path = Stages/StageViewController.h; sourceTree = "<group>"; };
-		6CFD1BCE189A13B500CB7B15 /* StageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StageViewController.m; path = Stages/StageViewController.m; sourceTree = "<group>"; };
-		6CFD1BD0189A14AF00CB7B15 /* Stage8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stage8ViewController.h; path = Stages/Stage8ViewController.h; sourceTree = "<group>"; };
-		6CFD1BD1189A14AF00CB7B15 /* Stage8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stage8ViewController.m; path = Stages/Stage8ViewController.m; sourceTree = "<group>"; };
 		6CFD1BD3189A170E00CB7B15 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
 		6CFD1BD4189A170E00CB7B15 /* stage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +115,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CD57A3E189BA2BC005538D1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6CD57A3B189BA29C005538D1 /* StageManager.h */,
+				6CD57A3C189BA29C005538D1 /* StageManager.m */,
+				6CD57A53189BA472005538D1 /* LevelManager.h */,
+				6CD57A54189BA472005538D1 /* LevelManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		6CD57A3F189BA2DA005538D1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6CD57A42189BA2DA005538D1 /* Stages */,
+				6CD57A47189BA2DA005538D1 /* StagesDataSources */,
+				6CD57A40189BA2DA005538D1 /* MapViewController.h */,
+				6CD57A41189BA2DA005538D1 /* MapViewController.m */,
+				6CD57A58189BA7C8005538D1 /* LevelSelectorViewController.h */,
+				6CD57A59189BA7C8005538D1 /* LevelSelectorViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6CD57A42189BA2DA005538D1 /* Stages */ = {
+			isa = PBXGroup;
+			children = (
+				6CD57A43189BA2DA005538D1 /* Stage8ViewController.h */,
+				6CD57A44189BA2DA005538D1 /* Stage8ViewController.m */,
+				6CD57A45189BA2DA005538D1 /* StageViewController.h */,
+				6CD57A46189BA2DA005538D1 /* StageViewController.m */,
+			);
+			path = Stages;
+			sourceTree = "<group>";
+		};
+		6CD57A47189BA2DA005538D1 /* StagesDataSources */ = {
+			isa = PBXGroup;
+			children = (
+				6CD57A48189BA2DA005538D1 /* Stage8DataSource.h */,
+				6CD57A49189BA2DA005538D1 /* Stage8DataSource.m */,
+				6CD57A4A189BA2DA005538D1 /* StageDataSource.h */,
+			);
+			path = StagesDataSources;
+			sourceTree = "<group>";
+		};
 		6CDCDD711897EEB4002EBDED = {
 			isa = PBXGroup;
 			children = (
@@ -125,9 +193,10 @@
 		6CDCDD831897EEB6002EBDED /* AppMediterrania */ = {
 			isa = PBXGroup;
 			children = (
+				6CD57A3E189BA2BC005538D1 /* Managers */,
 				6CDCDDAE1897EFB9002EBDED /* Models */,
 				6CDCDDC31897F0DD002EBDED /* Views */,
-				6CDCDDC41897F0F0002EBDED /* Controllers */,
+				6CD57A3F189BA2DA005538D1 /* ViewControllers */,
 				6CDCDDAF1897F07A002EBDED /* Application */,
 				6CDCDDB91897F07A002EBDED /* Library */,
 				6CDCDDBA1897F07A002EBDED /* Models */,
@@ -169,6 +238,10 @@
 				6CDCDDB21897F07A002EBDED /* AppMediterrania-Info.plist */,
 				6CDCDDB31897F07A002EBDED /* AppMediterrania-Prefix.pch */,
 				6CDCDDB41897F07A002EBDED /* main.m */,
+				6CD57A38189B9C63005538D1 /* Notifications.h */,
+				6CD57A39189B9C63005538D1 /* Notifications.m */,
+				6CD57A4F189BA39B005538D1 /* Constants.h */,
+				6CD57A50189BA39B005538D1 /* Constants.m */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -201,18 +274,9 @@
 			children = (
 				6CFD1BC7189A120B00CB7B15 /* Stages */,
 				6CDCDDCA1897F236002EBDED /* MapView.xib */,
+				6CD57A56189BA699005538D1 /* LevelSelectorView.xib */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		6CDCDDC41897F0F0002EBDED /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				6CFD1BCA189A12B200CB7B15 /* Stages */,
-				6CDCDDC81897F236002EBDED /* MapViewController.h */,
-				6CDCDDC91897F236002EBDED /* MapViewController.m */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		6CDCDDC51897F10B002EBDED /* Resources */ = {
@@ -229,17 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				6CFD1BC8189A122400CB7B15 /* StageView.xib */,
-			);
-			name = Stages;
-			sourceTree = "<group>";
-		};
-		6CFD1BCA189A12B200CB7B15 /* Stages */ = {
-			isa = PBXGroup;
-			children = (
-				6CFD1BCD189A13B500CB7B15 /* StageViewController.h */,
-				6CFD1BCE189A13B500CB7B15 /* StageViewController.m */,
-				6CFD1BD0189A14AF00CB7B15 /* Stage8ViewController.h */,
-				6CFD1BD1189A14AF00CB7B15 /* Stage8ViewController.m */,
+				6CD57A36189B9918005538D1 /* Stage8View.xib */,
 			);
 			name = Stages;
 			sourceTree = "<group>";
@@ -324,7 +378,9 @@
 				6CFD1BD5189A170E00CB7B15 /* lock.png in Resources */,
 				6CFD1BC9189A122400CB7B15 /* StageView.xib in Resources */,
 				6CDCDDC21897F07A002EBDED /* Images.xcassets in Resources */,
+				6CD57A57189BA699005538D1 /* LevelSelectorView.xib in Resources */,
 				6CFD1BD6189A170E00CB7B15 /* stage.png in Resources */,
+				6CD57A37189B9918005538D1 /* Stage8View.xib in Resources */,
 				6CDCDDCC1897F236002EBDED /* MapView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,11 +400,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CDCDDCB1897F236002EBDED /* MapViewController.m in Sources */,
+				6CD57A3D189BA29C005538D1 /* StageManager.m in Sources */,
+				6CD57A4D189BA2DA005538D1 /* StageViewController.m in Sources */,
+				6CD57A5A189BA7C8005538D1 /* LevelSelectorViewController.m in Sources */,
+				6CD57A3A189B9C63005538D1 /* Notifications.m in Sources */,
+				6CD57A4E189BA2DA005538D1 /* Stage8DataSource.m in Sources */,
+				6CD57A4B189BA2DA005538D1 /* MapViewController.m in Sources */,
 				6CDCDDC01897F07A002EBDED /* main.m in Sources */,
+				6CD57A55189BA472005538D1 /* LevelManager.m in Sources */,
 				6CDCDDBE1897F07A002EBDED /* AppDelegate.m in Sources */,
-				6CFD1BD2189A14AF00CB7B15 /* Stage8ViewController.m in Sources */,
-				6CFD1BCF189A13B500CB7B15 /* StageViewController.m in Sources */,
+				6CD57A4C189BA2DA005538D1 /* Stage8ViewController.m in Sources */,
+				6CD57A51189BA39B005538D1 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +524,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AppMediterrania/AppMediterrania-Prefix.pch";
+				GCC_PREFIX_HEADER = "AppMediterrania/Application/AppMediterrania-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/AppMediterrania/Application/AppMediterrania-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -475,7 +537,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AppMediterrania/AppMediterrania-Prefix.pch";
+				GCC_PREFIX_HEADER = "AppMediterrania/Application/AppMediterrania-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/AppMediterrania/Application/AppMediterrania-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

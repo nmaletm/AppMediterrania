@@ -6,6 +6,14 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapViewController">
             <connections>
+                <outlet property="b_stage1" destination="FrM-Pe-bH9" id="taS-0v-asB"/>
+                <outlet property="b_stage2" destination="bZg-zE-Ahe" id="z5I-mV-kcj"/>
+                <outlet property="b_stage3" destination="xlf-Fx-MJE" id="vMc-8J-Q7X"/>
+                <outlet property="b_stage4" destination="Fr1-O0-H5t" id="m6l-cS-Z65"/>
+                <outlet property="b_stage5" destination="wfu-hH-vaa" id="pgq-66-0rK"/>
+                <outlet property="b_stage6" destination="ToI-ZY-vbJ" id="tqW-gB-s6I"/>
+                <outlet property="b_stage7" destination="j5J-BQ-daT" id="Me5-0t-dfm"/>
+                <outlet property="b_stage8" destination="MDg-BD-TVt" id="DI8-cl-dUe"/>
                 <outlet property="view" destination="2" id="3"/>
             </connections>
         </placeholder>
@@ -29,6 +37,17 @@
                         <action selector="showInformation:" destination="-1" eventType="touchDown" id="mqD-yj-nX7"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKh-71-lZ1" userLabel="Level Button">
+                    <rect key="frame" x="789" y="38" width="45" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Level">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showLevelSelector:" destination="-1" eventType="touchDown" id="Ttl-Um-3DU"/>
+                    </connections>
+                </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDg-BD-TVt" userLabel="b_stage_8">
                     <rect key="frame" x="666" y="262" width="100" height="100"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -38,6 +57,83 @@
                     </state>
                     <connections>
                         <action selector="stage8:" destination="-1" eventType="touchDown" id="zeF-gG-rBL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5J-BQ-daT" userLabel="b_stage_7">
+                    <rect key="frame" x="678" y="437" width="100" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <accessibility key="accessibilityConfiguration" label=""/>
+                    <state key="normal" image="stage.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stage7:" destination="-1" eventType="touchDown" id="o0r-9f-Jc1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ToI-ZY-vbJ" userLabel="b_stage_6">
+                    <rect key="frame" x="408" y="510" width="100" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <accessibility key="accessibilityConfiguration" label=""/>
+                    <state key="normal" image="stage.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stage6:" destination="-1" eventType="touchDown" id="g3t-HU-hDY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfu-hH-vaa" userLabel="b_stage_5">
+                    <rect key="frame" x="393" y="352" width="100" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <accessibility key="accessibilityConfiguration" label=""/>
+                    <state key="normal" image="stage.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stage5:" destination="-1" eventType="touchDown" id="sER-q5-fZk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fr1-O0-H5t" userLabel="b_stage_4">
+                    <rect key="frame" x="449" y="193" width="100" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <accessibility key="accessibilityConfiguration" label=""/>
+                    <state key="normal" image="stage.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stage4:" destination="-1" eventType="touchDown" id="OXF-bS-Eww"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xlf-Fx-MJE" userLabel="b_stage_3">
+                    <rect key="frame" x="242" y="200" width="100" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <accessibility key="accessibilityConfiguration" label=""/>
+                    <state key="normal" image="stage.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stage3:" destination="-1" eventType="touchDown" id="WGh-kl-6Cn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZg-zE-Ahe" userLabel="b_stage_2">
+                    <rect key="frame" x="173" y="308" width="100" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <accessibility key="accessibilityConfiguration" label=""/>
+                    <state key="normal" image="stage.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stage2:" destination="-1" eventType="touchDown" id="Smd-oe-jHb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FrM-Pe-bH9" userLabel="b_stage_1">
+                    <rect key="frame" x="196" y="473" width="100" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <accessibility key="accessibilityConfiguration" label=""/>
+                    <state key="normal" image="stage.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stage1:" destination="-1" eventType="touchDown" id="tCn-pm-iXT"/>
                     </connections>
                 </button>
             </subviews>

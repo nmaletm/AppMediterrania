@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StageDataSource.h"
 
 @interface StageViewController : UIViewController
+
+@property (nonatomic, retain) id<StageDataSource> dataSource;
+@property (strong, nonatomic) IBOutlet UIView *stageView;
+
+- (id) initWithDataSource:(id<StageDataSource>)theDataSource;
 
 - (IBAction)backMap:(id)sender;
 

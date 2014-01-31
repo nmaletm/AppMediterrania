@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "StageViewController.h"
 
-@interface Stage8ViewController : StageViewController
+@interface Stage8ViewController : UIViewController
 
 @end

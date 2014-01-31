@@ -7,14 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "MapViewController.h"
+#import "LevelManager.h"
+#import "StageManager.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[LevelManager sharedInstance] loadData];
+    [[StageManager sharedInstance] loadData];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[MapViewController alloc] initWithNibName:@"MapView" bundle:nil];
     [self.window makeKeyAndVisible];
     return YES;
 }
