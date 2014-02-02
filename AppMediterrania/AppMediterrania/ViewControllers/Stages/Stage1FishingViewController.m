@@ -1,18 +1,19 @@
 //
-//  Stage1Sub5ViewController.m
+//  Stage1FishingViewController.m
 //  AppMediterrania
 //
 //  Created by Nestor Malet on 31/01/14.
 //  Copyright (c) 2014 Storn.es. All rights reserved.
 //
 
-#import "Stage1Sub5ViewController.h"
+#import "Stage1FishingViewController.h"
+#import "StageManager.h"
 
-@interface Stage1Sub5ViewController ()
+@interface Stage1FishingViewController ()
 
 @end
 
-@implementation Stage1Sub5ViewController
+@implementation Stage1FishingViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -36,7 +37,9 @@
 }
 
 - (IBAction)nextButton:(id)sender{
+    [[StageManager sharedInstance] markAsCompleted: 1];
     
+    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
 }
 
 @end

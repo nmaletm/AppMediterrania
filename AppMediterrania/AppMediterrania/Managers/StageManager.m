@@ -28,15 +28,29 @@
 #pragma mark - Persistence
 
 - (void)loadData{
-    self.lastEndendStage = [[NSUserDefaults standardUserDefaults] valueForKey:ST_DEFAULTS_STAGE];
-    if(self.lastEndendStage == nil){
-        self.lastEndendStage = [NSNumber numberWithInt:0];
+    lastEndendStage = [[NSUserDefaults standardUserDefaults] valueForKey:ST_DEFAULTS_STAGE];
+    if(lastEndendStage == nil){
+        lastEndendStage = [NSNumber numberWithInt:0];
     }
 }
 
 - (void)storeData{
     [[NSUserDefaults standardUserDefaults] setObject:self.lastEndendStage forKey:ST_DEFAULTS_STAGE];
     [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+#pragma mark - Stage managment
+
+- (void) markAsCompleted:(int)stage{
+    if([lastEndendStage intValue] < stage){
+        lastEndendStage = [NSNumber numberWithInt:stage];
+        [self storeData];
+    }
+}
+
+- (void) reset{
+    lastEndendStage = [NSNumber numberWithInt:0];
+    [self storeData];
 }
 
 @end

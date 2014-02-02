@@ -86,13 +86,13 @@
     for (int i = 1; i <= 8; i++){
         UIButton *button = [stagesButtons objectAtIndex:i-1];
         NSString *imageName;
-        if(i < currentStage || i < 2){
+        if(i < (currentStage+2)){
             imageName = [stagesUnblocked objectAtIndex:i-1];
-            [button setEnabled: (!DEBUG_APP || YES)];
+            [button setEnabled: (DEBUG_APP || YES)];
         }
         else{
             imageName = [stagesBlocked objectAtIndex:i-1];
-            [button setEnabled: (!DEBUG_APP || NO)];
+            [button setEnabled: (DEBUG_APP || NO)];
         }
         
         [button setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
@@ -108,6 +108,15 @@
 
 
 #pragma mark Actions
+- (IBAction)showAbout:(id)sender{
+    
+    if(DEBUG_APP){
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Debug" message:@"Acabes d'esborrar tot, si us plau tanca l'app i torna a iniciar-la" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Ara la tanco...",nil];
+        [alert show];
+        [[LevelManager sharedInstance] reset];
+        [[StageManager sharedInstance] reset];
+    }
+}
 
 - (IBAction)showInformation:(id)sender{
     
@@ -159,6 +168,7 @@
     if (![self.presentedViewController isBeingDismissed]){
         [self.presentedViewController dismissViewControllerAnimated:YES completion:nil];
     }
+    [self refreshStageStatus];
 }
 
 @end

@@ -1,5 +1,5 @@
 //
-//  Stage1Sub2ViewController.h
+//  Stage1FishingViewController.h
 //  AppMediterrania
 //
 //  Created by Nestor Malet on 31/01/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Stage1Sub2ViewController : UIViewController
+@interface Stage1FishingViewController : UIViewController
 
 - (IBAction)nextButton:(id)sender;
 

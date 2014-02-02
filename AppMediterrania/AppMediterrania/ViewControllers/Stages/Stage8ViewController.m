@@ -7,12 +7,15 @@
 //
 
 #import "Stage8ViewController.h"
+#import "LevelManager.h"
 
 @interface Stage8ViewController ()
 
 @end
 
 @implementation Stage8ViewController
+
+@synthesize imageView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,7 +29,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+	
+    NSMutableDictionary *images = [[NSMutableDictionary alloc] init];
+    [images setObject:@"pantalla_receptes_facil" forKey:@"1"];
+    [images setObject:@"pantalla_receptes_mitja" forKey:@"2"];
+    [images setObject:@"pantalla_receptes_dificil" forKey:@"3"];
+    
+    UIImage *image = [UIImage imageNamed: [images objectForKey:[[LevelManager sharedInstance] levelString]]];
+    [imageView setImage:image];
+    
 }
 
 - (void)didReceiveMemoryWarning

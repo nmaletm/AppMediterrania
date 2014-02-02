@@ -1,18 +1,18 @@
 //
-//  Stage1Sub2ViewController.m
+//  Stage1Sub1ViewController.m
 //  AppMediterrania
 //
 //  Created by Nestor Malet on 31/01/14.
 //  Copyright (c) 2014 Storn.es. All rights reserved.
 //
 
-#import "Stage1Sub2ViewController.h"
+#import "Stage1TreeViewController.h"
 
-@interface Stage1Sub2ViewController ()
+@interface Stage1TreeViewController ()
 
 @end
 
-@implementation Stage1Sub2ViewController
+@implementation Stage1TreeViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -36,7 +36,7 @@
 }
 
 - (IBAction)nextButton:(id)sender{
-    
+    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];
 }
 
 @end

@@ -7,11 +7,11 @@
 //
 
 #import "Stage1DataSource.h"
-#import "Stage1Sub1ViewController.h"
-#import "Stage1Sub2ViewController.h"
-#import "Stage1Sub3ViewController.h"
-#import "Stage1Sub4ViewController.h"
-#import "Stage1Sub5ViewController.h"
+#import "Stage1TreeViewController.h"
+#import "Stage1BasketViewController.h"
+#import "Stage1FieldViewController.h"
+#import "Stage1FarmViewController.h"
+#import "Stage1FishingViewController.h"
 
 @interface Stage1DataSource (){
     NSArray *views;
@@ -30,11 +30,11 @@
 - (void) initView{
     currentView = 0;
     views = [[NSArray alloc] initWithObjects:
-             [[Stage1Sub1ViewController alloc] initWithNibName:@"Stage1Sub1View" bundle:nil],
-             [[Stage1Sub2ViewController alloc] initWithNibName:@"Stage1Sub2View" bundle:nil],
-             [[Stage1Sub3ViewController alloc] initWithNibName:@"Stage1Sub3View" bundle:nil],
-             [[Stage1Sub4ViewController alloc] initWithNibName:@"Stage1Sub4View" bundle:nil],
-             [[Stage1Sub5ViewController alloc] initWithNibName:@"Stage1Sub5View" bundle:nil],
+             [[Stage1TreeViewController alloc] initWithNibName:@"Stage1TreeView" bundle:nil],
+             [[Stage1BasketViewController alloc] initWithNibName:@"Stage1BasketView" bundle:nil],
+             [[Stage1FieldViewController alloc] initWithNibName:@"Stage1FieldView" bundle:nil],
+             [[Stage1FarmViewController alloc] initWithNibName:@"Stage1FarmView" bundle:nil],
+             [[Stage1FishingViewController alloc] initWithNibName:@"Stage1FishingView" bundle:nil],
              nil];
 
     viewController = [views objectAtIndex: currentView];

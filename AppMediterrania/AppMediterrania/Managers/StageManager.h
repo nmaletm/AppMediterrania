@@ -18,4 +18,7 @@
 - (void)loadData;
 - (void)storeData;
 
+- (void) markAsCompleted:(int)stage;
+- (void) reset;
+
 @end

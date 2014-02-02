@@ -1,5 +1,5 @@
 //
-//  Stage1Sub1ViewController.h
+//  Stage1BasketViewController.h
 //  AppMediterrania
 //
 //  Created by Nestor Malet on 31/01/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Stage1Sub1ViewController : UIViewController
+@interface Stage1BasketViewController : UIViewController
 
 - (IBAction)nextButton:(id)sender;
 

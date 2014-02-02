@@ -15,8 +15,10 @@
 
 + (LevelManager *)sharedInstance;
 
-- (void)loadData;
-- (void)storeData;
+- (void) loadData;
+- (void) storeData;
 - (void) setNewLevel:(NSNumber *)newLevel;
+- (NSString *) levelString;
+- (void) reset;
 
 @end

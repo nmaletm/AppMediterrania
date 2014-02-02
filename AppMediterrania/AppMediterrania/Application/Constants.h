@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-extern BOOL * const DEBUG_APP;
+extern BOOL const DEBUG_APP;
 
 extern NSString * const ST_DEFAULTS_STAGE;
 extern NSString * const ST_DEFAULTS_LEVEL;

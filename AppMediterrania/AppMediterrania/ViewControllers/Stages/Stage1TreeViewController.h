@@ -1,5 +1,5 @@
 //
-//  Stage1Sub3ViewController.h
+//  Stage1TreeViewController.h
 //  AppMediterrania
 //
 //  Created by Nestor Malet on 31/01/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Stage1Sub3ViewController : UIViewController
+@interface Stage1TreeViewController : UIViewController
 
 - (IBAction)nextButton:(id)sender;
 

@@ -1,18 +1,18 @@
 //
-//  Stage1Sub3ViewController.m
+//  Stage1FieldViewController.m
 //  AppMediterrania
 //
 //  Created by Nestor Malet on 31/01/14.
 //  Copyright (c) 2014 Storn.es. All rights reserved.
 //
 
-#import "Stage1Sub3ViewController.h"
+#import "Stage1FieldViewController.h"
 
-@interface Stage1Sub3ViewController ()
+@interface Stage1FieldViewController ()
 
 @end
 
-@implementation Stage1Sub3ViewController
+@implementation Stage1FieldViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -36,7 +36,7 @@
 }
 
 - (IBAction)nextButton:(id)sender{
-    
+    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];
 }
 
 @end

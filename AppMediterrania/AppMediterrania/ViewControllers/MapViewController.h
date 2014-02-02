@@ -22,6 +22,7 @@
 
 
 - (IBAction)showInformation:(id)sender;
+- (IBAction)showAbout:(id)sender;
 - (IBAction)showLevelSelector:(id)sender;
 
 - (IBAction)stage1:(id)sender;

@@ -29,7 +29,7 @@
 #pragma mark - Persistence
 
 - (void)loadData{
-    self.level = [[NSUserDefaults standardUserDefaults] valueForKey:ST_DEFAULTS_LEVEL];
+    level = [[NSUserDefaults standardUserDefaults] valueForKey:ST_DEFAULTS_LEVEL];
 }
 
 - (void)storeData{
@@ -37,11 +37,22 @@
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
-#pragma mark - Actions
+#pragma mark - Level managment
 
 - (void) setNewLevel:(NSNumber *)newLevel{
-    self.level = newLevel;
+    level = newLevel;
     [self storeData];
+}
+
+
+- (void) reset{
+    level = nil;
+    [self storeData];
+}
+
+#pragma mark - Utils
+- (NSString *) levelString{
+    return [NSString stringWithFormat:@"%@", level];
 }
 
 @end

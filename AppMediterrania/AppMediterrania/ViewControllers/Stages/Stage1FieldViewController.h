@@ -1,5 +1,5 @@
 //
-//  Stage1Sub4ViewController.h
+//  Stage1FieldViewController.h
 //  AppMediterrania
 //
 //  Created by Nestor Malet on 31/01/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Stage1Sub4ViewController : UIViewController
+@interface Stage1FieldViewController : UIViewController
 
 - (IBAction)nextButton:(id)sender;
 
