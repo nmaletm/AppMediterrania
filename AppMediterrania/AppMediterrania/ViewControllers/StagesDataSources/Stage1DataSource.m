@@ -18,7 +18,7 @@
 @interface Stage1DataSource (){
     NSArray *views;
     NSMutableDictionary *texts;
-    int currentView;
+    int currentSubStage;
 }
 
 @end
@@ -31,7 +31,7 @@
 }
 
 - (void) initView{
-    currentView = 0;
+    currentSubStage = 0;
     views = [[NSArray alloc] initWithObjects:
              [[Stage1TreeViewController alloc] initWithNibName:@"Stage1TreeView" bundle:nil],
              [[Stage1BasketViewController alloc] initWithNibName:@"Stage1BasketView" bundle:nil],
@@ -68,21 +68,21 @@
                            nil];
     [texts setObject:textDificult forKey:@"3"];
 
-    viewController = [views objectAtIndex: currentView];
+    viewController = [views objectAtIndex: currentSubStage];
 }
 
 - (NSString *) text{
-    return [[texts objectForKey:[[LevelManager sharedInstance] levelString]] objectAtIndex:currentView];
+    return [[texts objectForKey:[[LevelManager sharedInstance] levelString]] objectAtIndex:currentSubStage];
 }
 
 
 - (UIViewController *) viewController{
-    viewController = [views objectAtIndex: currentView];
+    viewController = [views objectAtIndex: currentSubStage];
     return viewController;
 }
 
 - (void) goNextSubLevel{
-    currentView++;
+    currentSubStage++;
 }
 
 @end

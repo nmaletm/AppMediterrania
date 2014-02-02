@@ -14,7 +14,7 @@
 @interface Stage2DataSource (){
     NSMutableDictionary *texts;
     NSArray *backgrounds;
-    int currentView;
+    int currentSubStage;
 }
 
 @end
@@ -27,7 +27,7 @@
 }
 
 - (void) initView{
-    currentView = 0;
+    currentSubStage = 0;
     viewController = [[Stage2ViewController alloc] initWithNibName:@"Stage2View" bundle:nil];
     backgrounds = [[NSArray alloc] initWithObjects:
                   @"pantalla_cuina_1",
@@ -66,7 +66,7 @@
 }
 
 - (NSString *) text{
-    return [[texts objectForKey:[[LevelManager sharedInstance] levelString]] objectAtIndex:currentView];
+    return [[texts objectForKey:[[LevelManager sharedInstance] levelString]] objectAtIndex:currentSubStage];
 }
 
 
@@ -77,14 +77,14 @@
 - (void) goNextSubLevel{
     Stage2ViewController *stageViewController = (Stage2ViewController*) viewController;
     
-    if(currentView+1 >= [backgrounds count]){
+    if(currentSubStage+1 >= [backgrounds count]){
         [stageViewController nextButtonEnabled:YES];
     }
     else{
-        currentView++;
+        currentSubStage++;
     }
     
-    [stageViewController setBackground:[backgrounds objectAtIndex:currentView]];
+    [stageViewController setBackground:[backgrounds objectAtIndex:currentSubStage]];
 }
 
 @end

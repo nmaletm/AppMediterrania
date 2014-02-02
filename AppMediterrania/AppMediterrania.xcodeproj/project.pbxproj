@@ -55,6 +55,14 @@
 		6CAB3A84189E4D9C00F7F4EB /* Stage3View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A83189E4D9C00F7F4EB /* Stage3View.xib */; };
 		6CAB3A87189E4EBE00F7F4EB /* piramide_mitja_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A85189E4EBE00F7F4EB /* piramide_mitja_1.png */; };
 		6CAB3A88189E4EBF00F7F4EB /* piramide_mitja_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A86189E4EBE00F7F4EB /* piramide_mitja_2.png */; };
+		6CAB3A8C189E54B500F7F4EB /* StageGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A8B189E54B500F7F4EB /* StageGameViewController.m */; };
+		6CAB3A8F189E553400F7F4EB /* StageGameDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A8E189E553400F7F4EB /* StageGameDataSource.m */; };
+		6CAB3A95189E564F00F7F4EB /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A94189E564F00F7F4EB /* GameManager.m */; };
+		6CAB3A98189E56EF00F7F4EB /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A97189E56EF00F7F4EB /* QuestionModel.m */; };
+		6CAB3A9C189E59EC00F7F4EB /* StageGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A9B189E59EC00F7F4EB /* StageGameView.xib */; };
+		6CAB3AA1189E62A000F7F4EB /* NSMutableArray_Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3AA0189E62A000F7F4EB /* NSMutableArray_Shuffling.m */; };
+		6CAB3AA4189E6AB600F7F4EB /* stage_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3AA2189E6AB600F7F4EB /* stage_sel.png */; };
+		6CAB3AA5189E6AB600F7F4EB /* stage1_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3AA3189E6AB600F7F4EB /* stage1_sel.png */; };
 		6CD57A37189B9918005538D1 /* Stage8View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD57A36189B9918005538D1 /* Stage8View.xib */; };
 		6CD57A3A189B9C63005538D1 /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A39189B9C63005538D1 /* Notifications.m */; };
 		6CD57A3D189BA29C005538D1 /* StageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A3C189BA29C005538D1 /* StageManager.m */; };
@@ -151,6 +159,20 @@
 		6CAB3A83189E4D9C00F7F4EB /* Stage3View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage3View.xib; path = Stages/Stage3View.xib; sourceTree = "<group>"; };
 		6CAB3A85189E4EBE00F7F4EB /* piramide_mitja_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piramide_mitja_1.png; sourceTree = "<group>"; };
 		6CAB3A86189E4EBE00F7F4EB /* piramide_mitja_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piramide_mitja_2.png; sourceTree = "<group>"; };
+		6CAB3A8A189E54B500F7F4EB /* StageGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageGameViewController.h; sourceTree = "<group>"; };
+		6CAB3A8B189E54B500F7F4EB /* StageGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageGameViewController.m; sourceTree = "<group>"; };
+		6CAB3A8D189E553400F7F4EB /* StageGameDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageGameDataSource.h; sourceTree = "<group>"; };
+		6CAB3A8E189E553400F7F4EB /* StageGameDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageGameDataSource.m; sourceTree = "<group>"; };
+		6CAB3A93189E564F00F7F4EB /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameManager.h; path = Managers/GameManager.h; sourceTree = "<group>"; };
+		6CAB3A94189E564F00F7F4EB /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameManager.m; path = Managers/GameManager.m; sourceTree = "<group>"; };
+		6CAB3A96189E56EF00F7F4EB /* QuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionModel.h; sourceTree = "<group>"; };
+		6CAB3A97189E56EF00F7F4EB /* QuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionModel.m; sourceTree = "<group>"; };
+		6CAB3A9B189E59EC00F7F4EB /* StageGameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StageGameView.xib; path = Stages/StageGameView.xib; sourceTree = "<group>"; };
+		6CAB3A9D189E5CF800F7F4EB /* pantalla_joc_coordenades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_joc_coordenades.png; sourceTree = "<group>"; };
+		6CAB3A9F189E62A000F7F4EB /* NSMutableArray_Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSMutableArray_Shuffling.h; path = Helpers/NSMutableArray_Shuffling.h; sourceTree = "<group>"; };
+		6CAB3AA0189E62A000F7F4EB /* NSMutableArray_Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMutableArray_Shuffling.m; path = Helpers/NSMutableArray_Shuffling.m; sourceTree = "<group>"; };
+		6CAB3AA2189E6AB600F7F4EB /* stage_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stage_sel.png; path = AppMediterrania/Support/Resources/Images/stage_sel.png; sourceTree = SOURCE_ROOT; };
+		6CAB3AA3189E6AB600F7F4EB /* stage1_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stage1_sel.png; path = AppMediterrania/Support/Resources/Images/stage1_sel.png; sourceTree = SOURCE_ROOT; };
 		6CD57A36189B9918005538D1 /* Stage8View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage8View.xib; path = Stages/Stage8View.xib; sourceTree = "<group>"; };
 		6CD57A38189B9C63005538D1 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
 		6CD57A39189B9C63005538D1 /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
@@ -270,6 +292,7 @@
 			children = (
 				6CAB3A33189E254400F7F4EB /* lock.png */,
 				6CAB3A34189E254400F7F4EB /* pantalla_joc.png */,
+				6CAB3A9D189E5CF800F7F4EB /* pantalla_joc_coordenades.png */,
 				6CAB3A35189E254400F7F4EB /* pantalla_mapa.png */,
 				6CAB3A36189E254400F7F4EB /* stage.png */,
 				6CAB3A37189E254400F7F4EB /* stage1.png */,
@@ -281,6 +304,8 @@
 		6CAB3A38189E254400F7F4EB /* temp */ = {
 			isa = PBXGroup;
 			children = (
+				6CAB3AA2189E6AB600F7F4EB /* stage_sel.png */,
+				6CAB3AA3189E6AB600F7F4EB /* stage1_sel.png */,
 				6CAB3A64189E38C300F7F4EB /* face.png */,
 				6CAB3A39189E254400F7F4EB /* boto_about.png */,
 				6CAB3A3A189E254400F7F4EB /* boto_informacio.png */,
@@ -321,6 +346,24 @@
 			name = Stage3;
 			sourceTree = "<group>";
 		};
+		6CAB3A89189E53F400F7F4EB /* StageGame */ = {
+			isa = PBXGroup;
+			children = (
+				6CAB3A8A189E54B500F7F4EB /* StageGameViewController.h */,
+				6CAB3A8B189E54B500F7F4EB /* StageGameViewController.m */,
+			);
+			name = StageGame;
+			sourceTree = "<group>";
+		};
+		6CAB3A9E189E627F00F7F4EB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6CAB3A9F189E62A000F7F4EB /* NSMutableArray_Shuffling.h */,
+				6CAB3AA0189E62A000F7F4EB /* NSMutableArray_Shuffling.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		6CD57A3E189BA2BC005538D1 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,6 +371,8 @@
 				6CD57A3C189BA29C005538D1 /* StageManager.m */,
 				6CD57A53189BA472005538D1 /* LevelManager.h */,
 				6CD57A54189BA472005538D1 /* LevelManager.m */,
+				6CAB3A93189E564F00F7F4EB /* GameManager.h */,
+				6CAB3A94189E564F00F7F4EB /* GameManager.m */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -351,8 +396,9 @@
 				6CD57A45189BA2DA005538D1 /* StageViewController.h */,
 				6CD57A46189BA2DA005538D1 /* StageViewController.m */,
 				6C2A840A189BD351002EEA2C /* Stage1 */,
-				6CAB3A79189E4C8700F7F4EB /* Stage3 */,
 				6CAB3A63189E36E300F7F4EB /* Stage2 */,
+				6CAB3A79189E4C8700F7F4EB /* Stage3 */,
+				6CAB3A89189E53F400F7F4EB /* StageGame */,
 				6C2A840B189BD358002EEA2C /* Stage8 */,
 			);
 			path = Stages;
@@ -367,6 +413,8 @@
 				6CAB3A6B189E3E1E00F7F4EB /* Stage2DataSource.m */,
 				6CAB3A7E189E4D2300F7F4EB /* Stage3DataSource.h */,
 				6CAB3A7F189E4D2300F7F4EB /* Stage3DataSource.m */,
+				6CAB3A8D189E553400F7F4EB /* StageGameDataSource.h */,
+				6CAB3A8E189E553400F7F4EB /* StageGameDataSource.m */,
 				6CD57A48189BA2DA005538D1 /* Stage8DataSource.h */,
 				6CD57A49189BA2DA005538D1 /* Stage8DataSource.m */,
 				6CD57A4A189BA2DA005538D1 /* StageDataSource.h */,
@@ -413,6 +461,7 @@
 				6CDCDDC31897F0DD002EBDED /* Views */,
 				6CD57A3F189BA2DA005538D1 /* ViewControllers */,
 				6CDCDDAF1897F07A002EBDED /* Application */,
+				6CAB3A9E189E627F00F7F4EB /* Helpers */,
 				6CDCDDB91897F07A002EBDED /* Library */,
 				6CDCDDBA1897F07A002EBDED /* Models */,
 				6CDCDDBB1897F07A002EBDED /* Support */,
@@ -441,6 +490,8 @@
 		6CDCDDAE1897EFB9002EBDED /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6CAB3A96189E56EF00F7F4EB /* QuestionModel.h */,
+				6CAB3A97189E56EF00F7F4EB /* QuestionModel.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -505,6 +556,7 @@
 				6C2A8413189BD67A002EEA2C /* Stage1FishingView.xib */,
 				6CAB3A81189E4D8A00F7F4EB /* Stage2View.xib */,
 				6CAB3A83189E4D9C00F7F4EB /* Stage3View.xib */,
+				6CAB3A9B189E59EC00F7F4EB /* StageGameView.xib */,
 				6CD57A36189B9918005538D1 /* Stage8View.xib */,
 			);
 			name = Stages;
@@ -605,6 +657,8 @@
 				6CAB3A4B189E254400F7F4EB /* stage1.png in Resources */,
 				6CAB3A49189E254400F7F4EB /* pantalla_mapa.png in Resources */,
 				6CDCDDC21897F07A002EBDED /* Images.xcassets in Resources */,
+				6CAB3AA4189E6AB600F7F4EB /* stage_sel.png in Resources */,
+				6CAB3A9C189E59EC00F7F4EB /* StageGameView.xib in Resources */,
 				6CAB3A72189E408300F7F4EB /* seagull.mp3 in Resources */,
 				6CAB3A46189E254400F7F4EB /* cow.mp3 in Resources */,
 				6CD57A57189BA699005538D1 /* LevelSelectorView.xib in Resources */,
@@ -614,6 +668,7 @@
 				6CAB3A55189E254400F7F4EB /* pantalla_pesca.png in Resources */,
 				6C2A8415189BD67A002EEA2C /* Stage1BasketView.xib in Resources */,
 				6CAB3A78189E44FE00F7F4EB /* pantalla_cuina_3.png in Resources */,
+				6CAB3AA5189E6AB600F7F4EB /* stage1_sel.png in Resources */,
 				6CAB3A82189E4D8A00F7F4EB /* Stage2View.xib in Resources */,
 				6CAB3A58189E254400F7F4EB /* pantalla_receptes_mitja.png in Resources */,
 				6CAB3A61189E27D400F7F4EB /* pork.mp3 in Resources */,
@@ -648,8 +703,10 @@
 			files = (
 				6C2A840E189BD387002EEA2C /* Stage1DataSource.m in Sources */,
 				6CAB3A69189E3E0400F7F4EB /* Stage2ViewController.m in Sources */,
+				6CAB3A95189E564F00F7F4EB /* GameManager.m in Sources */,
 				6C2A83FD189BD2E8002EEA2C /* Stage1TreeViewController.m in Sources */,
 				6CAB3A7C189E4CA400F7F4EB /* Stage3ViewController.m in Sources */,
+				6CAB3A98189E56EF00F7F4EB /* QuestionModel.m in Sources */,
 				6CD57A3D189BA29C005538D1 /* StageManager.m in Sources */,
 				6CD57A4D189BA2DA005538D1 /* StageViewController.m in Sources */,
 				6CD57A5A189BA7C8005538D1 /* LevelSelectorViewController.m in Sources */,
@@ -661,7 +718,10 @@
 				6CD57A4B189BA2DA005538D1 /* MapViewController.m in Sources */,
 				6C2A8409189BD32A002EEA2C /* Stage1FishingViewController.m in Sources */,
 				6C2A8400189BD2FD002EEA2C /* Stage1BasketViewController.m in Sources */,
+				6CAB3A8F189E553400F7F4EB /* StageGameDataSource.m in Sources */,
+				6CAB3A8C189E54B500F7F4EB /* StageGameViewController.m in Sources */,
 				6CDCDDC01897F07A002EBDED /* main.m in Sources */,
+				6CAB3AA1189E62A000F7F4EB /* NSMutableArray_Shuffling.m in Sources */,
 				6CD57A55189BA472005538D1 /* LevelManager.m in Sources */,
 				6C2A8403189BD30F002EEA2C /* Stage1FieldViewController.m in Sources */,
 				6CDCDDBE1897F07A002EBDED /* AppDelegate.m in Sources */,

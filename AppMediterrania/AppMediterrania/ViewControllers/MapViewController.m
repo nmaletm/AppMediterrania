@@ -11,6 +11,7 @@
 #import "StageDataSource.h"
 #import "Stage1DataSource.h"
 #import "Stage2DataSource.h"
+#import "StageGameDataSource.h"
 #import "Stage3DataSource.h"
 #import "Stage8DataSource.h"
 #import "StageViewController.h"
@@ -143,18 +144,29 @@
 }
 
 - (IBAction)stage4:(id)sender{
-    
+    StageGameDataSource *stage =[[StageGameDataSource alloc] init];
+    stage.stage = 1;
+    [self presentStage: stage];
 }
 
 - (IBAction)stage5:(id)sender{
+    StageGameDataSource *stage =[[StageGameDataSource alloc] init];
+    stage.stage = 2;
+    [self presentStage: stage];
     
 }
 
 - (IBAction)stage6:(id)sender{
+    StageGameDataSource *stage =[[StageGameDataSource alloc] init];
+    stage.stage = 3;
+    [self presentStage: stage];
     
 }
 
 - (IBAction)stage7:(id)sender{
+    StageGameDataSource *stage =[[StageGameDataSource alloc] init];
+    stage.stage = 4;
+    [self presentStage: stage];
     
 }
 

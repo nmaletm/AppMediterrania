@@ -13,7 +13,7 @@
 
 @interface Stage3DataSource (){
     NSMutableDictionary *backgrounds;
-    int currentView;
+    int currentSubStage;
 }
 
 @end
@@ -26,7 +26,7 @@
 }
 
 - (void) initView{
-    currentView = 0;
+    currentSubStage = 0;
     viewController = [[Stage2ViewController alloc] initWithNibName:@"Stage3View" bundle:nil];
 
     backgrounds = [[NSMutableDictionary alloc] init];
@@ -63,14 +63,14 @@
     
     Stage2ViewController *stageViewController = (Stage2ViewController*) viewController;
     
-    if(currentView+1 >= [arrayBackgrounds count]){
+    if(currentSubStage+1 >= [arrayBackgrounds count]){
         [stageViewController nextButtonEnabled:YES];
     }
     else{
-        currentView++;
+        currentSubStage++;
     }
     
-    [stageViewController setBackground:[arrayBackgrounds objectAtIndex:currentView]];
+    [stageViewController setBackground:[arrayBackgrounds objectAtIndex:currentSubStage]];
 }
 
 @end
