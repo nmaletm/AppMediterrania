@@ -12,8 +12,12 @@
 @implementation Stage8DataSource
 @synthesize viewController;
 
-- (BOOL *) hasText{
+- (BOOL ) hasText{
     return NO;
+}
+
+- (NSString *) text{
+    return nil;
 }
 
 - (void) initView{

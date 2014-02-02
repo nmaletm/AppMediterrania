@@ -13,6 +13,8 @@
 
 @property (nonatomic, retain) id<StageDataSource> dataSource;
 @property (strong, nonatomic) IBOutlet UIView *stageView;
+@property (strong, nonatomic) IBOutlet UIView *informationView;
+@property (strong, nonatomic) IBOutlet UITextView *informationTextView;
 
 - (id) initWithDataSource:(id<StageDataSource>)theDataSource;
 

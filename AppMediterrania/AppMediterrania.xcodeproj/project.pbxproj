@@ -42,6 +42,7 @@
 		6CAB3A60189E27D400F7F4EB /* hen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A5C189E27D400F7F4EB /* hen.mp3 */; };
 		6CAB3A61189E27D400F7F4EB /* pork.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A5D189E27D400F7F4EB /* pork.mp3 */; };
 		6CAB3A62189E27D400F7F4EB /* sheep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A5E189E27D400F7F4EB /* sheep.mp3 */; };
+		6CAB3A65189E38C300F7F4EB /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A64189E38C300F7F4EB /* face.png */; };
 		6CD57A37189B9918005538D1 /* Stage8View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD57A36189B9918005538D1 /* Stage8View.xib */; };
 		6CD57A3A189B9C63005538D1 /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A39189B9C63005538D1 /* Notifications.m */; };
 		6CD57A3D189BA29C005538D1 /* StageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A3C189BA29C005538D1 /* StageManager.m */; };
@@ -121,6 +122,7 @@
 		6CAB3A5C189E27D400F7F4EB /* hen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hen.mp3; sourceTree = "<group>"; };
 		6CAB3A5D189E27D400F7F4EB /* pork.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pork.mp3; sourceTree = "<group>"; };
 		6CAB3A5E189E27D400F7F4EB /* sheep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sheep.mp3; sourceTree = "<group>"; };
+		6CAB3A64189E38C300F7F4EB /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
 		6CD57A36189B9918005538D1 /* Stage8View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage8View.xib; path = Stages/Stage8View.xib; sourceTree = "<group>"; };
 		6CD57A38189B9C63005538D1 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
 		6CD57A39189B9C63005538D1 /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 		6CAB3A38189E254400F7F4EB /* temp */ = {
 			isa = PBXGroup;
 			children = (
+				6CAB3A64189E38C300F7F4EB /* face.png */,
 				6CAB3A39189E254400F7F4EB /* boto_about.png */,
 				6CAB3A3A189E254400F7F4EB /* boto_informacio.png */,
 				6CAB3A3B189E254400F7F4EB /* boto_nivell.png */,
@@ -264,6 +267,13 @@
 				6CAB3A45189E254400F7F4EB /* pantalla_receptes_mitja.png */,
 			);
 			path = temp;
+			sourceTree = "<group>";
+		};
+		6CAB3A63189E36E300F7F4EB /* Stage2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Stage2;
 			sourceTree = "<group>";
 		};
 		6CD57A3E189BA2BC005538D1 /* Managers */ = {
@@ -296,6 +306,7 @@
 				6CD57A45189BA2DA005538D1 /* StageViewController.h */,
 				6CD57A46189BA2DA005538D1 /* StageViewController.m */,
 				6C2A840A189BD351002EEA2C /* Stage1 */,
+				6CAB3A63189E36E300F7F4EB /* Stage2 */,
 				6C2A840B189BD358002EEA2C /* Stage8 */,
 			);
 			path = Stages;
@@ -528,6 +539,7 @@
 				6CDCDDBF1897F07A002EBDED /* AppMediterrania-Info.plist in Resources */,
 				6CAB3A47189E254400F7F4EB /* lock.png in Resources */,
 				6CAB3A4E189E254400F7F4EB /* boto_nivell.png in Resources */,
+				6CAB3A65189E38C300F7F4EB /* face.png in Resources */,
 				6C2A8418189BD67A002EEA2C /* Stage1FishingView.xib in Resources */,
 				6CAB3A56189E254400F7F4EB /* pantalla_receptes_dificil.png in Resources */,
 				6C2A8417189BD67A002EEA2C /* Stage1FarmView.xib in Resources */,

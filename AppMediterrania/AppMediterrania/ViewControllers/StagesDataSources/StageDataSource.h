@@ -13,7 +13,7 @@
 
 @required
 
-@property (readonly) BOOL *hasText;
+@property (readonly) BOOL hasText;
 @property (readwrite) UIViewController *viewController;
 
 - (void) initView;

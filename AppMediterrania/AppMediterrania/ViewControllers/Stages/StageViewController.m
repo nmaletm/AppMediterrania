@@ -13,6 +13,8 @@
 @end
 
 @implementation StageViewController
+@synthesize informationTextView;
+@synthesize informationView;
 
 - (id)initWithDataSource:(id<StageDataSource>)theDataSource
 {
@@ -42,6 +44,10 @@
     [self.stageView addSubview:stageViewController.view];
     [stageViewController didMoveToParentViewController:self];
     [self addChildViewController:stageViewController];
+    
+    [informationView setHidden: ![self.dataSource hasText]];
+    [informationTextView setText: [self.dataSource text]];
+
 }
 
 - (void)didReceiveMemoryWarning
