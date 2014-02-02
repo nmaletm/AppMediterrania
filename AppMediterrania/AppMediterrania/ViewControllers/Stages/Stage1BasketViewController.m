@@ -35,6 +35,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Actions
 
 - (IBAction)nextButton:(id)sender{
     [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];

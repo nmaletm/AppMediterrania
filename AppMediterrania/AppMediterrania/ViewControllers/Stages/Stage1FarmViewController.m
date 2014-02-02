@@ -16,6 +16,7 @@
 @end
 
 @implementation Stage1FarmViewController
+@synthesize nextButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,7 +30,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    [nextButton setEnabled: NO];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,20 +40,26 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void) play:(NSString *)name{
+- (void) stopAudio{
     if(soundID){
         AudioServicesDisposeSystemSoundID(soundID);
     }
+}
+
+- (void) play:(NSString *)name{
+    [self stopAudio];
     NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath], name]];
     
     AudioServicesCreateSystemSoundID((__bridge CFURLRef)url, &soundID);
     AudioServicesPlaySystemSound (soundID);
 
+    [nextButton setEnabled: YES];
 }
 
 #pragma mark - Actions
 
 - (IBAction)nextButton:(id)sender{
+    [self stopAudio];
     [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];
 }
 

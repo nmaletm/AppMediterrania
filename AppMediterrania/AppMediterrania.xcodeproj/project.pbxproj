@@ -31,7 +31,6 @@
 		6CAB3A50189E254400F7F4EB /* pantalla_arbre.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A3D189E254400F7F4EB /* pantalla_arbre.png */; };
 		6CAB3A51189E254400F7F4EB /* pantalla_camp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A3E189E254400F7F4EB /* pantalla_camp.png */; };
 		6CAB3A52189E254400F7F4EB /* pantalla_cistella.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A3F189E254400F7F4EB /* pantalla_cistella.png */; };
-		6CAB3A53189E254400F7F4EB /* pantalla_cuina.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A40189E254400F7F4EB /* pantalla_cuina.png */; };
 		6CAB3A54189E254400F7F4EB /* pantalla_granja.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A41189E254400F7F4EB /* pantalla_granja.png */; };
 		6CAB3A55189E254400F7F4EB /* pantalla_pesca.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A42189E254400F7F4EB /* pantalla_pesca.png */; };
 		6CAB3A56189E254400F7F4EB /* pantalla_receptes_dificil.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A43189E254400F7F4EB /* pantalla_receptes_dificil.png */; };
@@ -43,6 +42,19 @@
 		6CAB3A61189E27D400F7F4EB /* pork.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A5D189E27D400F7F4EB /* pork.mp3 */; };
 		6CAB3A62189E27D400F7F4EB /* sheep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A5E189E27D400F7F4EB /* sheep.mp3 */; };
 		6CAB3A65189E38C300F7F4EB /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A64189E38C300F7F4EB /* face.png */; };
+		6CAB3A69189E3E0400F7F4EB /* Stage2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A68189E3E0400F7F4EB /* Stage2ViewController.m */; };
+		6CAB3A6C189E3E1E00F7F4EB /* Stage2DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A6B189E3E1E00F7F4EB /* Stage2DataSource.m */; };
+		6CAB3A71189E408300F7F4EB /* bubbles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A6F189E408300F7F4EB /* bubbles.mp3 */; };
+		6CAB3A72189E408300F7F4EB /* seagull.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A70189E408300F7F4EB /* seagull.mp3 */; };
+		6CAB3A76189E44FE00F7F4EB /* pantalla_cuina_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A73189E44FE00F7F4EB /* pantalla_cuina_1.png */; };
+		6CAB3A77189E44FE00F7F4EB /* pantalla_cuina_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A74189E44FE00F7F4EB /* pantalla_cuina_2.png */; };
+		6CAB3A78189E44FE00F7F4EB /* pantalla_cuina_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A75189E44FE00F7F4EB /* pantalla_cuina_3.png */; };
+		6CAB3A7C189E4CA400F7F4EB /* Stage3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A7B189E4CA400F7F4EB /* Stage3ViewController.m */; };
+		6CAB3A80189E4D2300F7F4EB /* Stage3DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A7F189E4D2300F7F4EB /* Stage3DataSource.m */; };
+		6CAB3A82189E4D8A00F7F4EB /* Stage2View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A81189E4D8A00F7F4EB /* Stage2View.xib */; };
+		6CAB3A84189E4D9C00F7F4EB /* Stage3View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A83189E4D9C00F7F4EB /* Stage3View.xib */; };
+		6CAB3A87189E4EBE00F7F4EB /* piramide_mitja_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A85189E4EBE00F7F4EB /* piramide_mitja_1.png */; };
+		6CAB3A88189E4EBF00F7F4EB /* piramide_mitja_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A86189E4EBE00F7F4EB /* piramide_mitja_2.png */; };
 		6CD57A37189B9918005538D1 /* Stage8View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD57A36189B9918005538D1 /* Stage8View.xib */; };
 		6CD57A3A189B9C63005538D1 /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A39189B9C63005538D1 /* Notifications.m */; };
 		6CD57A3D189BA29C005538D1 /* StageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A3C189BA29C005538D1 /* StageManager.m */; };
@@ -111,7 +123,6 @@
 		6CAB3A3D189E254400F7F4EB /* pantalla_arbre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_arbre.png; sourceTree = "<group>"; };
 		6CAB3A3E189E254400F7F4EB /* pantalla_camp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_camp.png; sourceTree = "<group>"; };
 		6CAB3A3F189E254400F7F4EB /* pantalla_cistella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_cistella.png; sourceTree = "<group>"; };
-		6CAB3A40189E254400F7F4EB /* pantalla_cuina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_cuina.png; sourceTree = "<group>"; };
 		6CAB3A41189E254400F7F4EB /* pantalla_granja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_granja.png; sourceTree = "<group>"; };
 		6CAB3A42189E254400F7F4EB /* pantalla_pesca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_pesca.png; sourceTree = "<group>"; };
 		6CAB3A43189E254400F7F4EB /* pantalla_receptes_dificil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_receptes_dificil.png; sourceTree = "<group>"; };
@@ -123,6 +134,23 @@
 		6CAB3A5D189E27D400F7F4EB /* pork.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pork.mp3; sourceTree = "<group>"; };
 		6CAB3A5E189E27D400F7F4EB /* sheep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sheep.mp3; sourceTree = "<group>"; };
 		6CAB3A64189E38C300F7F4EB /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		6CAB3A67189E3E0400F7F4EB /* Stage2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage2ViewController.h; sourceTree = "<group>"; };
+		6CAB3A68189E3E0400F7F4EB /* Stage2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage2ViewController.m; sourceTree = "<group>"; };
+		6CAB3A6A189E3E1E00F7F4EB /* Stage2DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage2DataSource.h; sourceTree = "<group>"; };
+		6CAB3A6B189E3E1E00F7F4EB /* Stage2DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage2DataSource.m; sourceTree = "<group>"; };
+		6CAB3A6F189E408300F7F4EB /* bubbles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bubbles.mp3; sourceTree = "<group>"; };
+		6CAB3A70189E408300F7F4EB /* seagull.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seagull.mp3; sourceTree = "<group>"; };
+		6CAB3A73189E44FE00F7F4EB /* pantalla_cuina_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_cuina_1.png; sourceTree = "<group>"; };
+		6CAB3A74189E44FE00F7F4EB /* pantalla_cuina_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_cuina_2.png; sourceTree = "<group>"; };
+		6CAB3A75189E44FE00F7F4EB /* pantalla_cuina_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_cuina_3.png; sourceTree = "<group>"; };
+		6CAB3A7A189E4CA400F7F4EB /* Stage3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage3ViewController.h; sourceTree = "<group>"; };
+		6CAB3A7B189E4CA400F7F4EB /* Stage3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage3ViewController.m; sourceTree = "<group>"; };
+		6CAB3A7E189E4D2300F7F4EB /* Stage3DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage3DataSource.h; sourceTree = "<group>"; };
+		6CAB3A7F189E4D2300F7F4EB /* Stage3DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage3DataSource.m; sourceTree = "<group>"; };
+		6CAB3A81189E4D8A00F7F4EB /* Stage2View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage2View.xib; path = Stages/Stage2View.xib; sourceTree = "<group>"; };
+		6CAB3A83189E4D9C00F7F4EB /* Stage3View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage3View.xib; path = Stages/Stage3View.xib; sourceTree = "<group>"; };
+		6CAB3A85189E4EBE00F7F4EB /* piramide_mitja_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piramide_mitja_1.png; sourceTree = "<group>"; };
+		6CAB3A86189E4EBE00F7F4EB /* piramide_mitja_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piramide_mitja_2.png; sourceTree = "<group>"; };
 		6CD57A36189B9918005538D1 /* Stage8View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage8View.xib; path = Stages/Stage8View.xib; sourceTree = "<group>"; };
 		6CD57A38189B9C63005538D1 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
 		6CD57A39189B9C63005538D1 /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
@@ -231,6 +259,8 @@
 				6CAB3A5C189E27D400F7F4EB /* hen.mp3 */,
 				6CAB3A5D189E27D400F7F4EB /* pork.mp3 */,
 				6CAB3A5E189E27D400F7F4EB /* sheep.mp3 */,
+				6CAB3A6F189E408300F7F4EB /* bubbles.mp3 */,
+				6CAB3A70189E408300F7F4EB /* seagull.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -259,9 +289,13 @@
 				6CAB3A3D189E254400F7F4EB /* pantalla_arbre.png */,
 				6CAB3A3E189E254400F7F4EB /* pantalla_camp.png */,
 				6CAB3A3F189E254400F7F4EB /* pantalla_cistella.png */,
-				6CAB3A40189E254400F7F4EB /* pantalla_cuina.png */,
+				6CAB3A73189E44FE00F7F4EB /* pantalla_cuina_1.png */,
+				6CAB3A74189E44FE00F7F4EB /* pantalla_cuina_2.png */,
+				6CAB3A75189E44FE00F7F4EB /* pantalla_cuina_3.png */,
 				6CAB3A41189E254400F7F4EB /* pantalla_granja.png */,
 				6CAB3A42189E254400F7F4EB /* pantalla_pesca.png */,
+				6CAB3A85189E4EBE00F7F4EB /* piramide_mitja_1.png */,
+				6CAB3A86189E4EBE00F7F4EB /* piramide_mitja_2.png */,
 				6CAB3A43189E254400F7F4EB /* pantalla_receptes_dificil.png */,
 				6CAB3A44189E254400F7F4EB /* pantalla_receptes_facil.png */,
 				6CAB3A45189E254400F7F4EB /* pantalla_receptes_mitja.png */,
@@ -272,8 +306,19 @@
 		6CAB3A63189E36E300F7F4EB /* Stage2 */ = {
 			isa = PBXGroup;
 			children = (
+				6CAB3A67189E3E0400F7F4EB /* Stage2ViewController.h */,
+				6CAB3A68189E3E0400F7F4EB /* Stage2ViewController.m */,
 			);
 			name = Stage2;
+			sourceTree = "<group>";
+		};
+		6CAB3A79189E4C8700F7F4EB /* Stage3 */ = {
+			isa = PBXGroup;
+			children = (
+				6CAB3A7A189E4CA400F7F4EB /* Stage3ViewController.h */,
+				6CAB3A7B189E4CA400F7F4EB /* Stage3ViewController.m */,
+			);
+			name = Stage3;
 			sourceTree = "<group>";
 		};
 		6CD57A3E189BA2BC005538D1 /* Managers */ = {
@@ -306,6 +351,7 @@
 				6CD57A45189BA2DA005538D1 /* StageViewController.h */,
 				6CD57A46189BA2DA005538D1 /* StageViewController.m */,
 				6C2A840A189BD351002EEA2C /* Stage1 */,
+				6CAB3A79189E4C8700F7F4EB /* Stage3 */,
 				6CAB3A63189E36E300F7F4EB /* Stage2 */,
 				6C2A840B189BD358002EEA2C /* Stage8 */,
 			);
@@ -317,6 +363,10 @@
 			children = (
 				6C2A840C189BD387002EEA2C /* Stage1DataSource.h */,
 				6C2A840D189BD387002EEA2C /* Stage1DataSource.m */,
+				6CAB3A6A189E3E1E00F7F4EB /* Stage2DataSource.h */,
+				6CAB3A6B189E3E1E00F7F4EB /* Stage2DataSource.m */,
+				6CAB3A7E189E4D2300F7F4EB /* Stage3DataSource.h */,
+				6CAB3A7F189E4D2300F7F4EB /* Stage3DataSource.m */,
 				6CD57A48189BA2DA005538D1 /* Stage8DataSource.h */,
 				6CD57A49189BA2DA005538D1 /* Stage8DataSource.m */,
 				6CD57A4A189BA2DA005538D1 /* StageDataSource.h */,
@@ -453,6 +503,8 @@
 				6C2A8411189BD67A002EEA2C /* Stage1FieldView.xib */,
 				6C2A8412189BD67A002EEA2C /* Stage1FarmView.xib */,
 				6C2A8413189BD67A002EEA2C /* Stage1FishingView.xib */,
+				6CAB3A81189E4D8A00F7F4EB /* Stage2View.xib */,
+				6CAB3A83189E4D9C00F7F4EB /* Stage3View.xib */,
 				6CD57A36189B9918005538D1 /* Stage8View.xib */,
 			);
 			name = Stages;
@@ -533,10 +585,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CAB3A76189E44FE00F7F4EB /* pantalla_cuina_1.png in Resources */,
 				6CAB3A60189E27D400F7F4EB /* hen.mp3 in Resources */,
 				6CAB3A4A189E254400F7F4EB /* stage.png in Resources */,
 				6CAB3A54189E254400F7F4EB /* pantalla_granja.png in Resources */,
+				6CAB3A77189E44FE00F7F4EB /* pantalla_cuina_2.png in Resources */,
 				6CDCDDBF1897F07A002EBDED /* AppMediterrania-Info.plist in Resources */,
+				6CAB3A84189E4D9C00F7F4EB /* Stage3View.xib in Resources */,
 				6CAB3A47189E254400F7F4EB /* lock.png in Resources */,
 				6CAB3A4E189E254400F7F4EB /* boto_nivell.png in Resources */,
 				6CAB3A65189E38C300F7F4EB /* face.png in Resources */,
@@ -550,6 +605,7 @@
 				6CAB3A4B189E254400F7F4EB /* stage1.png in Resources */,
 				6CAB3A49189E254400F7F4EB /* pantalla_mapa.png in Resources */,
 				6CDCDDC21897F07A002EBDED /* Images.xcassets in Resources */,
+				6CAB3A72189E408300F7F4EB /* seagull.mp3 in Resources */,
 				6CAB3A46189E254400F7F4EB /* cow.mp3 in Resources */,
 				6CD57A57189BA699005538D1 /* LevelSelectorView.xib in Resources */,
 				6CD57A37189B9918005538D1 /* Stage8View.xib in Resources */,
@@ -557,13 +613,17 @@
 				6CAB3A4C189E254400F7F4EB /* boto_about.png in Resources */,
 				6CAB3A55189E254400F7F4EB /* pantalla_pesca.png in Resources */,
 				6C2A8415189BD67A002EEA2C /* Stage1BasketView.xib in Resources */,
+				6CAB3A78189E44FE00F7F4EB /* pantalla_cuina_3.png in Resources */,
+				6CAB3A82189E4D8A00F7F4EB /* Stage2View.xib in Resources */,
 				6CAB3A58189E254400F7F4EB /* pantalla_receptes_mitja.png in Resources */,
 				6CAB3A61189E27D400F7F4EB /* pork.mp3 in Resources */,
+				6CAB3A71189E408300F7F4EB /* bubbles.mp3 in Resources */,
 				6CAB3A48189E254400F7F4EB /* pantalla_joc.png in Resources */,
-				6CAB3A53189E254400F7F4EB /* pantalla_cuina.png in Resources */,
 				6CAB3A50189E254400F7F4EB /* pantalla_arbre.png in Resources */,
 				6CAB3A51189E254400F7F4EB /* pantalla_camp.png in Resources */,
+				6CAB3A87189E4EBE00F7F4EB /* piramide_mitja_1.png in Resources */,
 				6CAB3A52189E254400F7F4EB /* pantalla_cistella.png in Resources */,
+				6CAB3A88189E4EBF00F7F4EB /* piramide_mitja_2.png in Resources */,
 				6CAB3A5F189E27D400F7F4EB /* goat.mp3 in Resources */,
 				6C2A8414189BD67A002EEA2C /* Stage1TreeView.xib in Resources */,
 				6CAB3A57189E254400F7F4EB /* pantalla_receptes_facil.png in Resources */,
@@ -587,10 +647,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C2A840E189BD387002EEA2C /* Stage1DataSource.m in Sources */,
+				6CAB3A69189E3E0400F7F4EB /* Stage2ViewController.m in Sources */,
 				6C2A83FD189BD2E8002EEA2C /* Stage1TreeViewController.m in Sources */,
+				6CAB3A7C189E4CA400F7F4EB /* Stage3ViewController.m in Sources */,
 				6CD57A3D189BA29C005538D1 /* StageManager.m in Sources */,
 				6CD57A4D189BA2DA005538D1 /* StageViewController.m in Sources */,
 				6CD57A5A189BA7C8005538D1 /* LevelSelectorViewController.m in Sources */,
+				6CAB3A6C189E3E1E00F7F4EB /* Stage2DataSource.m in Sources */,
+				6CAB3A80189E4D2300F7F4EB /* Stage3DataSource.m in Sources */,
 				6C2A8406189BD31E002EEA2C /* Stage1FarmViewController.m in Sources */,
 				6CD57A3A189B9C63005538D1 /* Notifications.m in Sources */,
 				6CD57A4E189BA2DA005538D1 /* Stage8DataSource.m in Sources */,

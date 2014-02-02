@@ -10,6 +10,8 @@
 
 #import "StageDataSource.h"
 #import "Stage1DataSource.h"
+#import "Stage2DataSource.h"
+#import "Stage3DataSource.h"
 #import "Stage8DataSource.h"
 #import "StageViewController.h"
 
@@ -129,16 +131,15 @@
 
 #pragma mark Actions stages
 - (IBAction)stage1:(id)sender{
-    id<StageDataSource> dataSource = [[Stage1DataSource alloc] init];
-    [self presentStage: dataSource];
+    [self presentStage: [[Stage1DataSource alloc] init]];
 }
 
 - (IBAction)stage2:(id)sender{
-    
+    [self presentStage: [[Stage2DataSource alloc] init]];
 }
 
 - (IBAction)stage3:(id)sender{
-    
+    [self presentStage: [[Stage3DataSource alloc] init]];
 }
 
 - (IBAction)stage4:(id)sender{
@@ -158,8 +159,7 @@
 }
 
 - (IBAction)stage8:(id)sender{
-    id<StageDataSource> dataSource = [[Stage8DataSource alloc] init];
-    [self presentStage: dataSource];
+    [self presentStage: [[Stage8DataSource alloc] init]];
 }
 
 #pragma mark Notifications

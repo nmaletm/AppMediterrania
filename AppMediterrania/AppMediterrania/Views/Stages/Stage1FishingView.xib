@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Stage1FishingViewController">
             <connections>
+                <outlet property="nextButton" destination="5P4-ex-uR9" id="qYm-PJ-052"/>
                 <outlet property="view" destination="1" id="rws-Bj-hAM"/>
             </connections>
         </placeholder>
@@ -26,6 +27,26 @@
                     </state>
                     <connections>
                         <action selector="nextButton:" destination="-1" eventType="touchDown" id="xe3-83-vse"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zD-y5-QQg" userLabel="Sea Button">
+                    <rect key="frame" x="0.0" y="301" width="911" height="299"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="clickSea:" destination="-1" eventType="touchDown" id="VIW-cM-N5E"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGt-bv-Iiv" userLabel="Sky Button">
+                    <rect key="frame" x="0.0" y="6" width="911" height="287"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="clickSky:" destination="-1" eventType="touchDown" id="buN-yk-4dN"/>
                     </connections>
                 </button>
             </subviews>

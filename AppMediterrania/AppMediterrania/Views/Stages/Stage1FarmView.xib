@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Stage1FarmViewController">
             <connections>
+                <outlet property="nextButton" destination="W83-wV-tJd" id="cv6-Ps-Ycg"/>
                 <outlet property="view" destination="1" id="rws-Bj-hAM"/>
             </connections>
         </placeholder>
