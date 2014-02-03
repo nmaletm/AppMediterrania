@@ -17,6 +17,7 @@
 
 @implementation Stage3ViewController
 @synthesize nextButton;
+@synthesize nextSubStageButton;
 @synthesize backgroundImage;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil;
@@ -50,7 +51,9 @@
 - (void) nextButtonEnabled:(BOOL) enabled{
     [nextButton setEnabled:enabled];
 }
-
+- (void) nextSubStageButtonEnabled:(BOOL) enabled{
+    [nextSubStageButton setEnabled:enabled];
+}
 #pragma mark - Actions
 
 - (IBAction)nextButton:(id)sender{

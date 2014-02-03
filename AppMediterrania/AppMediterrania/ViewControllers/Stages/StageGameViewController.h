@@ -31,4 +31,6 @@
 
 - (IBAction)figureButton:(id)sender;
 
+- (void)changeQuestion:(QuestionModel *)theQuestion;
+
 @end

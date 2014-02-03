@@ -7,7 +7,7 @@
 //
 
 #import "Stage3DataSource.h"
-#import "Stage2ViewController.h"
+#import "Stage3ViewController.h"
 #import "StageManager.h"
 #import "LevelManager.h"
 
@@ -27,25 +27,27 @@
 
 - (void) initView{
     currentSubStage = 0;
-    viewController = [[Stage2ViewController alloc] initWithNibName:@"Stage3View" bundle:nil];
+    viewController = [[Stage3ViewController alloc] initWithNibName:@"Stage3View" bundle:nil];
 
     backgrounds = [[NSMutableDictionary alloc] init];
     NSArray *backgroundsEasy = [[NSArray alloc] initWithObjects:
-                         @"piramide_mitja_1",
-                         @"piramide_mitja_2",
-                         nil];
+                                @"piramide_mitja_1",
+                                @"piramide_mitja_2",
+                                nil];
     [backgrounds setObject:backgroundsEasy forKey:@"1"];
     
     NSArray *backgroundsMedium = [[NSArray alloc] initWithObjects:
-                         @"pantalla_cuina_1",
-                         @"piramide_mitja_2",
-                         nil];
+                                  @"pantalla_cuina_1",
+                                  @"piramide_mitja_2",
+                                  nil];
     [backgrounds setObject:backgroundsMedium forKey:@"2"];
     
     NSArray *backgroundsDifficult = [[NSArray alloc] initWithObjects:
-                         @"piramide_mitja_1",
-                         @"piramide_mitja_2",
-                         nil];
+                                     @"piramide_mitja_1",
+                                     @"piramide_mitja_2",
+                                     @"piramide_mitja_1",
+                                     @"piramide_mitja_2",
+                                     nil];
     [backgrounds setObject:backgroundsDifficult forKey:@"3"];
 }
 
@@ -60,14 +62,18 @@
 
 - (void) goNextSubLevel{
     NSArray *arrayBackgrounds = [backgrounds valueForKey:[[LevelManager sharedInstance] levelString]];
+
+
+    Stage3ViewController *stageViewController = (Stage3ViewController*) viewController;
     
-    Stage2ViewController *stageViewController = (Stage2ViewController*) viewController;
-    
-    if(currentSubStage+1 >= [arrayBackgrounds count]){
-        [stageViewController nextButtonEnabled:YES];
-    }
-    else{
+    if(currentSubStage+1 < [arrayBackgrounds count]){
         currentSubStage++;
+    }
+    
+    if(currentSubStage+1 == [arrayBackgrounds count]){
+        [stageViewController nextButtonEnabled:YES];
+        [stageViewController nextSubStageButtonEnabled:NO];
+
     }
     
     [stageViewController setBackground:[arrayBackgrounds objectAtIndex:currentSubStage]];

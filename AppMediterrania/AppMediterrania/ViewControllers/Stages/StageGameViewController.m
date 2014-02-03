@@ -43,15 +43,26 @@
     return self;
 }
 
+- (void)changeQuestion:(QuestionModel *)theQuestion{
+    question = theQuestion;
+    [self reStartGameButtons];
+    [self initGame];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    correctSelected = [[NSMutableArray alloc] init];
-                        
     dashboardButtons = [[NSArray alloc] initWithObjects: button_11, button_12, button_13,
                                                         button_21, button_22, button_23,
                                                         button_31, button_32, button_33, nil];
+    
+    [self initGame];
+}
+
+- (void) initGame{
+    correctSelected = [[NSMutableArray alloc] init];
+    [nextButton setEnabled: NO];
     
     dashboardFigures = [[NSMutableArray alloc] init];
     [dashboardFigures addObjectsFromArray:question.figuresCorrect];
@@ -86,6 +97,35 @@
     [self refreshButtons];
 }
 
+
+- (IBAction)nextButton:(id)sender{
+    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];
+}
+
+#pragma mark - Screen
+
+- (void) refreshScore{
+    [scoreLabel setText:[NSString stringWithFormat:@"%lu/%lu", (unsigned long)[correctSelected count], (unsigned long)[question.figuresCorrect count]]];
+}
+
+- (void) refreshButtons{
+    for(int i = 0; i < 9; i++){
+        NSString *figure = [dashboardFigures objectAtIndex:i];
+        UIButton *button = [dashboardButtons objectAtIndex:i];
+        
+        button.tag = i;
+        
+        if([correctSelected containsObject:[NSNumber numberWithInt: i]]){
+            figure = [NSString stringWithFormat:@"%@_b", figure];
+            [button setEnabled:NO];
+        }
+        
+        [button setImage:[UIImage imageNamed:figure] forState:UIControlStateNormal];
+        [button setImage:[UIImage imageNamed:figure] forState:UIControlStateHighlighted];
+    }
+}
+
+
 - (void) checkEndGame{
     if([correctSelected count] >= [question.figuresCorrect count]){
         [UIView beginAnimations:nil context:NULL];
@@ -99,36 +139,16 @@
             }
         }
         [UIView commitAnimations];
+        [nextButton setEnabled:YES];
     }
 }
 
-- (IBAction)nextButton:(id)sender{
-//    [[StageManager sharedInstance] markAsCompleted: 3];
+- (void) reStartGameButtons{
     
-//    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
-//    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];
-}
-
-#pragma mark - Screen
-
-- (void) refreshScore{
-    [scoreLabel setText:[NSString stringWithFormat:@"%d/%d", [correctSelected count], [question.figuresCorrect count]]];
-}
-
-- (void) refreshButtons{
     for(int i = 0; i < 9; i++){
-        NSString *figure = [dashboardFigures objectAtIndex:i];
         UIButton *button = [dashboardButtons objectAtIndex:i];
-        
-        button.tag = i;
-        
-        if([correctSelected containsObject:[NSNumber numberWithInt: i]]){
-            figure = [NSString stringWithFormat:@"%@_sel", figure];
-            [button setEnabled:NO];
-        }
-        
-        [button setImage:[UIImage imageNamed:figure] forState:UIControlStateNormal];
-        [button setImage:[UIImage imageNamed:figure] forState:UIControlStateHighlighted];
+        [button setAlpha:1];
+        [button setEnabled:YES];
     }
 }
 

@@ -12,4 +12,7 @@
 
 + (GameManager *)sharedInstance;
 
+-(NSArray *)questionsAt:(int)level atStage:(int)stage;
+
+
 @end

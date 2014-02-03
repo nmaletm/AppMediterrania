@@ -8,6 +8,7 @@
             <connections>
                 <outlet property="backgroundImage" destination="jlx-Dk-nsn" id="2h8-Dl-DON"/>
                 <outlet property="nextButton" destination="bSe-la-XaR" id="JMk-bm-PX9"/>
+                <outlet property="nextSubStageButton" destination="3uC-i3-fc1" id="PkX-kr-Qvj"/>
                 <outlet property="view" destination="1" id="HR2-AD-kI1"/>
             </connections>
         </placeholder>

@@ -10,12 +10,15 @@
 #import "QuestionModel.h"
 
 #import "StageGameViewController.h"
+#import "StageGameIntroViewController.h"
 #import "StageManager.h"
 #import "LevelManager.h"
+#import "GameManager.h"
 
 @interface StageGameDataSource (){
     NSMutableDictionary *backgrounds;
     int currentSubStage;
+    NSArray *questions;
 }
 
 @end
@@ -31,16 +34,16 @@
 - (void) initView{
     currentSubStage = 0;
     
-    QuestionModel *question = [[QuestionModel alloc] init];
-    question.text = @"Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09";
-    question.level = 1;
-    question.stage = self.stage;
-    question.subStage = 1;
-    question.figuresCorrect = [[NSArray alloc] initWithObjects:  @"stage", @"stage1", nil];
-    question.figuresIncorrect = [[NSArray alloc] initWithObjects:  @"lock", @"lock", @"lock", @"lock", @"lock", @"lock", @"lock", nil];
-    
-    viewController = [[StageGameViewController alloc] initWithNibName:@"StageGameView" bundle:nil question:question];
-    
+    int level = [[[LevelManager sharedInstance] level] intValue];
+    questions = [[GameManager sharedInstance] questionsAt:level atStage:self.stage];
+
+    if(self.stage == 1){
+        viewController = [[StageGameIntroViewController alloc] initWithNibName:@"StageGameIntroView" bundle:nil];
+        currentSubStage = -1;
+    }
+    else{
+        [self initViewControllerGame];
+    }
     
 }
 
@@ -54,20 +57,28 @@
 }
 
 - (void) goNextSubLevel{
-    /*
-    NSArray *arrayBackgrounds = [backgrounds valueForKey:[[LevelManager sharedInstance] levelString]];
     
-    Stage2ViewController *stageViewController = (Stage2ViewController*) viewController;
+    if(currentSubStage == -1){
+        [self initViewControllerGame];
+        return;
+    }
     
-    if(currentSubStage+1 >= [arrayBackgrounds count]){
-        [stageViewController nextButtonEnabled:YES];
+    StageGameViewController *stageViewController = (StageGameViewController*) viewController;
+    
+    if(currentSubStage+1 < [questions count]){
+        currentSubStage++;
+        [stageViewController changeQuestion:[questions objectAtIndex:currentSubStage]];
     }
     else{
-        currentSubStage++;
+        [[StageManager sharedInstance] markAsCompleted: self.stage+3];
+        [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
     }
-    
-    [stageViewController setBackground:[arrayBackgrounds objectAtIndex:currentSubStage]];
-    */
+  
+}
+
+- (void) initViewControllerGame{
+    currentSubStage = 0;
+    viewController = [[StageGameViewController alloc] initWithNibName:@"StageGameView" bundle:nil question:[questions objectAtIndex:currentSubStage]];
 }
 
 @end
