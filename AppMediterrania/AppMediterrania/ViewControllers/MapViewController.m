@@ -14,6 +14,7 @@
 #import "StageGameDataSource.h"
 #import "Stage3DataSource.h"
 #import "Stage8DataSource.h"
+#import "InformationDataSource.h"
 #import "StageViewController.h"
 
 #import "LevelManager.h"
@@ -44,8 +45,8 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        stagesUnblocked = [[NSArray alloc] initWithObjects:@"stage.png", @"stage1.png", @"stage.png", @"stage.png", @"stage.png", @"stage.png", @"stage.png", @"stage.png", nil];
-        stagesBlocked = [[NSArray alloc] initWithObjects:@"lock.png", @"lock.png", @"lock.png", @"lock.png", @"lock.png", @"lock.png", @"lock.png", @"lock.png", nil];
+        stagesUnblocked = [[NSArray alloc] initWithObjects:@"70_joc", @"71_joc", @"72_joc", @"73_joc", @"74_joc", @"75_joc", @"76_joc", @"77_joc", nil];
+        stagesBlocked = [[NSArray alloc] initWithObjects:@"lock", @"lock", @"lock", @"lock", @"lock", @"lock", @"lock", @"lock", nil];
     }
     return self;
 }
@@ -122,7 +123,7 @@
 }
 
 - (IBAction)showInformation:(id)sender{
-    
+    [self presentStage: [[InformationDataSource alloc] init]];
 }
 
 - (IBAction)showLevelSelector:(id)sender{
@@ -181,6 +182,12 @@
         [self.presentedViewController dismissViewControllerAnimated:YES completion:nil];
     }
     [self refreshStageStatus];
+}
+
+
+#pragma mark Orientation
+- (NSUInteger) supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskLandscape;
 }
 
 @end

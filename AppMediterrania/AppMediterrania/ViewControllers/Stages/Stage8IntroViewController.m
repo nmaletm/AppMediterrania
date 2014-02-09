@@ -1,18 +1,18 @@
 //
-//  Stage1FieldViewController.m
+//  Stage8IntroViewController.m
 //  AppMediterrania
 //
-//  Created by Nestor Malet on 31/01/14.
+//  Created by Nestor Malet on 03/02/14.
 //  Copyright (c) 2014 Storn.es. All rights reserved.
 //
 
-#import "Stage1FieldViewController.h"
+#import "Stage8IntroViewController.h"
 
-@interface Stage1FieldViewController ()
+@interface Stage8IntroViewController ()
 
 @end
 
-@implementation Stage1FieldViewController
+@implementation Stage8IntroViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,19 +26,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
-#pragma mark - Actions
 
 - (IBAction)nextButton:(id)sender{
     [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];
 }
+
 
 @end

@@ -70,4 +70,11 @@
         [self loadViewController];
     }
 }
+
+
+#pragma mark Orientation
+- (NSUInteger) supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskLandscape;
+}
+
 @end

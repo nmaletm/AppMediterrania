@@ -49,4 +49,10 @@
     [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
 }
 
+#pragma mark Orientation
+- (NSUInteger) supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskLandscape;
+}
+
+
 @end

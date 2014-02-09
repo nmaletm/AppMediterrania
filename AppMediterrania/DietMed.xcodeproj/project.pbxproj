@@ -7,32 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C2A83FD189BD2E8002EEA2C /* Stage1TreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A83FC189BD2E8002EEA2C /* Stage1TreeViewController.m */; };
-		6C2A8400189BD2FD002EEA2C /* Stage1BasketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A83FF189BD2FD002EEA2C /* Stage1BasketViewController.m */; };
-		6C2A8403189BD30F002EEA2C /* Stage1FieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A8402189BD30F002EEA2C /* Stage1FieldViewController.m */; };
+		6C2A83FD189BD2E8002EEA2C /* Stage1SeasonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A83FC189BD2E8002EEA2C /* Stage1SeasonsViewController.m */; };
 		6C2A8406189BD31E002EEA2C /* Stage1FarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A8405189BD31E002EEA2C /* Stage1FarmViewController.m */; };
 		6C2A8409189BD32A002EEA2C /* Stage1FishingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A8408189BD32A002EEA2C /* Stage1FishingViewController.m */; };
 		6C2A840E189BD387002EEA2C /* Stage1DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A840D189BD387002EEA2C /* Stage1DataSource.m */; };
-		6C2A8414189BD67A002EEA2C /* Stage1TreeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A840F189BD67A002EEA2C /* Stage1TreeView.xib */; };
-		6C2A8415189BD67A002EEA2C /* Stage1BasketView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8410189BD67A002EEA2C /* Stage1BasketView.xib */; };
-		6C2A8416189BD67A002EEA2C /* Stage1FieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8411189BD67A002EEA2C /* Stage1FieldView.xib */; };
+		6C2A8414189BD67A002EEA2C /* Stage1SeasonsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A840F189BD67A002EEA2C /* Stage1SeasonsView.xib */; };
 		6C2A8417189BD67A002EEA2C /* Stage1FarmView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8412189BD67A002EEA2C /* Stage1FarmView.xib */; };
 		6C2A8418189BD67A002EEA2C /* Stage1FishingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8413189BD67A002EEA2C /* Stage1FishingView.xib */; };
+		6C99F9F418A7845300D027E0 /* pantalla_agricultura_01_autumn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99F9EE18A7845300D027E0 /* pantalla_agricultura_01_autumn.png */; };
+		6C99F9F518A7845300D027E0 /* pantalla_agricultura_01_spring.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99F9EF18A7845300D027E0 /* pantalla_agricultura_01_spring.png */; };
+		6C99F9F618A7845300D027E0 /* pantalla_agricultura_01_summer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99F9F018A7845300D027E0 /* pantalla_agricultura_01_summer.png */; };
+		6C99F9F718A7845300D027E0 /* pantalla_agricultura_01_winter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99F9F118A7845300D027E0 /* pantalla_agricultura_01_winter.png */; };
+		6C99F9F818A7845300D027E0 /* pantalla_granja.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99F9F218A7845300D027E0 /* pantalla_granja.png */; };
+		6C99F9F918A7845300D027E0 /* pantalla_pesca.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99F9F318A7845300D027E0 /* pantalla_pesca.png */; };
+		6C99FA0818A78FB100D027E0 /* boto_about.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99F9FB18A78FB100D027E0 /* boto_about.png */; };
+		6C99FA0918A78FB100D027E0 /* boto_informacio.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99F9FC18A78FB100D027E0 /* boto_informacio.png */; };
+		6C99FA0A18A78FB100D027E0 /* boto_nivell.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99F9FD18A78FB100D027E0 /* boto_nivell.png */; };
+		6C99FA0B18A78FB100D027E0 /* boto_tornar_mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99F9FE18A78FB100D027E0 /* boto_tornar_mapa.png */; };
+		6C99FA0C18A78FB100D027E0 /* button_autumn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99F9FF18A78FB100D027E0 /* button_autumn.png */; };
+		6C99FA0D18A78FB100D027E0 /* button_autumn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA0018A78FB100D027E0 /* button_autumn_h.png */; };
+		6C99FA0E18A78FB100D027E0 /* button_spring.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA0118A78FB100D027E0 /* button_spring.png */; };
+		6C99FA0F18A78FB100D027E0 /* button_spring_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA0218A78FB100D027E0 /* button_spring_h.png */; };
+		6C99FA1018A78FB100D027E0 /* button_summer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA0318A78FB100D027E0 /* button_summer.png */; };
+		6C99FA1118A78FB100D027E0 /* button_summer_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA0418A78FB100D027E0 /* button_summer_h.png */; };
+		6C99FA1218A78FB100D027E0 /* button_winter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA0518A78FB100D027E0 /* button_winter.png */; };
+		6C99FA1418A78FB100D027E0 /* button_winter_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA0718A78FB100D027E0 /* button_winter_h.png */; };
+		6C99FA1918A7974B00D027E0 /* pantalla_camp_autumn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA1518A7974B00D027E0 /* pantalla_camp_autumn.png */; };
+		6C99FA1A18A7974B00D027E0 /* pantalla_camp_spring.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA1618A7974B00D027E0 /* pantalla_camp_spring.png */; };
+		6C99FA1B18A7974B00D027E0 /* pantalla_camp_summer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA1718A7974B00D027E0 /* pantalla_camp_summer.png */; };
+		6C99FA1C18A7974B00D027E0 /* pantalla_camp_winter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA1818A7974B00D027E0 /* pantalla_camp_winter.png */; };
+		6C99FA1E18A79C3F00D027E0 /* Stage8IntroView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA1D18A79C3F00D027E0 /* Stage8IntroView.xib */; };
+		6C99FA2118A79CB000D027E0 /* Stage8IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA2018A79CB000D027E0 /* Stage8IntroViewController.m */; };
+		6C99FA2418A79ECD00D027E0 /* Stage3ConclusionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA2318A79ECD00D027E0 /* Stage3ConclusionViewController.m */; };
+		6C99FA2618A79F0900D027E0 /* Stage3ConclusionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA2518A79F0900D027E0 /* Stage3ConclusionView.xib */; };
+		6C99FA2918A7A91A00D027E0 /* InformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA2818A7A91A00D027E0 /* InformationView.xib */; };
+		6C99FA2D18A7A9B700D027E0 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA2C18A7A9B700D027E0 /* InformationViewController.m */; };
+		6C99FA3018A7A9E800D027E0 /* InformationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA2F18A7A9E800D027E0 /* InformationDataSource.m */; };
+		6C99FA3218A7AB5D00D027E0 /* LogoFDMed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA3118A7AB5D00D027E0 /* LogoFDMed.png */; };
 		6CAB3A46189E254400F7F4EB /* cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A31189E254400F7F4EB /* cow.mp3 */; };
 		6CAB3A47189E254400F7F4EB /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A33189E254400F7F4EB /* lock.png */; };
 		6CAB3A48189E254400F7F4EB /* pantalla_joc.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A34189E254400F7F4EB /* pantalla_joc.png */; };
 		6CAB3A49189E254400F7F4EB /* pantalla_mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A35189E254400F7F4EB /* pantalla_mapa.png */; };
 		6CAB3A4A189E254400F7F4EB /* stage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A36189E254400F7F4EB /* stage.png */; };
 		6CAB3A4B189E254400F7F4EB /* stage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A37189E254400F7F4EB /* stage1.png */; };
-		6CAB3A4C189E254400F7F4EB /* boto_about.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A39189E254400F7F4EB /* boto_about.png */; };
-		6CAB3A4D189E254400F7F4EB /* boto_informacio.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A3A189E254400F7F4EB /* boto_informacio.png */; };
-		6CAB3A4E189E254400F7F4EB /* boto_nivell.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A3B189E254400F7F4EB /* boto_nivell.png */; };
-		6CAB3A4F189E254400F7F4EB /* boto_tornar_mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A3C189E254400F7F4EB /* boto_tornar_mapa.png */; };
-		6CAB3A50189E254400F7F4EB /* pantalla_arbre.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A3D189E254400F7F4EB /* pantalla_arbre.png */; };
-		6CAB3A51189E254400F7F4EB /* pantalla_camp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A3E189E254400F7F4EB /* pantalla_camp.png */; };
 		6CAB3A52189E254400F7F4EB /* pantalla_cistella.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A3F189E254400F7F4EB /* pantalla_cistella.png */; };
-		6CAB3A54189E254400F7F4EB /* pantalla_granja.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A41189E254400F7F4EB /* pantalla_granja.png */; };
-		6CAB3A55189E254400F7F4EB /* pantalla_pesca.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A42189E254400F7F4EB /* pantalla_pesca.png */; };
 		6CAB3A56189E254400F7F4EB /* pantalla_receptes_dificil.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A43189E254400F7F4EB /* pantalla_receptes_dificil.png */; };
 		6CAB3A57189E254400F7F4EB /* pantalla_receptes_facil.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A44189E254400F7F4EB /* pantalla_receptes_facil.png */; };
 		6CAB3A58189E254400F7F4EB /* pantalla_receptes_mitja.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A45189E254400F7F4EB /* pantalla_receptes_mitja.png */; };
@@ -83,7 +101,7 @@
 		6CDCDDA11897EEB8002EBDED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CDCDD9F1897EEB8002EBDED /* InfoPlist.strings */; };
 		6CDCDDA31897EEB8002EBDED /* AppMediterraniaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDCDDA21897EEB8002EBDED /* AppMediterraniaTests.m */; };
 		6CDCDDBE1897F07A002EBDED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDCDDB11897F07A002EBDED /* AppDelegate.m */; };
-		6CDCDDBF1897F07A002EBDED /* AppMediterrania-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CDCDDB21897F07A002EBDED /* AppMediterrania-Info.plist */; };
+		6CDCDDBF1897F07A002EBDED /* DietMed-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CDCDDB21897F07A002EBDED /* DietMed-Info.plist */; };
 		6CDCDDC01897F07A002EBDED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDCDDB41897F07A002EBDED /* main.m */; };
 		6CDCDDC21897F07A002EBDED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CDCDDBC1897F07A002EBDED /* Images.xcassets */; };
 		6CDCDDCC1897F236002EBDED /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CDCDDCA1897F236002EBDED /* MapView.xib */; };
@@ -263,38 +281,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6C2A83FB189BD2E8002EEA2C /* Stage1TreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1TreeViewController.h; sourceTree = "<group>"; };
-		6C2A83FC189BD2E8002EEA2C /* Stage1TreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1TreeViewController.m; sourceTree = "<group>"; };
-		6C2A83FE189BD2FD002EEA2C /* Stage1BasketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1BasketViewController.h; sourceTree = "<group>"; };
-		6C2A83FF189BD2FD002EEA2C /* Stage1BasketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1BasketViewController.m; sourceTree = "<group>"; };
-		6C2A8401189BD30F002EEA2C /* Stage1FieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1FieldViewController.h; sourceTree = "<group>"; };
-		6C2A8402189BD30F002EEA2C /* Stage1FieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1FieldViewController.m; sourceTree = "<group>"; };
+		6C2A83FB189BD2E8002EEA2C /* Stage1SeasonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1SeasonsViewController.h; sourceTree = "<group>"; };
+		6C2A83FC189BD2E8002EEA2C /* Stage1SeasonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1SeasonsViewController.m; sourceTree = "<group>"; };
 		6C2A8404189BD31E002EEA2C /* Stage1FarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1FarmViewController.h; sourceTree = "<group>"; };
 		6C2A8405189BD31E002EEA2C /* Stage1FarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1FarmViewController.m; sourceTree = "<group>"; };
 		6C2A8407189BD32A002EEA2C /* Stage1FishingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1FishingViewController.h; sourceTree = "<group>"; };
 		6C2A8408189BD32A002EEA2C /* Stage1FishingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1FishingViewController.m; sourceTree = "<group>"; };
 		6C2A840C189BD387002EEA2C /* Stage1DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1DataSource.h; sourceTree = "<group>"; };
 		6C2A840D189BD387002EEA2C /* Stage1DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1DataSource.m; sourceTree = "<group>"; };
-		6C2A840F189BD67A002EEA2C /* Stage1TreeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1TreeView.xib; path = Stages/Stage1TreeView.xib; sourceTree = "<group>"; };
-		6C2A8410189BD67A002EEA2C /* Stage1BasketView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1BasketView.xib; path = Stages/Stage1BasketView.xib; sourceTree = "<group>"; };
-		6C2A8411189BD67A002EEA2C /* Stage1FieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1FieldView.xib; path = Stages/Stage1FieldView.xib; sourceTree = "<group>"; };
+		6C2A840F189BD67A002EEA2C /* Stage1SeasonsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1SeasonsView.xib; path = Stages/Stage1SeasonsView.xib; sourceTree = "<group>"; };
 		6C2A8412189BD67A002EEA2C /* Stage1FarmView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1FarmView.xib; path = Stages/Stage1FarmView.xib; sourceTree = "<group>"; };
 		6C2A8413189BD67A002EEA2C /* Stage1FishingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1FishingView.xib; path = Stages/Stage1FishingView.xib; sourceTree = "<group>"; };
+		6C99F9EE18A7845300D027E0 /* pantalla_agricultura_01_autumn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_01_autumn.png; sourceTree = "<group>"; };
+		6C99F9EF18A7845300D027E0 /* pantalla_agricultura_01_spring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_01_spring.png; sourceTree = "<group>"; };
+		6C99F9F018A7845300D027E0 /* pantalla_agricultura_01_summer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_01_summer.png; sourceTree = "<group>"; };
+		6C99F9F118A7845300D027E0 /* pantalla_agricultura_01_winter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_01_winter.png; sourceTree = "<group>"; };
+		6C99F9F218A7845300D027E0 /* pantalla_granja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_granja.png; sourceTree = "<group>"; };
+		6C99F9F318A7845300D027E0 /* pantalla_pesca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_pesca.png; sourceTree = "<group>"; };
+		6C99F9FB18A78FB100D027E0 /* boto_about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boto_about.png; sourceTree = "<group>"; };
+		6C99F9FC18A78FB100D027E0 /* boto_informacio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boto_informacio.png; sourceTree = "<group>"; };
+		6C99F9FD18A78FB100D027E0 /* boto_nivell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boto_nivell.png; sourceTree = "<group>"; };
+		6C99F9FE18A78FB100D027E0 /* boto_tornar_mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boto_tornar_mapa.png; sourceTree = "<group>"; };
+		6C99F9FF18A78FB100D027E0 /* button_autumn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_autumn.png; sourceTree = "<group>"; };
+		6C99FA0018A78FB100D027E0 /* button_autumn_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_autumn_h.png; sourceTree = "<group>"; };
+		6C99FA0118A78FB100D027E0 /* button_spring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_spring.png; sourceTree = "<group>"; };
+		6C99FA0218A78FB100D027E0 /* button_spring_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_spring_h.png; sourceTree = "<group>"; };
+		6C99FA0318A78FB100D027E0 /* button_summer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_summer.png; sourceTree = "<group>"; };
+		6C99FA0418A78FB100D027E0 /* button_summer_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_summer_h.png; sourceTree = "<group>"; };
+		6C99FA0518A78FB100D027E0 /* button_winter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_winter.png; sourceTree = "<group>"; };
+		6C99FA0718A78FB100D027E0 /* button_winter_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_winter_h.png; sourceTree = "<group>"; };
+		6C99FA1518A7974B00D027E0 /* pantalla_camp_autumn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_camp_autumn.png; sourceTree = "<group>"; };
+		6C99FA1618A7974B00D027E0 /* pantalla_camp_spring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_camp_spring.png; sourceTree = "<group>"; };
+		6C99FA1718A7974B00D027E0 /* pantalla_camp_summer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_camp_summer.png; sourceTree = "<group>"; };
+		6C99FA1818A7974B00D027E0 /* pantalla_camp_winter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_camp_winter.png; sourceTree = "<group>"; };
+		6C99FA1D18A79C3F00D027E0 /* Stage8IntroView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage8IntroView.xib; path = Stages/Stage8IntroView.xib; sourceTree = "<group>"; };
+		6C99FA1F18A79CB000D027E0 /* Stage8IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage8IntroViewController.h; sourceTree = "<group>"; };
+		6C99FA2018A79CB000D027E0 /* Stage8IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage8IntroViewController.m; sourceTree = "<group>"; };
+		6C99FA2218A79ECD00D027E0 /* Stage3ConclusionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage3ConclusionViewController.h; sourceTree = "<group>"; };
+		6C99FA2318A79ECD00D027E0 /* Stage3ConclusionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage3ConclusionViewController.m; sourceTree = "<group>"; };
+		6C99FA2518A79F0900D027E0 /* Stage3ConclusionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage3ConclusionView.xib; path = Stages/Stage3ConclusionView.xib; sourceTree = "<group>"; };
+		6C99FA2718A7A74B00D027E0 /* DietMed-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DietMed-Prefix.pch"; sourceTree = "<group>"; };
+		6C99FA2818A7A91A00D027E0 /* InformationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationView.xib; sourceTree = "<group>"; };
+		6C99FA2B18A7A9B700D027E0 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		6C99FA2C18A7A9B700D027E0 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		6C99FA2E18A7A9E800D027E0 /* InformationDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationDataSource.h; sourceTree = "<group>"; };
+		6C99FA2F18A7A9E800D027E0 /* InformationDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationDataSource.m; sourceTree = "<group>"; };
+		6C99FA3118A7AB5D00D027E0 /* LogoFDMed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoFDMed.png; sourceTree = "<group>"; };
 		6CAB3A31189E254400F7F4EB /* cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cow.mp3; sourceTree = "<group>"; };
 		6CAB3A33189E254400F7F4EB /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
 		6CAB3A34189E254400F7F4EB /* pantalla_joc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_joc.png; sourceTree = "<group>"; };
 		6CAB3A35189E254400F7F4EB /* pantalla_mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_mapa.png; sourceTree = "<group>"; };
 		6CAB3A36189E254400F7F4EB /* stage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stage.png; sourceTree = "<group>"; };
 		6CAB3A37189E254400F7F4EB /* stage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stage1.png; sourceTree = "<group>"; };
-		6CAB3A39189E254400F7F4EB /* boto_about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boto_about.png; sourceTree = "<group>"; };
-		6CAB3A3A189E254400F7F4EB /* boto_informacio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boto_informacio.png; sourceTree = "<group>"; };
-		6CAB3A3B189E254400F7F4EB /* boto_nivell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boto_nivell.png; sourceTree = "<group>"; };
-		6CAB3A3C189E254400F7F4EB /* boto_tornar_mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boto_tornar_mapa.png; sourceTree = "<group>"; };
-		6CAB3A3D189E254400F7F4EB /* pantalla_arbre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_arbre.png; sourceTree = "<group>"; };
-		6CAB3A3E189E254400F7F4EB /* pantalla_camp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_camp.png; sourceTree = "<group>"; };
 		6CAB3A3F189E254400F7F4EB /* pantalla_cistella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_cistella.png; sourceTree = "<group>"; };
-		6CAB3A41189E254400F7F4EB /* pantalla_granja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_granja.png; sourceTree = "<group>"; };
-		6CAB3A42189E254400F7F4EB /* pantalla_pesca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_pesca.png; sourceTree = "<group>"; };
 		6CAB3A43189E254400F7F4EB /* pantalla_receptes_dificil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_receptes_dificil.png; sourceTree = "<group>"; };
 		6CAB3A44189E254400F7F4EB /* pantalla_receptes_facil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_receptes_facil.png; sourceTree = "<group>"; };
 		6CAB3A45189E254400F7F4EB /* pantalla_receptes_mitja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_receptes_mitja.png; sourceTree = "<group>"; };
@@ -356,19 +395,18 @@
 		6CD57A56189BA699005538D1 /* LevelSelectorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelSelectorView.xib; sourceTree = "<group>"; };
 		6CD57A58189BA7C8005538D1 /* LevelSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectorViewController.h; sourceTree = "<group>"; };
 		6CD57A59189BA7C8005538D1 /* LevelSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelectorViewController.m; sourceTree = "<group>"; };
-		6CDCDD7A1897EEB6002EBDED /* AppMediterrania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMediterrania.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDCDD7A1897EEB6002EBDED /* DietMed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietMed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDCDD7D1897EEB6002EBDED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6CDCDD7F1897EEB6002EBDED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6CDCDD811897EEB6002EBDED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6CDCDD951897EEB8002EBDED /* AppMediterraniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppMediterraniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDCDD951897EEB8002EBDED /* DietMedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietMedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDCDD961897EEB8002EBDED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6CDCDD9E1897EEB8002EBDED /* AppMediterraniaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppMediterraniaTests-Info.plist"; sourceTree = "<group>"; };
+		6CDCDD9E1897EEB8002EBDED /* DietMedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DietMedTests-Info.plist"; sourceTree = "<group>"; };
 		6CDCDDA01897EEB8002EBDED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CDCDDA21897EEB8002EBDED /* AppMediterraniaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppMediterraniaTests.m; sourceTree = "<group>"; };
 		6CDCDDB01897F07A002EBDED /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CDCDDB11897F07A002EBDED /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6CDCDDB21897F07A002EBDED /* AppMediterrania-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppMediterrania-Info.plist"; sourceTree = "<group>"; };
-		6CDCDDB31897F07A002EBDED /* AppMediterrania-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppMediterrania-Prefix.pch"; sourceTree = "<group>"; };
+		6CDCDDB21897F07A002EBDED /* DietMed-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DietMed-Info.plist"; sourceTree = "<group>"; };
 		6CDCDDB41897F07A002EBDED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CDCDDBC1897F07A002EBDED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6CDCDDCA1897F236002EBDED /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
@@ -566,12 +604,8 @@
 		6C2A840A189BD351002EEA2C /* Stage1 */ = {
 			isa = PBXGroup;
 			children = (
-				6C2A83FB189BD2E8002EEA2C /* Stage1TreeViewController.h */,
-				6C2A83FC189BD2E8002EEA2C /* Stage1TreeViewController.m */,
-				6C2A83FE189BD2FD002EEA2C /* Stage1BasketViewController.h */,
-				6C2A83FF189BD2FD002EEA2C /* Stage1BasketViewController.m */,
-				6C2A8401189BD30F002EEA2C /* Stage1FieldViewController.h */,
-				6C2A8402189BD30F002EEA2C /* Stage1FieldViewController.m */,
+				6C2A83FB189BD2E8002EEA2C /* Stage1SeasonsViewController.h */,
+				6C2A83FC189BD2E8002EEA2C /* Stage1SeasonsViewController.m */,
 				6C2A8404189BD31E002EEA2C /* Stage1FarmViewController.h */,
 				6C2A8405189BD31E002EEA2C /* Stage1FarmViewController.m */,
 				6C2A8407189BD32A002EEA2C /* Stage1FishingViewController.h */,
@@ -583,10 +617,31 @@
 		6C2A840B189BD358002EEA2C /* Stage8 */ = {
 			isa = PBXGroup;
 			children = (
+				6C99FA1F18A79CB000D027E0 /* Stage8IntroViewController.h */,
+				6C99FA2018A79CB000D027E0 /* Stage8IntroViewController.m */,
 				6CD57A43189BA2DA005538D1 /* Stage8ViewController.h */,
 				6CD57A44189BA2DA005538D1 /* Stage8ViewController.m */,
 			);
 			name = Stage8;
+			sourceTree = "<group>";
+		};
+		6C99F9FA18A78FB100D027E0 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				6C99F9FB18A78FB100D027E0 /* boto_about.png */,
+				6C99F9FC18A78FB100D027E0 /* boto_informacio.png */,
+				6C99F9FD18A78FB100D027E0 /* boto_nivell.png */,
+				6C99F9FE18A78FB100D027E0 /* boto_tornar_mapa.png */,
+				6C99F9FF18A78FB100D027E0 /* button_autumn.png */,
+				6C99FA0018A78FB100D027E0 /* button_autumn_h.png */,
+				6C99FA0118A78FB100D027E0 /* button_spring.png */,
+				6C99FA0218A78FB100D027E0 /* button_spring_h.png */,
+				6C99FA0318A78FB100D027E0 /* button_summer.png */,
+				6C99FA0418A78FB100D027E0 /* button_summer_h.png */,
+				6C99FA0518A78FB100D027E0 /* button_winter.png */,
+				6C99FA0718A78FB100D027E0 /* button_winter_h.png */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		6CAB3A2F189E254400F7F4EB /* Resources */ = {
@@ -615,13 +670,20 @@
 		6CAB3A32189E254400F7F4EB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6C99F9FA18A78FB100D027E0 /* Buttons */,
+				6CF822B9189F5FAB00716310 /* GameFigures */,
 				6CAB3A33189E254400F7F4EB /* lock.png */,
 				6CAB3A34189E254400F7F4EB /* pantalla_joc.png */,
 				6CAB3A9D189E5CF800F7F4EB /* pantalla_joc_coordenades.png */,
 				6CAB3A35189E254400F7F4EB /* pantalla_mapa.png */,
+				6C99F9EE18A7845300D027E0 /* pantalla_agricultura_01_autumn.png */,
+				6C99F9EF18A7845300D027E0 /* pantalla_agricultura_01_spring.png */,
+				6C99F9F018A7845300D027E0 /* pantalla_agricultura_01_summer.png */,
+				6C99F9F118A7845300D027E0 /* pantalla_agricultura_01_winter.png */,
+				6C99F9F218A7845300D027E0 /* pantalla_granja.png */,
+				6C99F9F318A7845300D027E0 /* pantalla_pesca.png */,
 				6CAB3A36189E254400F7F4EB /* stage.png */,
 				6CAB3A37189E254400F7F4EB /* stage1.png */,
-				6CF822B9189F5FAB00716310 /* GameFigures */,
 				6CAB3A38189E254400F7F4EB /* temp */,
 			);
 			path = Images;
@@ -630,26 +692,23 @@
 		6CAB3A38189E254400F7F4EB /* temp */ = {
 			isa = PBXGroup;
 			children = (
+				6C99FA3118A7AB5D00D027E0 /* LogoFDMed.png */,
 				6CAB3AA2189E6AB600F7F4EB /* stage_sel.png */,
 				6CAB3AA3189E6AB600F7F4EB /* stage1_sel.png */,
 				6CAB3A64189E38C300F7F4EB /* face.png */,
-				6CAB3A39189E254400F7F4EB /* boto_about.png */,
-				6CAB3A3A189E254400F7F4EB /* boto_informacio.png */,
-				6CAB3A3B189E254400F7F4EB /* boto_nivell.png */,
-				6CAB3A3C189E254400F7F4EB /* boto_tornar_mapa.png */,
-				6CAB3A3D189E254400F7F4EB /* pantalla_arbre.png */,
-				6CAB3A3E189E254400F7F4EB /* pantalla_camp.png */,
 				6CAB3A3F189E254400F7F4EB /* pantalla_cistella.png */,
 				6CAB3A73189E44FE00F7F4EB /* pantalla_cuina_1.png */,
 				6CAB3A74189E44FE00F7F4EB /* pantalla_cuina_2.png */,
 				6CAB3A75189E44FE00F7F4EB /* pantalla_cuina_3.png */,
-				6CAB3A41189E254400F7F4EB /* pantalla_granja.png */,
-				6CAB3A42189E254400F7F4EB /* pantalla_pesca.png */,
 				6CAB3A85189E4EBE00F7F4EB /* piramide_mitja_1.png */,
 				6CAB3A86189E4EBE00F7F4EB /* piramide_mitja_2.png */,
 				6CAB3A43189E254400F7F4EB /* pantalla_receptes_dificil.png */,
 				6CAB3A44189E254400F7F4EB /* pantalla_receptes_facil.png */,
 				6CAB3A45189E254400F7F4EB /* pantalla_receptes_mitja.png */,
+				6C99FA1518A7974B00D027E0 /* pantalla_camp_autumn.png */,
+				6C99FA1618A7974B00D027E0 /* pantalla_camp_spring.png */,
+				6C99FA1718A7974B00D027E0 /* pantalla_camp_summer.png */,
+				6C99FA1818A7974B00D027E0 /* pantalla_camp_winter.png */,
 			);
 			path = temp;
 			sourceTree = "<group>";
@@ -666,6 +725,8 @@
 		6CAB3A79189E4C8700F7F4EB /* Stage3 */ = {
 			isa = PBXGroup;
 			children = (
+				6C99FA2218A79ECD00D027E0 /* Stage3ConclusionViewController.h */,
+				6C99FA2318A79ECD00D027E0 /* Stage3ConclusionViewController.m */,
 				6CAB3A7A189E4CA400F7F4EB /* Stage3ViewController.h */,
 				6CAB3A7B189E4CA400F7F4EB /* Stage3ViewController.m */,
 			);
@@ -723,6 +784,8 @@
 			children = (
 				6CD57A45189BA2DA005538D1 /* StageViewController.h */,
 				6CD57A46189BA2DA005538D1 /* StageViewController.m */,
+				6C99FA2B18A7A9B700D027E0 /* InformationViewController.h */,
+				6C99FA2C18A7A9B700D027E0 /* InformationViewController.m */,
 				6C2A840A189BD351002EEA2C /* Stage1 */,
 				6CAB3A63189E36E300F7F4EB /* Stage2 */,
 				6CAB3A79189E4C8700F7F4EB /* Stage3 */,
@@ -735,6 +798,7 @@
 		6CD57A47189BA2DA005538D1 /* StagesDataSources */ = {
 			isa = PBXGroup;
 			children = (
+				6CD57A4A189BA2DA005538D1 /* StageDataSource.h */,
 				6C2A840C189BD387002EEA2C /* Stage1DataSource.h */,
 				6C2A840D189BD387002EEA2C /* Stage1DataSource.m */,
 				6CAB3A6A189E3E1E00F7F4EB /* Stage2DataSource.h */,
@@ -745,7 +809,8 @@
 				6CAB3A8E189E553400F7F4EB /* StageGameDataSource.m */,
 				6CD57A48189BA2DA005538D1 /* Stage8DataSource.h */,
 				6CD57A49189BA2DA005538D1 /* Stage8DataSource.m */,
-				6CD57A4A189BA2DA005538D1 /* StageDataSource.h */,
+				6C99FA2E18A7A9E800D027E0 /* InformationDataSource.h */,
+				6C99FA2F18A7A9E800D027E0 /* InformationDataSource.m */,
 			);
 			path = StagesDataSources;
 			sourceTree = "<group>";
@@ -763,8 +828,8 @@
 		6CDCDD7B1897EEB6002EBDED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CDCDD7A1897EEB6002EBDED /* AppMediterrania.app */,
-				6CDCDD951897EEB8002EBDED /* AppMediterraniaTests.xctest */,
+				6CDCDD7A1897EEB6002EBDED /* DietMed.app */,
+				6CDCDD951897EEB8002EBDED /* DietMedTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -809,7 +874,7 @@
 		6CDCDD9D1897EEB8002EBDED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6CDCDD9E1897EEB8002EBDED /* AppMediterraniaTests-Info.plist */,
+				6CDCDD9E1897EEB8002EBDED /* DietMedTests-Info.plist */,
 				6CDCDD9F1897EEB8002EBDED /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -829,8 +894,8 @@
 			children = (
 				6CDCDDB01897F07A002EBDED /* AppDelegate.h */,
 				6CDCDDB11897F07A002EBDED /* AppDelegate.m */,
-				6CDCDDB21897F07A002EBDED /* AppMediterrania-Info.plist */,
-				6CDCDDB31897F07A002EBDED /* AppMediterrania-Prefix.pch */,
+				6CDCDDB21897F07A002EBDED /* DietMed-Info.plist */,
+				6C99FA2718A7A74B00D027E0 /* DietMed-Prefix.pch */,
 				6CDCDDB41897F07A002EBDED /* main.m */,
 				6CD57A38189B9C63005538D1 /* Notifications.h */,
 				6CD57A39189B9C63005538D1 /* Notifications.m */,
@@ -1043,16 +1108,17 @@
 		6CFD1BC7189A120B00CB7B15 /* Stages */ = {
 			isa = PBXGroup;
 			children = (
+				6C99FA2818A7A91A00D027E0 /* InformationView.xib */,
 				6CFD1BC8189A122400CB7B15 /* StageView.xib */,
-				6C2A840F189BD67A002EEA2C /* Stage1TreeView.xib */,
-				6C2A8410189BD67A002EEA2C /* Stage1BasketView.xib */,
-				6C2A8411189BD67A002EEA2C /* Stage1FieldView.xib */,
+				6C2A840F189BD67A002EEA2C /* Stage1SeasonsView.xib */,
 				6C2A8412189BD67A002EEA2C /* Stage1FarmView.xib */,
 				6C2A8413189BD67A002EEA2C /* Stage1FishingView.xib */,
 				6CAB3A81189E4D8A00F7F4EB /* Stage2View.xib */,
 				6CAB3A83189E4D9C00F7F4EB /* Stage3View.xib */,
+				6C99FA2518A79F0900D027E0 /* Stage3ConclusionView.xib */,
 				6CAB3A9B189E59EC00F7F4EB /* StageGameView.xib */,
 				6CF823FA189F68F000716310 /* StageGameIntroView.xib */,
+				6C99FA1D18A79C3F00D027E0 /* Stage8IntroView.xib */,
 				6CD57A36189B9918005538D1 /* Stage8View.xib */,
 			);
 			name = Stages;
@@ -1061,9 +1127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6CDCDD791897EEB6002EBDED /* AppMediterrania */ = {
+		6CDCDD791897EEB6002EBDED /* DietMed */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CDCDDA61897EEB9002EBDED /* Build configuration list for PBXNativeTarget "AppMediterrania" */;
+			buildConfigurationList = 6CDCDDA61897EEB9002EBDED /* Build configuration list for PBXNativeTarget "DietMed" */;
 			buildPhases = (
 				6CDCDD761897EEB6002EBDED /* Sources */,
 				6CDCDD771897EEB6002EBDED /* Frameworks */,
@@ -1073,14 +1139,14 @@
 			);
 			dependencies = (
 			);
-			name = AppMediterrania;
+			name = DietMed;
 			productName = AppMediterrania;
-			productReference = 6CDCDD7A1897EEB6002EBDED /* AppMediterrania.app */;
+			productReference = 6CDCDD7A1897EEB6002EBDED /* DietMed.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6CDCDD941897EEB8002EBDED /* AppMediterraniaTests */ = {
+		6CDCDD941897EEB8002EBDED /* DietMedTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CDCDDA91897EEB9002EBDED /* Build configuration list for PBXNativeTarget "AppMediterraniaTests" */;
+			buildConfigurationList = 6CDCDDA91897EEB9002EBDED /* Build configuration list for PBXNativeTarget "DietMedTests" */;
 			buildPhases = (
 				6CDCDD911897EEB8002EBDED /* Sources */,
 				6CDCDD921897EEB8002EBDED /* Frameworks */,
@@ -1091,9 +1157,9 @@
 			dependencies = (
 				6CDCDD9B1897EEB8002EBDED /* PBXTargetDependency */,
 			);
-			name = AppMediterraniaTests;
+			name = DietMedTests;
 			productName = AppMediterraniaTests;
-			productReference = 6CDCDD951897EEB8002EBDED /* AppMediterraniaTests.xctest */;
+			productReference = 6CDCDD951897EEB8002EBDED /* DietMedTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1110,7 +1176,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6CDCDD751897EEB6002EBDED /* Build configuration list for PBXProject "AppMediterrania" */;
+			buildConfigurationList = 6CDCDD751897EEB6002EBDED /* Build configuration list for PBXProject "DietMed" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1122,8 +1188,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CDCDD791897EEB6002EBDED /* AppMediterrania */,
-				6CDCDD941897EEB8002EBDED /* AppMediterraniaTests */,
+				6CDCDD791897EEB6002EBDED /* DietMed */,
+				6CDCDD941897EEB8002EBDED /* DietMedTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1138,7 +1204,6 @@
 				6CF823BE189F5FAB00716310 /* 51_joc.png in Resources */,
 				6CAB3A60189E27D400F7F4EB /* hen.mp3 in Resources */,
 				6CAB3A4A189E254400F7F4EB /* stage.png in Resources */,
-				6CAB3A54189E254400F7F4EB /* pantalla_granja.png in Resources */,
 				6CF823EB189F5FAB00716310 /* 73_joc_b.png in Resources */,
 				6CF8239D189F5FAB00716310 /* 34_joc_b.png in Resources */,
 				6CF8236B189F5FAB00716310 /* 09_joc_b.png in Resources */,
@@ -1147,26 +1212,32 @@
 				6CF82373189F5FAB00716310 /* 13_joc_b.png in Resources */,
 				6CF82376189F5FAB00716310 /* 15_joc.png in Resources */,
 				6CF8237F189F5FAB00716310 /* 19_joc_b.png in Resources */,
+				6C99FA3218A7AB5D00D027E0 /* LogoFDMed.png in Resources */,
 				6CF823C6189F5FAB00716310 /* 55_joc.png in Resources */,
+				6C99FA0F18A78FB100D027E0 /* button_spring_h.png in Resources */,
 				6CF823B4189F5FAB00716310 /* 46_joc.png in Resources */,
 				6CF823CA189F5FAB00716310 /* 57_joc.png in Resources */,
-				6CDCDDBF1897F07A002EBDED /* AppMediterrania-Info.plist in Resources */,
+				6CDCDDBF1897F07A002EBDED /* DietMed-Info.plist in Resources */,
 				6CF8238C189F5FAB00716310 /* 26_joc.png in Resources */,
+				6C99FA0D18A78FB100D027E0 /* button_autumn_h.png in Resources */,
 				6CF82392189F5FAB00716310 /* 29_joc.png in Resources */,
 				6CF823A8189F5FAB00716310 /* 40_joc.png in Resources */,
 				6CF82367189F5FAB00716310 /* 07_joc_b.png in Resources */,
 				6CAB3A84189E4D9C00F7F4EB /* Stage3View.xib in Resources */,
 				6CF823C3189F5FAB00716310 /* 53_joc_b.png in Resources */,
 				6CF823DB189F5FAB00716310 /* 65_joc_b.png in Resources */,
+				6C99FA2618A79F0900D027E0 /* Stage3ConclusionView.xib in Resources */,
+				6C99FA2918A7A91A00D027E0 /* InformationView.xib in Resources */,
 				6CF8235E189F5FAB00716310 /* 03_joc.png in Resources */,
 				6CF823DE189F5FAB00716310 /* 67_joc.png in Resources */,
 				6CF823ED189F5FAB00716310 /* 74_joc_b.png in Resources */,
 				6CAB3A47189E254400F7F4EB /* lock.png in Resources */,
 				6CF823BF189F5FAB00716310 /* 51_joc_b.png in Resources */,
 				6CF8235C189F5FAB00716310 /* 02_joc.png in Resources */,
-				6CAB3A4E189E254400F7F4EB /* boto_nivell.png in Resources */,
+				6C99F9F618A7845300D027E0 /* pantalla_agricultura_01_summer.png in Resources */,
 				6CF82394189F5FAB00716310 /* 30_joc.png in Resources */,
 				6CF82395189F5FAB00716310 /* 30_joc_b.png in Resources */,
+				6C99FA0818A78FB100D027E0 /* boto_about.png in Resources */,
 				6CF823E6189F5FAB00716310 /* 71_joc.png in Resources */,
 				6CF823B8189F5FAB00716310 /* 48_joc.png in Resources */,
 				6CAB3A65189E38C300F7F4EB /* face.png in Resources */,
@@ -1187,14 +1258,14 @@
 				6CF823E5189F5FAB00716310 /* 70_joc_b.png in Resources */,
 				6CF823B1189F5FAB00716310 /* 44_joc_b.png in Resources */,
 				6CF823A0189F5FAB00716310 /* 36_joc.png in Resources */,
-				6CAB3A4F189E254400F7F4EB /* boto_tornar_mapa.png in Resources */,
+				6C99FA1918A7974B00D027E0 /* pantalla_camp_autumn.png in Resources */,
 				6CF8236D189F5FAB00716310 /* 10_joc_b.png in Resources */,
 				6CAB3A62189E27D400F7F4EB /* sheep.mp3 in Resources */,
-				6C2A8416189BD67A002EEA2C /* Stage1FieldView.xib in Resources */,
 				6CF8235F189F5FAB00716310 /* 03_joc_b.png in Resources */,
 				6CF82379189F5FAB00716310 /* 16_joc_b.png in Resources */,
 				6CF82375189F5FAB00716310 /* 14_joc_b.png in Resources */,
 				6CFD1BC9189A122400CB7B15 /* StageView.xib in Resources */,
+				6C99FA1E18A79C3F00D027E0 /* Stage8IntroView.xib in Resources */,
 				6CF823CC189F5FAB00716310 /* 58_joc.png in Resources */,
 				6CF8238B189F5FAB00716310 /* 25_joc_b.png in Resources */,
 				6CAB3A4B189E254400F7F4EB /* stage1.png in Resources */,
@@ -1210,7 +1281,9 @@
 				6CAB3AA4189E6AB600F7F4EB /* stage_sel.png in Resources */,
 				6CF8239B189F5FAB00716310 /* 33_joc_b.png in Resources */,
 				6CF8236F189F5FAB00716310 /* 11_joc_b.png in Resources */,
+				6C99F9F518A7845300D027E0 /* pantalla_agricultura_01_spring.png in Resources */,
 				6CF823D2189F5FAB00716310 /* 61_joc.png in Resources */,
+				6C99FA1218A78FB100D027E0 /* button_winter.png in Resources */,
 				6CAB3A9C189E59EC00F7F4EB /* StageGameView.xib in Resources */,
 				6CF823D5189F5FAB00716310 /* 62_joc_b.png in Resources */,
 				6CF823DC189F5FAB00716310 /* 66_joc.png in Resources */,
@@ -1225,7 +1298,6 @@
 				6CF823E3189F5FAB00716310 /* 69_joc_b.png in Resources */,
 				6CD57A37189B9918005538D1 /* Stage8View.xib in Resources */,
 				6CF823F6189F5FAB00716310 /* 79_joc.png in Resources */,
-				6CAB3A4D189E254400F7F4EB /* boto_informacio.png in Resources */,
 				6CF823AB189F5FAB00716310 /* 41_joc_b.png in Resources */,
 				6CF823C5189F5FAB00716310 /* 54_joc_b.png in Resources */,
 				6CF823D9189F5FAB00716310 /* 64_joc_b.png in Resources */,
@@ -1235,23 +1307,23 @@
 				6CF823BA189F5FAB00716310 /* 49_joc.png in Resources */,
 				6CF823EE189F5FAB00716310 /* 75_joc.png in Resources */,
 				6CF8235B189F5FAB00716310 /* 01_joc_b.png in Resources */,
-				6CAB3A4C189E254400F7F4EB /* boto_about.png in Resources */,
 				6CF82370189F5FAB00716310 /* 12_joc.png in Resources */,
 				6CF82360189F5FAB00716310 /* 04_joc.png in Resources */,
 				6CF82364189F5FAB00716310 /* 06_joc.png in Resources */,
 				6CF823DD189F5FAB00716310 /* 66_joc_b.png in Resources */,
+				6C99F9F718A7845300D027E0 /* pantalla_agricultura_01_winter.png in Resources */,
 				6CF823F9189F5FAB00716310 /* 80_joc_b.png in Resources */,
 				6CF823EA189F5FAB00716310 /* 73_joc.png in Resources */,
+				6C99FA1118A78FB100D027E0 /* button_summer_h.png in Resources */,
 				6CF82383189F5FAB00716310 /* 21_joc_b.png in Resources */,
 				6CF823D4189F5FAB00716310 /* 62_joc.png in Resources */,
-				6CAB3A55189E254400F7F4EB /* pantalla_pesca.png in Resources */,
 				6CF823EC189F5FAB00716310 /* 74_joc.png in Resources */,
 				6CF8236C189F5FAB00716310 /* 10_joc.png in Resources */,
-				6C2A8415189BD67A002EEA2C /* Stage1BasketView.xib in Resources */,
 				6CAB3A78189E44FE00F7F4EB /* pantalla_cuina_3.png in Resources */,
 				6CF82369189F5FAB00716310 /* 08_joc_b.png in Resources */,
 				6CF823F2189F5FAB00716310 /* 77_joc.png in Resources */,
 				6CF8237D189F5FAB00716310 /* 18_joc_b.png in Resources */,
+				6C99FA1018A78FB100D027E0 /* button_summer.png in Resources */,
 				6CF823DA189F5FAB00716310 /* 65_joc.png in Resources */,
 				6CF823A6189F5FAB00716310 /* 39_joc.png in Resources */,
 				6CF82397189F5FAB00716310 /* 31_joc_b.png in Resources */,
@@ -1274,6 +1346,7 @@
 				6CAB3A61189E27D400F7F4EB /* pork.mp3 in Resources */,
 				6CF823C0189F5FAB00716310 /* 52_joc.png in Resources */,
 				6CAB3A71189E408300F7F4EB /* bubbles.mp3 in Resources */,
+				6C99FA0918A78FB100D027E0 /* boto_informacio.png in Resources */,
 				6CF8239A189F5FAB00716310 /* 33_joc.png in Resources */,
 				6CF82390189F5FAB00716310 /* 28_joc.png in Resources */,
 				6CF82391189F5FAB00716310 /* 28_joc_b.png in Resources */,
@@ -1285,16 +1358,18 @@
 				6CF823F0189F5FAB00716310 /* 76_joc.png in Resources */,
 				6CF823D0189F5FAB00716310 /* 60_joc.png in Resources */,
 				6CF823D6189F5FAB00716310 /* 63_joc.png in Resources */,
+				6C99FA1A18A7974B00D027E0 /* pantalla_camp_spring.png in Resources */,
 				6CF823F5189F5FAB00716310 /* 78_joc_b.png in Resources */,
 				6CF823B0189F5FAB00716310 /* 44_joc.png in Resources */,
 				6CAB3A48189E254400F7F4EB /* pantalla_joc.png in Resources */,
-				6CAB3A50189E254400F7F4EB /* pantalla_arbre.png in Resources */,
-				6CAB3A51189E254400F7F4EB /* pantalla_camp.png in Resources */,
 				6CAB3A87189E4EBE00F7F4EB /* piramide_mitja_1.png in Resources */,
 				6CF8236A189F5FAB00716310 /* 09_joc.png in Resources */,
+				6C99FA1418A78FB100D027E0 /* button_winter_h.png in Resources */,
 				6CF823A5189F5FAB00716310 /* 38_joc_b.png in Resources */,
+				6C99FA1C18A7974B00D027E0 /* pantalla_camp_winter.png in Resources */,
 				6CF823C4189F5FAB00716310 /* 54_joc.png in Resources */,
 				6CF823E0189F5FAB00716310 /* 68_joc.png in Resources */,
+				6C99FA0C18A78FB100D027E0 /* button_autumn.png in Resources */,
 				6CF8237E189F5FAB00716310 /* 19_joc.png in Resources */,
 				6CF82399189F5FAB00716310 /* 32_joc_b.png in Resources */,
 				6CF82393189F5FAB00716310 /* 29_joc_b.png in Resources */,
@@ -1303,7 +1378,9 @@
 				6CF823DF189F5FAB00716310 /* 67_joc_b.png in Resources */,
 				6CF82365189F5FAB00716310 /* 06_joc_b.png in Resources */,
 				6CF8239C189F5FAB00716310 /* 34_joc.png in Resources */,
+				6C99FA1B18A7974B00D027E0 /* pantalla_camp_summer.png in Resources */,
 				6CAB3A52189E254400F7F4EB /* pantalla_cistella.png in Resources */,
+				6C99F9F918A7845300D027E0 /* pantalla_pesca.png in Resources */,
 				6CF823B6189F5FAB00716310 /* 47_joc.png in Resources */,
 				6CF82374189F5FAB00716310 /* 14_joc.png in Resources */,
 				6CF8238F189F5FAB00716310 /* 27_joc_b.png in Resources */,
@@ -1311,7 +1388,8 @@
 				6CF823C2189F5FAB00716310 /* 53_joc.png in Resources */,
 				6CAB3A5F189E27D400F7F4EB /* goat.mp3 in Resources */,
 				6CF8238A189F5FAB00716310 /* 25_joc.png in Resources */,
-				6C2A8414189BD67A002EEA2C /* Stage1TreeView.xib in Resources */,
+				6C2A8414189BD67A002EEA2C /* Stage1SeasonsView.xib in Resources */,
+				6C99FA0B18A78FB100D027E0 /* boto_tornar_mapa.png in Resources */,
 				6CAB3A57189E254400F7F4EB /* pantalla_receptes_facil.png in Resources */,
 				6CF82382189F5FAB00716310 /* 21_joc.png in Resources */,
 				6CF8238D189F5FAB00716310 /* 26_joc_b.png in Resources */,
@@ -1326,8 +1404,11 @@
 				6CF823E7189F5FAB00716310 /* 71_joc_b.png in Resources */,
 				6CF823A9189F5FAB00716310 /* 40_joc_b.png in Resources */,
 				6CF823FB189F68F000716310 /* StageGameIntroView.xib in Resources */,
+				6C99FA0A18A78FB100D027E0 /* boto_nivell.png in Resources */,
+				6C99F9F418A7845300D027E0 /* pantalla_agricultura_01_autumn.png in Resources */,
 				6CF823F4189F5FAB00716310 /* 78_joc.png in Resources */,
 				6CF823AD189F5FAB00716310 /* 42_joc_b.png in Resources */,
+				6C99FA0E18A78FB100D027E0 /* button_spring.png in Resources */,
 				6CF82387189F5FAB00716310 /* 23_joc_b.png in Resources */,
 				6CF823AF189F5FAB00716310 /* 43_joc_b.png in Resources */,
 				6CF823A7189F5FAB00716310 /* 39_joc_b.png in Resources */,
@@ -1335,6 +1416,7 @@
 				6CF8239E189F5FAB00716310 /* 35_joc.png in Resources */,
 				6CF823E9189F5FAB00716310 /* 72_joc_b.png in Resources */,
 				6CF823D7189F5FAB00716310 /* 63_joc_b.png in Resources */,
+				6C99F9F818A7845300D027E0 /* pantalla_granja.png in Resources */,
 				6CF823D8189F5FAB00716310 /* 64_joc.png in Resources */,
 				6CF82371189F5FAB00716310 /* 12_joc_b.png in Resources */,
 				6CDCDDCC1897F236002EBDED /* MapView.xib in Resources */,
@@ -1361,7 +1443,7 @@
 				6C2A840E189BD387002EEA2C /* Stage1DataSource.m in Sources */,
 				6CAB3A69189E3E0400F7F4EB /* Stage2ViewController.m in Sources */,
 				6CAB3A95189E564F00F7F4EB /* GameManager.m in Sources */,
-				6C2A83FD189BD2E8002EEA2C /* Stage1TreeViewController.m in Sources */,
+				6C2A83FD189BD2E8002EEA2C /* Stage1SeasonsViewController.m in Sources */,
 				6CAB3A7C189E4CA400F7F4EB /* Stage3ViewController.m in Sources */,
 				6CAB3A98189E56EF00F7F4EB /* QuestionModel.m in Sources */,
 				6CD57A3D189BA29C005538D1 /* StageManager.m in Sources */,
@@ -1372,16 +1454,18 @@
 				6C2A8406189BD31E002EEA2C /* Stage1FarmViewController.m in Sources */,
 				6CD57A3A189B9C63005538D1 /* Notifications.m in Sources */,
 				6CD57A4E189BA2DA005538D1 /* Stage8DataSource.m in Sources */,
+				6C99FA2418A79ECD00D027E0 /* Stage3ConclusionViewController.m in Sources */,
 				6CD57A4B189BA2DA005538D1 /* MapViewController.m in Sources */,
 				6C2A8409189BD32A002EEA2C /* Stage1FishingViewController.m in Sources */,
-				6C2A8400189BD2FD002EEA2C /* Stage1BasketViewController.m in Sources */,
 				6CAB3A8F189E553400F7F4EB /* StageGameDataSource.m in Sources */,
+				6C99FA3018A7A9E800D027E0 /* InformationDataSource.m in Sources */,
 				6CAB3A8C189E54B500F7F4EB /* StageGameViewController.m in Sources */,
+				6C99FA2D18A7A9B700D027E0 /* InformationViewController.m in Sources */,
 				6CDCDDC01897F07A002EBDED /* main.m in Sources */,
 				6CAB3AA1189E62A000F7F4EB /* NSMutableArray_Shuffling.m in Sources */,
 				6CF823FE189F692100716310 /* StageGameIntroViewController.m in Sources */,
+				6C99FA2118A79CB000D027E0 /* Stage8IntroViewController.m in Sources */,
 				6CD57A55189BA472005538D1 /* LevelManager.m in Sources */,
-				6C2A8403189BD30F002EEA2C /* Stage1FieldViewController.m in Sources */,
 				6CDCDDBE1897F07A002EBDED /* AppDelegate.m in Sources */,
 				6CD57A4C189BA2DA005538D1 /* Stage8ViewController.m in Sources */,
 				6CD57A51189BA39B005538D1 /* Constants.m in Sources */,
@@ -1401,7 +1485,7 @@
 /* Begin PBXTargetDependency section */
 		6CDCDD9B1897EEB8002EBDED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6CDCDD791897EEB6002EBDED /* AppMediterrania */;
+			target = 6CDCDD791897EEB6002EBDED /* DietMed */;
 			targetProxy = 6CDCDD9A1897EEB8002EBDED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1498,9 +1582,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AppMediterrania/Application/AppMediterrania-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/AppMediterrania/Application/AppMediterrania-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AppMediterrania/Application/DietMed-Prefix.pch";
+				INFOPLIST_FILE = "AppMediterrania/Application/DietMed-Info.plist";
+				PRODUCT_NAME = DietMed;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1511,9 +1595,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AppMediterrania/Application/AppMediterrania-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/AppMediterrania/Application/AppMediterrania-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AppMediterrania/Application/DietMed-Prefix.pch";
+				INFOPLIST_FILE = "AppMediterrania/Application/DietMed-Info.plist";
+				PRODUCT_NAME = DietMed;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1534,8 +1618,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "AppMediterraniaTests/AppMediterraniaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "AppMediterraniaTests/DietMedTests-Info.plist";
+				PRODUCT_NAME = DietMedTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1553,8 +1637,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppMediterrania/AppMediterrania-Prefix.pch";
-				INFOPLIST_FILE = "AppMediterraniaTests/AppMediterraniaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "AppMediterraniaTests/DietMedTests-Info.plist";
+				PRODUCT_NAME = DietMedTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1563,7 +1647,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6CDCDD751897EEB6002EBDED /* Build configuration list for PBXProject "AppMediterrania" */ = {
+		6CDCDD751897EEB6002EBDED /* Build configuration list for PBXProject "DietMed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CDCDDA41897EEB8002EBDED /* Debug */,
@@ -1572,7 +1656,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CDCDDA61897EEB9002EBDED /* Build configuration list for PBXNativeTarget "AppMediterrania" */ = {
+		6CDCDDA61897EEB9002EBDED /* Build configuration list for PBXNativeTarget "DietMed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CDCDDA71897EEB9002EBDED /* Debug */,
@@ -1581,7 +1665,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CDCDDA91897EEB9002EBDED /* Build configuration list for PBXNativeTarget "AppMediterraniaTests" */ = {
+		6CDCDDA91897EEB9002EBDED /* Build configuration list for PBXNativeTarget "DietMedTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CDCDDAA1897EEB9002EBDED /* Debug */,

@@ -30,7 +30,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zD-y5-QQg" userLabel="Sea Button">
-                    <rect key="frame" x="0.0" y="301" width="911" height="299"/>
+                    <rect key="frame" x="0.0" y="285" width="911" height="315"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -40,7 +40,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGt-bv-Iiv" userLabel="Sky Button">
-                    <rect key="frame" x="0.0" y="6" width="911" height="287"/>
+                    <rect key="frame" x="0.0" y="6" width="911" height="271"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -56,6 +56,6 @@
         </view>
     </objects>
     <resources>
-        <image name="pantalla_pesca.png" width="849" height="635"/>
+        <image name="pantalla_pesca.png" width="2048" height="1536"/>
     </resources>
 </document>

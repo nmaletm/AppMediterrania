@@ -7,9 +7,7 @@
 //
 
 #import "Stage1DataSource.h"
-#import "Stage1TreeViewController.h"
-#import "Stage1BasketViewController.h"
-#import "Stage1FieldViewController.h"
+#import "Stage1SeasonsViewController.h"
 #import "Stage1FarmViewController.h"
 #import "Stage1FishingViewController.h"
 
@@ -33,38 +31,34 @@
 - (void) initView{
     currentSubStage = 0;
     views = [[NSArray alloc] initWithObjects:
-             [[Stage1TreeViewController alloc] initWithNibName:@"Stage1TreeView" bundle:nil],
-             [[Stage1BasketViewController alloc] initWithNibName:@"Stage1BasketView" bundle:nil],
-             [[Stage1FieldViewController alloc] initWithNibName:@"Stage1FieldView" bundle:nil],
+             [[Stage1SeasonsViewController alloc] initWithNibName:@"Stage1SeasonsView" bundle:nil withBackground:@"pantalla_agricultura_01"],
+             [[Stage1SeasonsViewController alloc] initWithNibName:@"Stage1SeasonsView" bundle:nil withBackground:@"pantalla_camp"],
              [[Stage1FarmViewController alloc] initWithNibName:@"Stage1FarmView" bundle:nil],
              [[Stage1FishingViewController alloc] initWithNibName:@"Stage1FishingView" bundle:nil],
              nil];
     
     texts = [[NSMutableDictionary alloc] init];
     NSArray *textEasy = [[NSArray alloc] initWithObjects:
-                         @"Nivell facil, pantalla 1. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                         @"Nivell facil, pantalla 2. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                         @"Nivell facil, pantalla 3. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                         @"Nivell facil, pantalla 4. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                         @"Nivell facil, pantalla 5. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
+                         @"La Dieta Mediterránea se compone sobre todo de frutas, verduras, hortalizas y cereales. Descubre qué productos recoge el agricultor en las diferentes estaciones del año: primavera, verano, otoño, invierno.",
+                         @"La Dieta Mediterránea se compone sobre todo de frutas, verduras, hortalizas y cereales. Descubre qué productos recoge el agricultor en las diferentes estaciones del año: primavera, verano, otoño, invierno.",
+                         @"Mediante la actividad ganadera obtenemos los productos que provienen de los animales como el queso, la leche, la carne, los huevos, etc. Descubre cuales son los principales animales que habitan nuestras granjas.",
+                         @"Mediante la pesca también obtenemos variedad de alimentos provenientes del mar, como el pescado y el marisco. Descubre qué productos indispensables de la Dieta Mediterránea vienen del mar.",
              nil];
     [texts setObject:textEasy forKey:@"1"];
     
     NSArray *textMedium = [[NSArray alloc] initWithObjects:
-                         @"Nivell mitjà, pantalla 1. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                         @"Nivell mitjà, pantalla 2. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                         @"Nivell mitjà, pantalla 3. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                         @"Nivell mitjà, pantalla 4. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                         @"Nivell mitjà, pantalla 5. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
+                           @"La Dieta Mediterránea se compone sobre todo de frutas, verduras, hortalizas y cereales. Descubre qué productos recoge el agricultor en las diferentes estaciones del año: primavera, verano, otoño, invierno.",
+                           @"La Dieta Mediterránea se compone sobre todo de frutas, verduras, hortalizas y cereales. Descubre qué productos recoge el agricultor en las diferentes estaciones del año: primavera, verano, otoño, invierno.",
+                           @"Mediante la actividad ganadera obtenemos los productos que provienen de los animales como el queso, la leche, la carne, los huevos, etc. Descubre cuales son los principales animales que habitan nuestras granjas.",
+                           @"Mediante la pesca también obtenemos variedad de alimentos provenientes del mar, como el pescado y el marisco. Descubre qué productos indispensables de la Dieta Mediterránea vienen del mar.",
                            nil];
     [texts setObject:textMedium forKey:@"2"];
 
     NSArray *textDificult = [[NSArray alloc] initWithObjects:
-                           @"Nivell dificl, pantalla 1. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                           @"Nivell dificl, pantalla 2. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                           @"Nivell dificl, pantalla 3. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                           @"Nivell dificl, pantalla 4. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                           @"Nivell dificl, pantalla 5. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
+                             @"La Dieta Mediterránea se compone sobre todo de frutas, verduras, hortalizas y cereales. Descubre qué productos recoge el agricultor en las diferentes estaciones del año: primavera, verano, otoño, invierno.",
+                             @"La Dieta Mediterránea se compone sobre todo de frutas, verduras, hortalizas y cereales. Descubre qué productos recoge el agricultor en las diferentes estaciones del año: primavera, verano, otoño, invierno.",
+                             @"Mediante la actividad ganadera obtenemos los productos que provienen de los animales como el queso, la leche, la carne, los huevos, etc. Descubre cuales son los principales animales que habitan nuestras granjas.",
+                             @"Mediante la pesca también obtenemos variedad de alimentos provenientes del mar, como el pescado y el marisco. Descubre qué productos indispensables de la Dieta Mediterránea vienen del mar.",
                            nil];
     [texts setObject:textDificult forKey:@"3"];
 

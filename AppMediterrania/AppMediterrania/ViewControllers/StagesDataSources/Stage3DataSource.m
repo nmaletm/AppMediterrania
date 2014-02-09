@@ -8,6 +8,7 @@
 
 #import "Stage3DataSource.h"
 #import "Stage3ViewController.h"
+#import "Stage3ConclusionViewController.h"
 #import "StageManager.h"
 #import "LevelManager.h"
 
@@ -22,11 +23,12 @@
 @synthesize viewController;
 
 - (BOOL ) hasText{
-    return NO;
+    NSArray *arrayBackgrounds = [backgrounds valueForKey:[[LevelManager sharedInstance] levelString]];
+    return (currentSubStage-1 <= [arrayBackgrounds count]);
 }
 
 - (void) initView{
-    currentSubStage = 0;
+    currentSubStage = 1;
     viewController = [[Stage3ViewController alloc] initWithNibName:@"Stage3View" bundle:nil];
 
     backgrounds = [[NSMutableDictionary alloc] init];
@@ -52,31 +54,27 @@
 }
 
 - (NSString *) text{
-    return nil;
+    return @"Para practicar una correcta alimentación dieta mediterránea debes seguir las medidas y raciones que te aconsejamos en la siguiente imagen:";
 }
 
-
-- (UIViewController *) viewController{
-    return viewController;
-}
 
 - (void) goNextSubLevel{
     NSArray *arrayBackgrounds = [backgrounds valueForKey:[[LevelManager sharedInstance] levelString]];
 
-
-    Stage3ViewController *stageViewController = (Stage3ViewController*) viewController;
+    currentSubStage++;
     
-    if(currentSubStage+1 < [arrayBackgrounds count]){
-        currentSubStage++;
+    if(currentSubStage <= [arrayBackgrounds count]){
+        Stage3ViewController *stageViewController = (Stage3ViewController*) viewController;
+        [stageViewController setBackground:[arrayBackgrounds objectAtIndex: currentSubStage-1]];
     }
-    
-    if(currentSubStage+1 == [arrayBackgrounds count]){
+    else if(currentSubStage == [arrayBackgrounds count] + 1){
+        Stage3ViewController *stageViewController = (Stage3ViewController*) viewController;
         [stageViewController nextButtonEnabled:YES];
         [stageViewController nextSubStageButtonEnabled:NO];
-
     }
-    
-    [stageViewController setBackground:[arrayBackgrounds objectAtIndex:currentSubStage]];
+    else {
+        viewController = [[Stage3ConclusionViewController alloc] initWithNibName:@"Stage3ConclusionView" bundle:nil];
+    }
 }
 
 @end

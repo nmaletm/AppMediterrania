@@ -7,7 +7,6 @@
 //
 
 #import "Stage3ViewController.h"
-#import "StageManager.h"
 
 @interface Stage3ViewController (){
     NSString *background;
@@ -57,9 +56,8 @@
 #pragma mark - Actions
 
 - (IBAction)nextButton:(id)sender{
-    [[StageManager sharedInstance] markAsCompleted: 3];
     
-    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
+    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];
 }
 
 - (IBAction)nextSubStage:(id)sender{

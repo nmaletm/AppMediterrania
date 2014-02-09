@@ -28,7 +28,7 @@
                     <rect key="frame" x="120" y="466" width="560" height="122"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    <string key="text">Fíjate bien en los alimentos y las actividades que irán saliendo en cada pantalla. Si respondes bien te convertirás en un verdadero chef de la Dieta Mediterránea!!</string>
+                    <string key="text">Ahora que ya conoces la Dieta Mediterránea, ¿te atreves a jugar? Cuando hayas superado las pruebas que he preparado para ti, podrás llegar a ser un gran chef!</string>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>

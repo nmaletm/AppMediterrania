@@ -1,18 +1,18 @@
 //
-//  Stage1BasketViewController.m
-//  AppMediterrania
+//  InformationViewController.m
+//  DietMed
 //
-//  Created by Nestor Malet on 31/01/14.
+//  Created by Nestor Malet on 09/02/14.
 //  Copyright (c) 2014 Storn.es. All rights reserved.
 //
 
-#import "Stage1BasketViewController.h"
+#import "InformationViewController.h"
 
-@interface Stage1BasketViewController ()
+@interface InformationViewController ()
 
 @end
 
-@implementation Stage1BasketViewController
+@implementation InformationViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,12 +33,6 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-#pragma mark - Actions
-
-- (IBAction)nextButton:(id)sender{
-    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];
 }
 
 @end

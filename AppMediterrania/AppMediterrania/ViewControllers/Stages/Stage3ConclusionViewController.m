@@ -1,18 +1,19 @@
 //
-//  Stage1Sub1ViewController.m
+//  Stage3ConclusionViewController.m
 //  AppMediterrania
 //
-//  Created by Nestor Malet on 31/01/14.
+//  Created by Nestor Malet on 03/02/14.
 //  Copyright (c) 2014 Storn.es. All rights reserved.
 //
 
-#import "Stage1TreeViewController.h"
+#import "Stage3ConclusionViewController.h"
+#import "StageManager.h"
 
-@interface Stage1TreeViewController ()
+@interface Stage3ConclusionViewController ()
 
 @end
 
-@implementation Stage1TreeViewController
+@implementation Stage3ConclusionViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,19 +27,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
-#pragma mark - Actions
 
 - (IBAction)nextButton:(id)sender{
-    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];
+    [[StageManager sharedInstance] markAsCompleted: 3];
+    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
 }
+
 
 @end

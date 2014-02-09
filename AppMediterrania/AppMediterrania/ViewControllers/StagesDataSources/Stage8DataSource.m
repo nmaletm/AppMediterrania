@@ -7,6 +7,7 @@
 //
 
 #import "Stage8DataSource.h"
+#import "Stage8IntroViewController.h"
 #import "Stage8ViewController.h"
 
 @implementation Stage8DataSource
@@ -21,6 +22,10 @@
 }
 
 - (void) initView{
+    viewController = [[Stage8IntroViewController alloc] initWithNibName:@"Stage8IntroView" bundle:nil];
+}
+
+- (void) goNextSubLevel{
     viewController = [[Stage8ViewController alloc] initWithNibName:@"Stage8View" bundle:nil];
 }
 

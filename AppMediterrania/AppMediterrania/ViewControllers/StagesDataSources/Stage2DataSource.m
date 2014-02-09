@@ -37,29 +37,29 @@
 
     texts = [[NSMutableDictionary alloc] init];
     NSArray *textEasy = [[NSArray alloc] initWithObjects:
-                         @"Nivell facil, pantalla 1. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                         @"Nivell facil, pantalla 2. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                         @"Nivell facil, pantalla 3. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                         @"Nivell facil, pantalla 4. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                         @"Nivell facil, pantalla 5. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
+                         @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                         @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                         @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                         @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                         @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
                          nil];
     [texts setObject:textEasy forKey:@"1"];
     
     NSArray *textMedium = [[NSArray alloc] initWithObjects:
-                           @"Nivell mitjà, pantalla 1. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                           @"Nivell mitjà, pantalla 2. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                           @"Nivell mitjà, pantalla 3. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                           @"Nivell mitjà, pantalla 4. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                           @"Nivell mitjà, pantalla 5. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
+                           @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                           @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                           @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                           @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                           @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
                            nil];
     [texts setObject:textMedium forKey:@"2"];
     
     NSArray *textDificult = [[NSArray alloc] initWithObjects:
-                             @"Nivell dificl, pantalla 1. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                             @"Nivell dificl, pantalla 2. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                             @"Nivell dificl, pantalla 3. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                             @"Nivell dificl, pantalla 4. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
-                             @"Nivell dificl, pantalla 5. Title: Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09 ",
+                             @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                             @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                             @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                             @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                             @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
                              nil];
     [texts setObject:textDificult forKey:@"3"];
     
