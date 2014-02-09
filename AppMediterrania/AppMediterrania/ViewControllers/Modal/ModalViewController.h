@@ -1,5 +1,5 @@
 //
-//  StageViewController.h
+//  Modal.h
 //  AppMediterrania
 //
 //  Created by Nestor Malet on 30/01/14.
@@ -7,16 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "StageDataSource.h"
+#import "ModalDataSource.h"
 
-@interface StageViewController : UIViewController
+@interface ModalViewController : UIViewController
 
-@property (nonatomic, retain) id<StageDataSource> dataSource;
+@property (nonatomic, retain) id<ModalDataSource> dataSource;
 @property (strong, nonatomic) IBOutlet UIView *stageView;
 @property (strong, nonatomic) IBOutlet UIView *informationView;
 @property (strong, nonatomic) IBOutlet UITextView *informationTextView;
 
-- (id) initWithDataSource:(id<StageDataSource>)theDataSource;
+- (id) initWithDataSource:(id<ModalDataSource>)theDataSource;
 
 - (IBAction)backMap:(id)sender;
 

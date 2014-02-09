@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C2A83FD189BD2E8002EEA2C /* Stage1SeasonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A83FC189BD2E8002EEA2C /* Stage1SeasonsViewController.m */; };
-		6C2A8406189BD31E002EEA2C /* Stage1FarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A8405189BD31E002EEA2C /* Stage1FarmViewController.m */; };
-		6C2A8409189BD32A002EEA2C /* Stage1FishingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A8408189BD32A002EEA2C /* Stage1FishingViewController.m */; };
-		6C2A840E189BD387002EEA2C /* Stage1DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A840D189BD387002EEA2C /* Stage1DataSource.m */; };
 		6C2A8414189BD67A002EEA2C /* Stage1SeasonsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A840F189BD67A002EEA2C /* Stage1SeasonsView.xib */; };
 		6C2A8417189BD67A002EEA2C /* Stage1FarmView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8412189BD67A002EEA2C /* Stage1FarmView.xib */; };
 		6C2A8418189BD67A002EEA2C /* Stage1FishingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8413189BD67A002EEA2C /* Stage1FishingView.xib */; };
@@ -37,13 +33,27 @@
 		6C99FA1B18A7974B00D027E0 /* pantalla_camp_summer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA1718A7974B00D027E0 /* pantalla_camp_summer.png */; };
 		6C99FA1C18A7974B00D027E0 /* pantalla_camp_winter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA1818A7974B00D027E0 /* pantalla_camp_winter.png */; };
 		6C99FA1E18A79C3F00D027E0 /* Stage8IntroView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA1D18A79C3F00D027E0 /* Stage8IntroView.xib */; };
-		6C99FA2118A79CB000D027E0 /* Stage8IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA2018A79CB000D027E0 /* Stage8IntroViewController.m */; };
-		6C99FA2418A79ECD00D027E0 /* Stage3ConclusionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA2318A79ECD00D027E0 /* Stage3ConclusionViewController.m */; };
 		6C99FA2618A79F0900D027E0 /* Stage3ConclusionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA2518A79F0900D027E0 /* Stage3ConclusionView.xib */; };
 		6C99FA2918A7A91A00D027E0 /* InformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA2818A7A91A00D027E0 /* InformationView.xib */; };
-		6C99FA2D18A7A9B700D027E0 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA2C18A7A9B700D027E0 /* InformationViewController.m */; };
-		6C99FA3018A7A9E800D027E0 /* InformationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA2F18A7A9E800D027E0 /* InformationDataSource.m */; };
 		6C99FA3218A7AB5D00D027E0 /* LogoFDMed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA3118A7AB5D00D027E0 /* LogoFDMed.png */; };
+		6C99FA5B18A7AD8500D027E0 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA3518A7AD8500D027E0 /* InformationViewController.m */; };
+		6C99FA5C18A7AD8500D027E0 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA3718A7AD8500D027E0 /* ModalViewController.m */; };
+		6C99FA5D18A7AD8500D027E0 /* Stage1FarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA3A18A7AD8500D027E0 /* Stage1FarmViewController.m */; };
+		6C99FA5E18A7AD8500D027E0 /* Stage1FishingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA3C18A7AD8500D027E0 /* Stage1FishingViewController.m */; };
+		6C99FA5F18A7AD8500D027E0 /* Stage1SeasonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA3E18A7AD8500D027E0 /* Stage1SeasonsViewController.m */; };
+		6C99FA6018A7AD8500D027E0 /* Stage2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA4018A7AD8500D027E0 /* Stage2ViewController.m */; };
+		6C99FA6118A7AD8500D027E0 /* Stage3ConclusionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA4218A7AD8500D027E0 /* Stage3ConclusionViewController.m */; };
+		6C99FA6218A7AD8500D027E0 /* Stage3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA4418A7AD8500D027E0 /* Stage3ViewController.m */; };
+		6C99FA6318A7AD8500D027E0 /* Stage8IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA4618A7AD8500D027E0 /* Stage8IntroViewController.m */; };
+		6C99FA6418A7AD8500D027E0 /* Stage8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA4818A7AD8500D027E0 /* Stage8ViewController.m */; };
+		6C99FA6518A7AD8500D027E0 /* StageGameIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA4A18A7AD8500D027E0 /* StageGameIntroViewController.m */; };
+		6C99FA6618A7AD8500D027E0 /* StageGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA4C18A7AD8500D027E0 /* StageGameViewController.m */; };
+		6C99FA6718A7AD8500D027E0 /* InformationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA4F18A7AD8500D027E0 /* InformationDataSource.m */; };
+		6C99FA6818A7AD8500D027E0 /* Stage1DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA5118A7AD8500D027E0 /* Stage1DataSource.m */; };
+		6C99FA6918A7AD8500D027E0 /* Stage2DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA5318A7AD8500D027E0 /* Stage2DataSource.m */; };
+		6C99FA6A18A7AD8500D027E0 /* Stage3DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA5518A7AD8500D027E0 /* Stage3DataSource.m */; };
+		6C99FA6B18A7AD8500D027E0 /* Stage8DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA5718A7AD8500D027E0 /* Stage8DataSource.m */; };
+		6C99FA6C18A7AD8500D027E0 /* StageGameDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99FA5A18A7AD8500D027E0 /* StageGameDataSource.m */; };
 		6CAB3A46189E254400F7F4EB /* cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A31189E254400F7F4EB /* cow.mp3 */; };
 		6CAB3A47189E254400F7F4EB /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A33189E254400F7F4EB /* lock.png */; };
 		6CAB3A48189E254400F7F4EB /* pantalla_joc.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A34189E254400F7F4EB /* pantalla_joc.png */; };
@@ -60,21 +70,15 @@
 		6CAB3A61189E27D400F7F4EB /* pork.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A5D189E27D400F7F4EB /* pork.mp3 */; };
 		6CAB3A62189E27D400F7F4EB /* sheep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A5E189E27D400F7F4EB /* sheep.mp3 */; };
 		6CAB3A65189E38C300F7F4EB /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A64189E38C300F7F4EB /* face.png */; };
-		6CAB3A69189E3E0400F7F4EB /* Stage2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A68189E3E0400F7F4EB /* Stage2ViewController.m */; };
-		6CAB3A6C189E3E1E00F7F4EB /* Stage2DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A6B189E3E1E00F7F4EB /* Stage2DataSource.m */; };
 		6CAB3A71189E408300F7F4EB /* bubbles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A6F189E408300F7F4EB /* bubbles.mp3 */; };
 		6CAB3A72189E408300F7F4EB /* seagull.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A70189E408300F7F4EB /* seagull.mp3 */; };
 		6CAB3A76189E44FE00F7F4EB /* pantalla_cuina_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A73189E44FE00F7F4EB /* pantalla_cuina_1.png */; };
 		6CAB3A77189E44FE00F7F4EB /* pantalla_cuina_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A74189E44FE00F7F4EB /* pantalla_cuina_2.png */; };
 		6CAB3A78189E44FE00F7F4EB /* pantalla_cuina_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A75189E44FE00F7F4EB /* pantalla_cuina_3.png */; };
-		6CAB3A7C189E4CA400F7F4EB /* Stage3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A7B189E4CA400F7F4EB /* Stage3ViewController.m */; };
-		6CAB3A80189E4D2300F7F4EB /* Stage3DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A7F189E4D2300F7F4EB /* Stage3DataSource.m */; };
 		6CAB3A82189E4D8A00F7F4EB /* Stage2View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A81189E4D8A00F7F4EB /* Stage2View.xib */; };
 		6CAB3A84189E4D9C00F7F4EB /* Stage3View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A83189E4D9C00F7F4EB /* Stage3View.xib */; };
 		6CAB3A87189E4EBE00F7F4EB /* piramide_mitja_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A85189E4EBE00F7F4EB /* piramide_mitja_1.png */; };
 		6CAB3A88189E4EBF00F7F4EB /* piramide_mitja_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A86189E4EBE00F7F4EB /* piramide_mitja_2.png */; };
-		6CAB3A8C189E54B500F7F4EB /* StageGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A8B189E54B500F7F4EB /* StageGameViewController.m */; };
-		6CAB3A8F189E553400F7F4EB /* StageGameDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A8E189E553400F7F4EB /* StageGameDataSource.m */; };
 		6CAB3A95189E564F00F7F4EB /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A94189E564F00F7F4EB /* GameManager.m */; };
 		6CAB3A98189E56EF00F7F4EB /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB3A97189E56EF00F7F4EB /* QuestionModel.m */; };
 		6CAB3A9C189E59EC00F7F4EB /* StageGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB3A9B189E59EC00F7F4EB /* StageGameView.xib */; };
@@ -85,9 +89,6 @@
 		6CD57A3A189B9C63005538D1 /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A39189B9C63005538D1 /* Notifications.m */; };
 		6CD57A3D189BA29C005538D1 /* StageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A3C189BA29C005538D1 /* StageManager.m */; };
 		6CD57A4B189BA2DA005538D1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A41189BA2DA005538D1 /* MapViewController.m */; };
-		6CD57A4C189BA2DA005538D1 /* Stage8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A44189BA2DA005538D1 /* Stage8ViewController.m */; };
-		6CD57A4D189BA2DA005538D1 /* StageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A46189BA2DA005538D1 /* StageViewController.m */; };
-		6CD57A4E189BA2DA005538D1 /* Stage8DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A49189BA2DA005538D1 /* Stage8DataSource.m */; };
 		6CD57A51189BA39B005538D1 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A50189BA39B005538D1 /* Constants.m */; };
 		6CD57A55189BA472005538D1 /* LevelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A54189BA472005538D1 /* LevelManager.m */; };
 		6CD57A57189BA699005538D1 /* LevelSelectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD57A56189BA699005538D1 /* LevelSelectorView.xib */; };
@@ -266,8 +267,7 @@
 		6CF823F8189F5FAB00716310 /* 80_joc.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF82358189F5FAB00716310 /* 80_joc.png */; };
 		6CF823F9189F5FAB00716310 /* 80_joc_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF82359189F5FAB00716310 /* 80_joc_b.png */; };
 		6CF823FB189F68F000716310 /* StageGameIntroView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CF823FA189F68F000716310 /* StageGameIntroView.xib */; };
-		6CF823FE189F692100716310 /* StageGameIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF823FD189F692100716310 /* StageGameIntroViewController.m */; };
-		6CFD1BC9189A122400CB7B15 /* StageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD1BC8189A122400CB7B15 /* StageView.xib */; };
+		6CFD1BC9189A122400CB7B15 /* ModalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD1BC8189A122400CB7B15 /* ModalView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -281,14 +281,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6C2A83FB189BD2E8002EEA2C /* Stage1SeasonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1SeasonsViewController.h; sourceTree = "<group>"; };
-		6C2A83FC189BD2E8002EEA2C /* Stage1SeasonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1SeasonsViewController.m; sourceTree = "<group>"; };
-		6C2A8404189BD31E002EEA2C /* Stage1FarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1FarmViewController.h; sourceTree = "<group>"; };
-		6C2A8405189BD31E002EEA2C /* Stage1FarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1FarmViewController.m; sourceTree = "<group>"; };
-		6C2A8407189BD32A002EEA2C /* Stage1FishingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1FishingViewController.h; sourceTree = "<group>"; };
-		6C2A8408189BD32A002EEA2C /* Stage1FishingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1FishingViewController.m; sourceTree = "<group>"; };
-		6C2A840C189BD387002EEA2C /* Stage1DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1DataSource.h; sourceTree = "<group>"; };
-		6C2A840D189BD387002EEA2C /* Stage1DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1DataSource.m; sourceTree = "<group>"; };
 		6C2A840F189BD67A002EEA2C /* Stage1SeasonsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1SeasonsView.xib; path = Stages/Stage1SeasonsView.xib; sourceTree = "<group>"; };
 		6C2A8412189BD67A002EEA2C /* Stage1FarmView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1FarmView.xib; path = Stages/Stage1FarmView.xib; sourceTree = "<group>"; };
 		6C2A8413189BD67A002EEA2C /* Stage1FishingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1FishingView.xib; path = Stages/Stage1FishingView.xib; sourceTree = "<group>"; };
@@ -315,18 +307,47 @@
 		6C99FA1718A7974B00D027E0 /* pantalla_camp_summer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_camp_summer.png; sourceTree = "<group>"; };
 		6C99FA1818A7974B00D027E0 /* pantalla_camp_winter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_camp_winter.png; sourceTree = "<group>"; };
 		6C99FA1D18A79C3F00D027E0 /* Stage8IntroView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage8IntroView.xib; path = Stages/Stage8IntroView.xib; sourceTree = "<group>"; };
-		6C99FA1F18A79CB000D027E0 /* Stage8IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage8IntroViewController.h; sourceTree = "<group>"; };
-		6C99FA2018A79CB000D027E0 /* Stage8IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage8IntroViewController.m; sourceTree = "<group>"; };
-		6C99FA2218A79ECD00D027E0 /* Stage3ConclusionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage3ConclusionViewController.h; sourceTree = "<group>"; };
-		6C99FA2318A79ECD00D027E0 /* Stage3ConclusionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage3ConclusionViewController.m; sourceTree = "<group>"; };
 		6C99FA2518A79F0900D027E0 /* Stage3ConclusionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage3ConclusionView.xib; path = Stages/Stage3ConclusionView.xib; sourceTree = "<group>"; };
 		6C99FA2718A7A74B00D027E0 /* DietMed-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DietMed-Prefix.pch"; sourceTree = "<group>"; };
 		6C99FA2818A7A91A00D027E0 /* InformationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationView.xib; sourceTree = "<group>"; };
-		6C99FA2B18A7A9B700D027E0 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
-		6C99FA2C18A7A9B700D027E0 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
-		6C99FA2E18A7A9E800D027E0 /* InformationDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationDataSource.h; sourceTree = "<group>"; };
-		6C99FA2F18A7A9E800D027E0 /* InformationDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationDataSource.m; sourceTree = "<group>"; };
 		6C99FA3118A7AB5D00D027E0 /* LogoFDMed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoFDMed.png; sourceTree = "<group>"; };
+		6C99FA3418A7AD8500D027E0 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		6C99FA3518A7AD8500D027E0 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		6C99FA3618A7AD8500D027E0 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		6C99FA3718A7AD8500D027E0 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		6C99FA3918A7AD8500D027E0 /* Stage1FarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1FarmViewController.h; sourceTree = "<group>"; };
+		6C99FA3A18A7AD8500D027E0 /* Stage1FarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1FarmViewController.m; sourceTree = "<group>"; };
+		6C99FA3B18A7AD8500D027E0 /* Stage1FishingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1FishingViewController.h; sourceTree = "<group>"; };
+		6C99FA3C18A7AD8500D027E0 /* Stage1FishingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1FishingViewController.m; sourceTree = "<group>"; };
+		6C99FA3D18A7AD8500D027E0 /* Stage1SeasonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1SeasonsViewController.h; sourceTree = "<group>"; };
+		6C99FA3E18A7AD8500D027E0 /* Stage1SeasonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1SeasonsViewController.m; sourceTree = "<group>"; };
+		6C99FA3F18A7AD8500D027E0 /* Stage2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage2ViewController.h; sourceTree = "<group>"; };
+		6C99FA4018A7AD8500D027E0 /* Stage2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage2ViewController.m; sourceTree = "<group>"; };
+		6C99FA4118A7AD8500D027E0 /* Stage3ConclusionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage3ConclusionViewController.h; sourceTree = "<group>"; };
+		6C99FA4218A7AD8500D027E0 /* Stage3ConclusionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage3ConclusionViewController.m; sourceTree = "<group>"; };
+		6C99FA4318A7AD8500D027E0 /* Stage3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage3ViewController.h; sourceTree = "<group>"; };
+		6C99FA4418A7AD8500D027E0 /* Stage3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage3ViewController.m; sourceTree = "<group>"; };
+		6C99FA4518A7AD8500D027E0 /* Stage8IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage8IntroViewController.h; sourceTree = "<group>"; };
+		6C99FA4618A7AD8500D027E0 /* Stage8IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage8IntroViewController.m; sourceTree = "<group>"; };
+		6C99FA4718A7AD8500D027E0 /* Stage8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage8ViewController.h; sourceTree = "<group>"; };
+		6C99FA4818A7AD8500D027E0 /* Stage8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage8ViewController.m; sourceTree = "<group>"; };
+		6C99FA4918A7AD8500D027E0 /* StageGameIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageGameIntroViewController.h; sourceTree = "<group>"; };
+		6C99FA4A18A7AD8500D027E0 /* StageGameIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageGameIntroViewController.m; sourceTree = "<group>"; };
+		6C99FA4B18A7AD8500D027E0 /* StageGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageGameViewController.h; sourceTree = "<group>"; };
+		6C99FA4C18A7AD8500D027E0 /* StageGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageGameViewController.m; sourceTree = "<group>"; };
+		6C99FA4E18A7AD8500D027E0 /* InformationDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationDataSource.h; sourceTree = "<group>"; };
+		6C99FA4F18A7AD8500D027E0 /* InformationDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationDataSource.m; sourceTree = "<group>"; };
+		6C99FA5018A7AD8500D027E0 /* Stage1DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1DataSource.h; sourceTree = "<group>"; };
+		6C99FA5118A7AD8500D027E0 /* Stage1DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage1DataSource.m; sourceTree = "<group>"; };
+		6C99FA5218A7AD8500D027E0 /* Stage2DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage2DataSource.h; sourceTree = "<group>"; };
+		6C99FA5318A7AD8500D027E0 /* Stage2DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage2DataSource.m; sourceTree = "<group>"; };
+		6C99FA5418A7AD8500D027E0 /* Stage3DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage3DataSource.h; sourceTree = "<group>"; };
+		6C99FA5518A7AD8500D027E0 /* Stage3DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage3DataSource.m; sourceTree = "<group>"; };
+		6C99FA5618A7AD8500D027E0 /* Stage8DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage8DataSource.h; sourceTree = "<group>"; };
+		6C99FA5718A7AD8500D027E0 /* Stage8DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage8DataSource.m; sourceTree = "<group>"; };
+		6C99FA5818A7AD8500D027E0 /* ModalDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalDataSource.h; sourceTree = "<group>"; };
+		6C99FA5918A7AD8500D027E0 /* StageGameDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageGameDataSource.h; sourceTree = "<group>"; };
+		6C99FA5A18A7AD8500D027E0 /* StageGameDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageGameDataSource.m; sourceTree = "<group>"; };
 		6CAB3A31189E254400F7F4EB /* cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cow.mp3; sourceTree = "<group>"; };
 		6CAB3A33189E254400F7F4EB /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
 		6CAB3A34189E254400F7F4EB /* pantalla_joc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_joc.png; sourceTree = "<group>"; };
@@ -343,27 +364,15 @@
 		6CAB3A5D189E27D400F7F4EB /* pork.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pork.mp3; sourceTree = "<group>"; };
 		6CAB3A5E189E27D400F7F4EB /* sheep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sheep.mp3; sourceTree = "<group>"; };
 		6CAB3A64189E38C300F7F4EB /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
-		6CAB3A67189E3E0400F7F4EB /* Stage2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage2ViewController.h; sourceTree = "<group>"; };
-		6CAB3A68189E3E0400F7F4EB /* Stage2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage2ViewController.m; sourceTree = "<group>"; };
-		6CAB3A6A189E3E1E00F7F4EB /* Stage2DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage2DataSource.h; sourceTree = "<group>"; };
-		6CAB3A6B189E3E1E00F7F4EB /* Stage2DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage2DataSource.m; sourceTree = "<group>"; };
 		6CAB3A6F189E408300F7F4EB /* bubbles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bubbles.mp3; sourceTree = "<group>"; };
 		6CAB3A70189E408300F7F4EB /* seagull.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seagull.mp3; sourceTree = "<group>"; };
 		6CAB3A73189E44FE00F7F4EB /* pantalla_cuina_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_cuina_1.png; sourceTree = "<group>"; };
 		6CAB3A74189E44FE00F7F4EB /* pantalla_cuina_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_cuina_2.png; sourceTree = "<group>"; };
 		6CAB3A75189E44FE00F7F4EB /* pantalla_cuina_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_cuina_3.png; sourceTree = "<group>"; };
-		6CAB3A7A189E4CA400F7F4EB /* Stage3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage3ViewController.h; sourceTree = "<group>"; };
-		6CAB3A7B189E4CA400F7F4EB /* Stage3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage3ViewController.m; sourceTree = "<group>"; };
-		6CAB3A7E189E4D2300F7F4EB /* Stage3DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage3DataSource.h; sourceTree = "<group>"; };
-		6CAB3A7F189E4D2300F7F4EB /* Stage3DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage3DataSource.m; sourceTree = "<group>"; };
 		6CAB3A81189E4D8A00F7F4EB /* Stage2View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage2View.xib; path = Stages/Stage2View.xib; sourceTree = "<group>"; };
 		6CAB3A83189E4D9C00F7F4EB /* Stage3View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage3View.xib; path = Stages/Stage3View.xib; sourceTree = "<group>"; };
 		6CAB3A85189E4EBE00F7F4EB /* piramide_mitja_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piramide_mitja_1.png; sourceTree = "<group>"; };
 		6CAB3A86189E4EBE00F7F4EB /* piramide_mitja_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piramide_mitja_2.png; sourceTree = "<group>"; };
-		6CAB3A8A189E54B500F7F4EB /* StageGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageGameViewController.h; sourceTree = "<group>"; };
-		6CAB3A8B189E54B500F7F4EB /* StageGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageGameViewController.m; sourceTree = "<group>"; };
-		6CAB3A8D189E553400F7F4EB /* StageGameDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageGameDataSource.h; sourceTree = "<group>"; };
-		6CAB3A8E189E553400F7F4EB /* StageGameDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageGameDataSource.m; sourceTree = "<group>"; };
 		6CAB3A93189E564F00F7F4EB /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameManager.h; path = Managers/GameManager.h; sourceTree = "<group>"; };
 		6CAB3A94189E564F00F7F4EB /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameManager.m; path = Managers/GameManager.m; sourceTree = "<group>"; };
 		6CAB3A96189E56EF00F7F4EB /* QuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionModel.h; sourceTree = "<group>"; };
@@ -381,13 +390,6 @@
 		6CD57A3C189BA29C005538D1 /* StageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StageManager.m; path = Managers/StageManager.m; sourceTree = "<group>"; };
 		6CD57A40189BA2DA005538D1 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		6CD57A41189BA2DA005538D1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		6CD57A43189BA2DA005538D1 /* Stage8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage8ViewController.h; sourceTree = "<group>"; };
-		6CD57A44189BA2DA005538D1 /* Stage8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage8ViewController.m; sourceTree = "<group>"; };
-		6CD57A45189BA2DA005538D1 /* StageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageViewController.h; sourceTree = "<group>"; };
-		6CD57A46189BA2DA005538D1 /* StageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageViewController.m; sourceTree = "<group>"; };
-		6CD57A48189BA2DA005538D1 /* Stage8DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage8DataSource.h; sourceTree = "<group>"; };
-		6CD57A49189BA2DA005538D1 /* Stage8DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage8DataSource.m; sourceTree = "<group>"; };
-		6CD57A4A189BA2DA005538D1 /* StageDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageDataSource.h; sourceTree = "<group>"; };
 		6CD57A4F189BA39B005538D1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		6CD57A50189BA39B005538D1 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		6CD57A53189BA472005538D1 /* LevelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LevelManager.h; path = Managers/LevelManager.h; sourceTree = "<group>"; };
@@ -571,9 +573,7 @@
 		6CF82358189F5FAB00716310 /* 80_joc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80_joc.png; sourceTree = "<group>"; };
 		6CF82359189F5FAB00716310 /* 80_joc_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80_joc_b.png; sourceTree = "<group>"; };
 		6CF823FA189F68F000716310 /* StageGameIntroView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StageGameIntroView.xib; path = Stages/StageGameIntroView.xib; sourceTree = "<group>"; };
-		6CF823FC189F692100716310 /* StageGameIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageGameIntroViewController.h; sourceTree = "<group>"; };
-		6CF823FD189F692100716310 /* StageGameIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageGameIntroViewController.m; sourceTree = "<group>"; };
-		6CFD1BC8189A122400CB7B15 /* StageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StageView.xib; path = Stages/StageView.xib; sourceTree = "<group>"; };
+		6CFD1BC8189A122400CB7B15 /* ModalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ModalView.xib; path = Stages/ModalView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -601,30 +601,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C2A840A189BD351002EEA2C /* Stage1 */ = {
-			isa = PBXGroup;
-			children = (
-				6C2A83FB189BD2E8002EEA2C /* Stage1SeasonsViewController.h */,
-				6C2A83FC189BD2E8002EEA2C /* Stage1SeasonsViewController.m */,
-				6C2A8404189BD31E002EEA2C /* Stage1FarmViewController.h */,
-				6C2A8405189BD31E002EEA2C /* Stage1FarmViewController.m */,
-				6C2A8407189BD32A002EEA2C /* Stage1FishingViewController.h */,
-				6C2A8408189BD32A002EEA2C /* Stage1FishingViewController.m */,
-			);
-			name = Stage1;
-			sourceTree = "<group>";
-		};
-		6C2A840B189BD358002EEA2C /* Stage8 */ = {
-			isa = PBXGroup;
-			children = (
-				6C99FA1F18A79CB000D027E0 /* Stage8IntroViewController.h */,
-				6C99FA2018A79CB000D027E0 /* Stage8IntroViewController.m */,
-				6CD57A43189BA2DA005538D1 /* Stage8ViewController.h */,
-				6CD57A44189BA2DA005538D1 /* Stage8ViewController.m */,
-			);
-			name = Stage8;
-			sourceTree = "<group>";
-		};
 		6C99F9FA18A78FB100D027E0 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
@@ -642,6 +618,73 @@
 				6C99FA0718A78FB100D027E0 /* button_winter_h.png */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		6C99FA3318A7AD8400D027E0 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				6C99FA3418A7AD8500D027E0 /* InformationViewController.h */,
+				6C99FA3518A7AD8500D027E0 /* InformationViewController.m */,
+				6C99FA3618A7AD8500D027E0 /* ModalViewController.h */,
+				6C99FA3718A7AD8500D027E0 /* ModalViewController.m */,
+				6C99FA3818A7AD8500D027E0 /* Stages */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		6C99FA3818A7AD8500D027E0 /* Stages */ = {
+			isa = PBXGroup;
+			children = (
+				6C99FA3918A7AD8500D027E0 /* Stage1FarmViewController.h */,
+				6C99FA3A18A7AD8500D027E0 /* Stage1FarmViewController.m */,
+				6C99FA3B18A7AD8500D027E0 /* Stage1FishingViewController.h */,
+				6C99FA3C18A7AD8500D027E0 /* Stage1FishingViewController.m */,
+				6C99FA3D18A7AD8500D027E0 /* Stage1SeasonsViewController.h */,
+				6C99FA3E18A7AD8500D027E0 /* Stage1SeasonsViewController.m */,
+				6C99FA3F18A7AD8500D027E0 /* Stage2ViewController.h */,
+				6C99FA4018A7AD8500D027E0 /* Stage2ViewController.m */,
+				6C99FA4118A7AD8500D027E0 /* Stage3ConclusionViewController.h */,
+				6C99FA4218A7AD8500D027E0 /* Stage3ConclusionViewController.m */,
+				6C99FA4318A7AD8500D027E0 /* Stage3ViewController.h */,
+				6C99FA4418A7AD8500D027E0 /* Stage3ViewController.m */,
+				6C99FA4518A7AD8500D027E0 /* Stage8IntroViewController.h */,
+				6C99FA4618A7AD8500D027E0 /* Stage8IntroViewController.m */,
+				6C99FA4718A7AD8500D027E0 /* Stage8ViewController.h */,
+				6C99FA4818A7AD8500D027E0 /* Stage8ViewController.m */,
+				6C99FA4918A7AD8500D027E0 /* StageGameIntroViewController.h */,
+				6C99FA4A18A7AD8500D027E0 /* StageGameIntroViewController.m */,
+				6C99FA4B18A7AD8500D027E0 /* StageGameViewController.h */,
+				6C99FA4C18A7AD8500D027E0 /* StageGameViewController.m */,
+			);
+			path = Stages;
+			sourceTree = "<group>";
+		};
+		6C99FA4D18A7AD8500D027E0 /* ModalDataSources */ = {
+			isa = PBXGroup;
+			children = (
+				6C99FA5818A7AD8500D027E0 /* ModalDataSource.h */,
+				6C99FA4E18A7AD8500D027E0 /* InformationDataSource.h */,
+				6C99FA4F18A7AD8500D027E0 /* InformationDataSource.m */,
+				6C99FA6D18A7AF5F00D027E0 /* Stages */,
+			);
+			path = ModalDataSources;
+			sourceTree = "<group>";
+		};
+		6C99FA6D18A7AF5F00D027E0 /* Stages */ = {
+			isa = PBXGroup;
+			children = (
+				6C99FA5018A7AD8500D027E0 /* Stage1DataSource.h */,
+				6C99FA5118A7AD8500D027E0 /* Stage1DataSource.m */,
+				6C99FA5218A7AD8500D027E0 /* Stage2DataSource.h */,
+				6C99FA5318A7AD8500D027E0 /* Stage2DataSource.m */,
+				6C99FA5418A7AD8500D027E0 /* Stage3DataSource.h */,
+				6C99FA5518A7AD8500D027E0 /* Stage3DataSource.m */,
+				6C99FA5618A7AD8500D027E0 /* Stage8DataSource.h */,
+				6C99FA5718A7AD8500D027E0 /* Stage8DataSource.m */,
+				6C99FA5918A7AD8500D027E0 /* StageGameDataSource.h */,
+				6C99FA5A18A7AD8500D027E0 /* StageGameDataSource.m */,
+			);
+			name = Stages;
 			sourceTree = "<group>";
 		};
 		6CAB3A2F189E254400F7F4EB /* Resources */ = {
@@ -713,37 +756,6 @@
 			path = temp;
 			sourceTree = "<group>";
 		};
-		6CAB3A63189E36E300F7F4EB /* Stage2 */ = {
-			isa = PBXGroup;
-			children = (
-				6CAB3A67189E3E0400F7F4EB /* Stage2ViewController.h */,
-				6CAB3A68189E3E0400F7F4EB /* Stage2ViewController.m */,
-			);
-			name = Stage2;
-			sourceTree = "<group>";
-		};
-		6CAB3A79189E4C8700F7F4EB /* Stage3 */ = {
-			isa = PBXGroup;
-			children = (
-				6C99FA2218A79ECD00D027E0 /* Stage3ConclusionViewController.h */,
-				6C99FA2318A79ECD00D027E0 /* Stage3ConclusionViewController.m */,
-				6CAB3A7A189E4CA400F7F4EB /* Stage3ViewController.h */,
-				6CAB3A7B189E4CA400F7F4EB /* Stage3ViewController.m */,
-			);
-			name = Stage3;
-			sourceTree = "<group>";
-		};
-		6CAB3A89189E53F400F7F4EB /* StageGame */ = {
-			isa = PBXGroup;
-			children = (
-				6CAB3A8A189E54B500F7F4EB /* StageGameViewController.h */,
-				6CAB3A8B189E54B500F7F4EB /* StageGameViewController.m */,
-				6CF823FC189F692100716310 /* StageGameIntroViewController.h */,
-				6CF823FD189F692100716310 /* StageGameIntroViewController.m */,
-			);
-			name = StageGame;
-			sourceTree = "<group>";
-		};
 		6CAB3A9E189E627F00F7F4EB /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -769,50 +781,14 @@
 		6CD57A3F189BA2DA005538D1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				6CD57A42189BA2DA005538D1 /* Stages */,
-				6CD57A47189BA2DA005538D1 /* StagesDataSources */,
+				6C99FA3318A7AD8400D027E0 /* Modal */,
+				6C99FA4D18A7AD8500D027E0 /* ModalDataSources */,
 				6CD57A40189BA2DA005538D1 /* MapViewController.h */,
 				6CD57A41189BA2DA005538D1 /* MapViewController.m */,
 				6CD57A58189BA7C8005538D1 /* LevelSelectorViewController.h */,
 				6CD57A59189BA7C8005538D1 /* LevelSelectorViewController.m */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		6CD57A42189BA2DA005538D1 /* Stages */ = {
-			isa = PBXGroup;
-			children = (
-				6CD57A45189BA2DA005538D1 /* StageViewController.h */,
-				6CD57A46189BA2DA005538D1 /* StageViewController.m */,
-				6C99FA2B18A7A9B700D027E0 /* InformationViewController.h */,
-				6C99FA2C18A7A9B700D027E0 /* InformationViewController.m */,
-				6C2A840A189BD351002EEA2C /* Stage1 */,
-				6CAB3A63189E36E300F7F4EB /* Stage2 */,
-				6CAB3A79189E4C8700F7F4EB /* Stage3 */,
-				6CAB3A89189E53F400F7F4EB /* StageGame */,
-				6C2A840B189BD358002EEA2C /* Stage8 */,
-			);
-			path = Stages;
-			sourceTree = "<group>";
-		};
-		6CD57A47189BA2DA005538D1 /* StagesDataSources */ = {
-			isa = PBXGroup;
-			children = (
-				6CD57A4A189BA2DA005538D1 /* StageDataSource.h */,
-				6C2A840C189BD387002EEA2C /* Stage1DataSource.h */,
-				6C2A840D189BD387002EEA2C /* Stage1DataSource.m */,
-				6CAB3A6A189E3E1E00F7F4EB /* Stage2DataSource.h */,
-				6CAB3A6B189E3E1E00F7F4EB /* Stage2DataSource.m */,
-				6CAB3A7E189E4D2300F7F4EB /* Stage3DataSource.h */,
-				6CAB3A7F189E4D2300F7F4EB /* Stage3DataSource.m */,
-				6CAB3A8D189E553400F7F4EB /* StageGameDataSource.h */,
-				6CAB3A8E189E553400F7F4EB /* StageGameDataSource.m */,
-				6CD57A48189BA2DA005538D1 /* Stage8DataSource.h */,
-				6CD57A49189BA2DA005538D1 /* Stage8DataSource.m */,
-				6C99FA2E18A7A9E800D027E0 /* InformationDataSource.h */,
-				6C99FA2F18A7A9E800D027E0 /* InformationDataSource.m */,
-			);
-			path = StagesDataSources;
 			sourceTree = "<group>";
 		};
 		6CDCDD711897EEB4002EBDED = {
@@ -934,6 +910,7 @@
 				6CFD1BC7189A120B00CB7B15 /* Stages */,
 				6CDCDDCA1897F236002EBDED /* MapView.xib */,
 				6CD57A56189BA699005538D1 /* LevelSelectorView.xib */,
+				6C99FA2818A7A91A00D027E0 /* InformationView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1108,8 +1085,7 @@
 		6CFD1BC7189A120B00CB7B15 /* Stages */ = {
 			isa = PBXGroup;
 			children = (
-				6C99FA2818A7A91A00D027E0 /* InformationView.xib */,
-				6CFD1BC8189A122400CB7B15 /* StageView.xib */,
+				6CFD1BC8189A122400CB7B15 /* ModalView.xib */,
 				6C2A840F189BD67A002EEA2C /* Stage1SeasonsView.xib */,
 				6C2A8412189BD67A002EEA2C /* Stage1FarmView.xib */,
 				6C2A8413189BD67A002EEA2C /* Stage1FishingView.xib */,
@@ -1264,7 +1240,7 @@
 				6CF8235F189F5FAB00716310 /* 03_joc_b.png in Resources */,
 				6CF82379189F5FAB00716310 /* 16_joc_b.png in Resources */,
 				6CF82375189F5FAB00716310 /* 14_joc_b.png in Resources */,
-				6CFD1BC9189A122400CB7B15 /* StageView.xib in Resources */,
+				6CFD1BC9189A122400CB7B15 /* ModalView.xib in Resources */,
 				6C99FA1E18A79C3F00D027E0 /* Stage8IntroView.xib in Resources */,
 				6CF823CC189F5FAB00716310 /* 58_joc.png in Resources */,
 				6CF8238B189F5FAB00716310 /* 25_joc_b.png in Resources */,
@@ -1440,35 +1416,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C2A840E189BD387002EEA2C /* Stage1DataSource.m in Sources */,
-				6CAB3A69189E3E0400F7F4EB /* Stage2ViewController.m in Sources */,
+				6C99FA6018A7AD8500D027E0 /* Stage2ViewController.m in Sources */,
+				6C99FA5F18A7AD8500D027E0 /* Stage1SeasonsViewController.m in Sources */,
 				6CAB3A95189E564F00F7F4EB /* GameManager.m in Sources */,
-				6C2A83FD189BD2E8002EEA2C /* Stage1SeasonsViewController.m in Sources */,
-				6CAB3A7C189E4CA400F7F4EB /* Stage3ViewController.m in Sources */,
 				6CAB3A98189E56EF00F7F4EB /* QuestionModel.m in Sources */,
+				6C99FA6B18A7AD8500D027E0 /* Stage8DataSource.m in Sources */,
+				6C99FA6A18A7AD8500D027E0 /* Stage3DataSource.m in Sources */,
 				6CD57A3D189BA29C005538D1 /* StageManager.m in Sources */,
-				6CD57A4D189BA2DA005538D1 /* StageViewController.m in Sources */,
+				6C99FA6318A7AD8500D027E0 /* Stage8IntroViewController.m in Sources */,
 				6CD57A5A189BA7C8005538D1 /* LevelSelectorViewController.m in Sources */,
-				6CAB3A6C189E3E1E00F7F4EB /* Stage2DataSource.m in Sources */,
-				6CAB3A80189E4D2300F7F4EB /* Stage3DataSource.m in Sources */,
-				6C2A8406189BD31E002EEA2C /* Stage1FarmViewController.m in Sources */,
+				6C99FA6218A7AD8500D027E0 /* Stage3ViewController.m in Sources */,
+				6C99FA6418A7AD8500D027E0 /* Stage8ViewController.m in Sources */,
+				6C99FA6C18A7AD8500D027E0 /* StageGameDataSource.m in Sources */,
 				6CD57A3A189B9C63005538D1 /* Notifications.m in Sources */,
-				6CD57A4E189BA2DA005538D1 /* Stage8DataSource.m in Sources */,
-				6C99FA2418A79ECD00D027E0 /* Stage3ConclusionViewController.m in Sources */,
+				6C99FA5E18A7AD8500D027E0 /* Stage1FishingViewController.m in Sources */,
+				6C99FA6718A7AD8500D027E0 /* InformationDataSource.m in Sources */,
+				6C99FA5B18A7AD8500D027E0 /* InformationViewController.m in Sources */,
+				6C99FA6818A7AD8500D027E0 /* Stage1DataSource.m in Sources */,
 				6CD57A4B189BA2DA005538D1 /* MapViewController.m in Sources */,
-				6C2A8409189BD32A002EEA2C /* Stage1FishingViewController.m in Sources */,
-				6CAB3A8F189E553400F7F4EB /* StageGameDataSource.m in Sources */,
-				6C99FA3018A7A9E800D027E0 /* InformationDataSource.m in Sources */,
-				6CAB3A8C189E54B500F7F4EB /* StageGameViewController.m in Sources */,
-				6C99FA2D18A7A9B700D027E0 /* InformationViewController.m in Sources */,
+				6C99FA6918A7AD8500D027E0 /* Stage2DataSource.m in Sources */,
+				6C99FA6618A7AD8500D027E0 /* StageGameViewController.m in Sources */,
+				6C99FA5C18A7AD8500D027E0 /* ModalViewController.m in Sources */,
 				6CDCDDC01897F07A002EBDED /* main.m in Sources */,
 				6CAB3AA1189E62A000F7F4EB /* NSMutableArray_Shuffling.m in Sources */,
-				6CF823FE189F692100716310 /* StageGameIntroViewController.m in Sources */,
-				6C99FA2118A79CB000D027E0 /* Stage8IntroViewController.m in Sources */,
 				6CD57A55189BA472005538D1 /* LevelManager.m in Sources */,
+				6C99FA6518A7AD8500D027E0 /* StageGameIntroViewController.m in Sources */,
 				6CDCDDBE1897F07A002EBDED /* AppDelegate.m in Sources */,
-				6CD57A4C189BA2DA005538D1 /* Stage8ViewController.m in Sources */,
+				6C99FA6118A7AD8500D027E0 /* Stage3ConclusionViewController.m in Sources */,
 				6CD57A51189BA39B005538D1 /* Constants.m in Sources */,
+				6C99FA5D18A7AD8500D027E0 /* Stage1FarmViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

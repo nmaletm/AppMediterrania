@@ -6,19 +6,19 @@
 //  Copyright (c) 2014 Storn.es. All rights reserved.
 //
 
-#import "StageViewController.h"
+#import "ModalViewController.h"
 
-@interface StageViewController ()
+@interface ModalViewController ()
 
 @end
 
-@implementation StageViewController
+@implementation ModalViewController
 @synthesize informationTextView;
 @synthesize informationView;
 
-- (id)initWithDataSource:(id<StageDataSource>)theDataSource
+- (id)initWithDataSource:(id<ModalDataSource>)theDataSource
 {
-    self = [super initWithNibName:@"StageView" bundle:nil];
+    self = [super initWithNibName:@"ModalView" bundle:nil];
     if (self) {
         // Custom initialization
         self.dataSource = theDataSource;

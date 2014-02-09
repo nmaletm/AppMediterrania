@@ -8,14 +8,14 @@
 
 #import "MapViewController.h"
 
-#import "StageDataSource.h"
+#import "ModalDataSource.h"
 #import "Stage1DataSource.h"
 #import "Stage2DataSource.h"
 #import "StageGameDataSource.h"
 #import "Stage3DataSource.h"
 #import "Stage8DataSource.h"
 #import "InformationDataSource.h"
-#import "StageViewController.h"
+#import "ModalViewController.h"
 
 #import "LevelManager.h"
 #import "StageManager.h"
@@ -104,8 +104,8 @@
     }
 }
 
-- (void) presentStage:(id<StageDataSource>)dataSource{
-    StageViewController *viewController = [[StageViewController alloc] initWithDataSource:dataSource];
+- (void) presentStage:(id<ModalDataSource>)dataSource{
+    ModalViewController *viewController = [[ModalViewController alloc] initWithDataSource:dataSource];
     [self presentViewController:viewController animated:YES completion: nil];
     
 }

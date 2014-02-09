@@ -1,5 +1,5 @@
 //
-//  StageGameDataSource.h
+//  Stage2DataSource.h
 //  AppMediterrania
 //
 //  Created by Nestor Malet on 02/02/14.
@@ -7,10 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "StageDataSource.h"
+#import "ModalDataSource.h"
 
-@interface StageGameDataSource : NSObject <StageDataSource>
-
-@property (atomic) int stage;
+@interface Stage2DataSource : NSObject <ModalDataSource>
 
 @end

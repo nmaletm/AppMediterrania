@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "StageDataSource.h"
+#import "ModalDataSource.h"
 
-@interface Stage1DataSource : NSObject <StageDataSource>
+@interface Stage1DataSource : NSObject <ModalDataSource>
 
 @end

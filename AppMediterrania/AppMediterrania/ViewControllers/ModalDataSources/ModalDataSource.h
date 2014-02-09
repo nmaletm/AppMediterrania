@@ -1,5 +1,5 @@
 //
-//  StageDataSource.h
+//  ModalDataSource.h
 //  AppMediterrania
 //
 //  Created by Nestor Malet on 31/01/14.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@protocol StageDataSource <NSObject>
+@protocol ModalDataSource <NSObject>
 
 @required
 
