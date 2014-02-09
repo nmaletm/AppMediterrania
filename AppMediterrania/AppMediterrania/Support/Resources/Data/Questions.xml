@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <stage value="1">
+        <level value="0">
+            <question>
+                <text>Primera etapa, nivell facil, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+            <question>
+                <text>Primera etapa, nivell facil, pregunta 2 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        <level value="1">
+            <question>
+                <text>Primera etapa, nivell mitja, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+            <question>
+                <text>Primera etapa, nivell mitja, pregunta 2 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        <level value="2">
+            <question>
+                <text>Primera etapa, nivell dificil, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+            <question>
+                <text>Primera etapa, nivell dificil, pregunta 2 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        
+    </stage>
+    
+    <stage value="2">
+        <level value="0">
+            <question>
+                <text>Segona etapa, nivell facil, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        <level value="1">
+            <question>
+                <text>Segona etapa, nivell mitja, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        <level value="2">
+            <question>
+                <text>Segona etapa, nivell dificil, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        
+    </stage>
+    
+    
+    <stage value="3">
+        <level value="0">
+            <question>
+                <text>Tercera etapa, nivell facil, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        <level value="1">
+            <question>
+                <text>Tercera etapa, nivell mitja, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        <level value="2">
+            <question>
+                <text>Tercera etapa, nivell dificil, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        
+    </stage>
+    
+    
+    <stage value="4">
+        <level value="0">
+            <question>
+                <text>Quarta etapa, nivell facil, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        <level value="1">
+            <question>
+                <text>Quarta etapa, nivell mitja, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        <level value="2">
+            <question>
+                <text>Quarta etapa, nivell dificil, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        
+    </stage>
+
+    
+</game>

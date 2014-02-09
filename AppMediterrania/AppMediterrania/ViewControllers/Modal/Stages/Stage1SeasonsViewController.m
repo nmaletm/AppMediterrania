@@ -59,7 +59,14 @@
 - (void) refreshBackground{
     
     UIImage *image = [UIImage imageNamed: [NSString stringWithFormat:@"%@_%@", backgroundName, [seasons objectAtIndex:currentSeason]]];
-    [background setImage:image];
+    //[background setImage:image];
+    
+    [UIView transitionWithView:background
+                      duration:0.3f
+                       options:UIViewAnimationOptionTransitionCrossDissolve
+                    animations:^{
+                        background.image = image;
+                    } completion:NULL];
 }
 
 - (void) refreshButtonStatus{
@@ -85,7 +92,7 @@
 }
 
 - (IBAction)changeSeason:(id)sender{
-    currentSeason = [(UIButton *)sender tag];
+    currentSeason = (int)[(UIButton *)sender tag];
 
     [self refreshBackground];
     [self refreshButtonStatus];

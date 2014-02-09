@@ -86,7 +86,7 @@
 
 - (IBAction)figureButton:(id)sender{
     UIButton *button = (UIButton *) sender;
-    int selected = button.tag;
+    int selected = (int)button.tag;
     
     if([question.figuresCorrect containsObject:[dashboardFigures objectAtIndex:selected]]){
         [correctSelected addObject:[NSNumber numberWithInt:selected]];

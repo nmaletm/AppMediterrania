@@ -8,6 +8,14 @@
 
 #import "GameManager.h"
 #import "QuestionModel.h"
+#import "RXMLElement.h"
+
+
+@interface GameManager (){
+    RXMLElement *rootGameData;
+}
+
+@end
 
 @implementation GameManager
 
@@ -25,39 +33,43 @@
     return instance;
 }
 
+- (id) init{
+    id instance = [super init];
+    rootGameData = [RXMLElement elementFromXMLFile:@"Questions.xml"];
+
+    return instance;
+}
+
 -(NSArray *)questionsAt:(int)level atStage:(int)stage{
     NSMutableArray *questions = [[NSMutableArray alloc] init];
-    {
-        QuestionModel *question = [[QuestionModel alloc] init];
-        question.text = @"Pregunta 1 Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09";
-        question.level = 1;
-        question.stage = stage;
-        question.subStage = 1;
-        question.figuresCorrect = [[NSArray alloc] initWithObjects:  @"01_joc", @"02_joc", @"03_joc", nil];
-        question.figuresIncorrect = [[NSArray alloc] initWithObjects:  @"04_joc", @"05_joc", @"06_joc", @"07_joc", @"08_joc", @"09_joc", nil];
-        [questions addObject:question];
-    }
-    {
-        QuestionModel *question = [[QuestionModel alloc] init];
-        question.text = @"Pregunta 2 Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09";
-        question.level = 1;
-        question.stage = stage;
-        question.subStage = 1;
-        question.figuresCorrect = [[NSArray alloc] initWithObjects:  @"01_joc", @"02_joc", @"03_joc", nil];
-        question.figuresIncorrect = [[NSArray alloc] initWithObjects:  @"04_joc", @"05_joc", @"06_joc", @"07_joc", @"08_joc", @"09_joc", nil];
+    
+    NSString *path = [NSString stringWithFormat:@"//game/stage[@value='%d']/level[@value='%d']/question",stage,level];
+    
+    [rootGameData iterateWithRootXPath:path usingBlock: ^(RXMLElement *data) {
         
-        [questions addObject:question];
-    }
-    {
         QuestionModel *question = [[QuestionModel alloc] init];
-        question.text = @"Pregunta 3 Rooster Crow About: Awesome sound of a rooster crowing early in the morning. great farming or alarm clock sound effects. Uploaded: 11.29.09";
-        question.level = 1;
-        question.stage = stage;
-        question.subStage = 1;
-        question.figuresCorrect = [[NSArray alloc] initWithObjects:  @"01_joc", @"02_joc", @"03_joc", nil];
-        question.figuresIncorrect = [[NSArray alloc] initWithObjects:  @"04_joc", @"05_joc", @"06_joc", @"07_joc", @"08_joc", @"09_joc", nil];
+        question.text = [[data child:@"text"] text];
+        
+        
+        RXMLElement *validFigures = [data child:@"valid"];
+        NSMutableArray * validMutableArray = [[NSMutableArray alloc] init];
+        for (RXMLElement *object in [validFigures children:@"figure"]) {
+            NSString *name = [NSString stringWithFormat:@"%@_joc",[object attribute:@"id"]];
+            [validMutableArray addObject:name];
+        }
+        
+        RXMLElement *invalidFigures = [data child:@"invalid"];
+        NSMutableArray *invalidMutableArray = [[NSMutableArray alloc] init];
+        for (RXMLElement *object in [invalidFigures children:@"figure"]) {
+            NSString *name = [NSString stringWithFormat:@"%@_joc",[object attribute:@"id"]];
+            [invalidMutableArray addObject:name];
+        }
+        
+        question.figuresCorrect = [NSArray arrayWithArray:validMutableArray];
+        question.figuresIncorrect = [NSArray arrayWithArray:invalidMutableArray];
+
         [questions addObject:question];
-    }
+    }];
     return questions;
 }
 

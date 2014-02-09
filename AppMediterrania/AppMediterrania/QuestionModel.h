@@ -14,8 +14,4 @@
 @property (strong, nonatomic) NSArray *figuresCorrect;
 @property (strong, nonatomic) NSArray *figuresIncorrect;
 
-@property (atomic) int level;
-@property (atomic) int stage;
-@property (atomic) int subStage;
-
 @end
