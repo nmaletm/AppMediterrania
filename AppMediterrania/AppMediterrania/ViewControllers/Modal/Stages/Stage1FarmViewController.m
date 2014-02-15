@@ -32,6 +32,7 @@
     [super viewDidLoad];
     [nextButton setEnabled: NO];
     
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nextSubLevel:) name:NOT_NEXT_SUB_LEVEL object:nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -56,12 +57,14 @@
     [nextButton setEnabled: YES];
 }
 
+#pragma mark - Notifications
+- (void) nextSubLevel:(NSNotification *)notification
+{
+    [self stopAudio];
+}
+
 #pragma mark - Actions
 
-- (IBAction)nextButton:(id)sender{
-    [self stopAudio];
-    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];
-}
 
 - (IBAction)clickGoat:(id)sender{
     [self play:@"goat.mp3"];

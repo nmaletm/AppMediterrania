@@ -14,6 +14,7 @@
 @required
 
 @property (readonly) BOOL hasText;
+@property (readonly) BOOL hasNextButton;
 @property (readwrite) UIViewController *viewController;
 
 - (void) initView;

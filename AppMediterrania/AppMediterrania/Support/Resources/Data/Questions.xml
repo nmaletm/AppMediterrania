@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <game>
     <stage value="1">
-        <level value="0">
+        <level value="1">
             <question>
                 <text>Primera etapa, nivell facil, pregunta 1 Bla bla bla</text>
                 <valid>
@@ -35,7 +35,7 @@
                 </invalid>
             </question>
         </level>
-        <level value="1">
+        <level value="2">
             <question>
                 <text>Primera etapa, nivell mitja, pregunta 1 Bla bla bla</text>
                 <valid>
@@ -69,7 +69,7 @@
                 </invalid>
             </question>
         </level>
-        <level value="2">
+        <level value="3">
             <question>
                 <text>Primera etapa, nivell dificil, pregunta 1 Bla bla bla</text>
                 <valid>
@@ -107,7 +107,7 @@
     </stage>
     
     <stage value="2">
-        <level value="0">
+        <level value="1">
             <question>
                 <text>Segona etapa, nivell facil, pregunta 1 Bla bla bla</text>
                 <valid>
@@ -125,7 +125,7 @@
                 </invalid>
             </question>
         </level>
-        <level value="1">
+        <level value="2">
             <question>
                 <text>Segona etapa, nivell mitja, pregunta 1 Bla bla bla</text>
                 <valid>
@@ -143,7 +143,7 @@
                 </invalid>
             </question>
         </level>
-        <level value="2">
+        <level value="3">
             <question>
                 <text>Segona etapa, nivell dificil, pregunta 1 Bla bla bla</text>
                 <valid>
@@ -166,7 +166,7 @@
     
     
     <stage value="3">
-        <level value="0">
+        <level value="1">
             <question>
                 <text>Tercera etapa, nivell facil, pregunta 1 Bla bla bla</text>
                 <valid>
@@ -184,7 +184,7 @@
                 </invalid>
             </question>
         </level>
-        <level value="1">
+        <level value="2">
             <question>
                 <text>Tercera etapa, nivell mitja, pregunta 1 Bla bla bla</text>
                 <valid>
@@ -202,7 +202,7 @@
                 </invalid>
             </question>
         </level>
-        <level value="2">
+        <level value="3">
             <question>
                 <text>Tercera etapa, nivell dificil, pregunta 1 Bla bla bla</text>
                 <valid>
@@ -225,7 +225,7 @@
     
     
     <stage value="4">
-        <level value="0">
+        <level value="1">
             <question>
                 <text>Quarta etapa, nivell facil, pregunta 1 Bla bla bla</text>
                 <valid>
@@ -243,7 +243,7 @@
                 </invalid>
             </question>
         </level>
-        <level value="1">
+        <level value="2">
             <question>
                 <text>Quarta etapa, nivell mitja, pregunta 1 Bla bla bla</text>
                 <valid>
@@ -261,7 +261,7 @@
                 </invalid>
             </question>
         </level>
-        <level value="2">
+        <level value="3">
             <question>
                 <text>Quarta etapa, nivell dificil, pregunta 1 Bla bla bla</text>
                 <valid>

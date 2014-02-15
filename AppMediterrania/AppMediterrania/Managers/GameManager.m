@@ -41,6 +41,7 @@
 }
 
 -(NSArray *)questionsAt:(int)level atStage:(int)stage{
+    
     NSMutableArray *questions = [[NSMutableArray alloc] init];
     
     NSString *path = [NSString stringWithFormat:@"//game/stage[@value='%d']/level[@value='%d']/question",stage,level];
@@ -70,6 +71,7 @@
 
         [questions addObject:question];
     }];
+    
     return questions;
 }
 

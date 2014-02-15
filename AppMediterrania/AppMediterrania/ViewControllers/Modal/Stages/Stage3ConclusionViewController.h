@@ -10,6 +10,4 @@
 
 @interface Stage3ConclusionViewController : UIViewController
 
-- (IBAction)nextButton:(id)sender;
-
 @end

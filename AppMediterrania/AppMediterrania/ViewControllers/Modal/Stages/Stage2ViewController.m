@@ -33,6 +33,8 @@
     [super viewDidLoad];
 
     [nextButton setEnabled: NO];
+
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nextSubLevel:) name:NOT_NEXT_SUB_LEVEL object:nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -51,16 +53,16 @@
     [nextButton setEnabled:enabled];
 }
 
-#pragma mark - Actions
-
-- (IBAction)nextButton:(id)sender{
+#pragma mark - Notifications
+- (void) nextSubLevel:(NSNotification *)notification{
     [[StageManager sharedInstance] markAsCompleted: 2];
-
+    
     [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
 }
 
 - (IBAction)nextSubStage:(id)sender{
     [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];
 }
+
 
 @end

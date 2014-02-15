@@ -33,6 +33,8 @@
     [super viewDidLoad];
 
     [nextButton setEnabled: NO];
+
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nextSubLevel:) name:NOT_NEXT_SUB_LEVEL object:nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -57,15 +59,17 @@
     [nextButton setEnabled: YES];
 }
 
-#pragma mark - Actions
-
-- (IBAction)nextButton:(id)sender{
+#pragma mark - Notifications
+- (void) nextSubLevel:(NSNotification *)notification
+{
     [self stopAudio];
-
+    
     [[StageManager sharedInstance] markAsCompleted: 1];
     
     [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
 }
+
+#pragma mark - Actions
 
 
 - (IBAction)clickSea:(id)sender{

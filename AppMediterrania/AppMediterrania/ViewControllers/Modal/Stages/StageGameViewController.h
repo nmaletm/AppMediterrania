@@ -27,8 +27,6 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil question:(QuestionModel *)theQuestion;
 
-- (IBAction)nextButton:(id)sender;
-
 - (IBAction)figureButton:(id)sender;
 
 - (void)changeQuestion:(QuestionModel *)theQuestion;

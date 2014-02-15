@@ -27,6 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nextSubLevel:) name:NOT_NEXT_SUB_LEVEL object:nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -34,10 +35,12 @@
     [super didReceiveMemoryWarning];
 }
 
-- (IBAction)nextButton:(id)sender{
+
+#pragma mark - Notifications
+- (void) nextSubLevel:(NSNotification *)notification{
     [[StageManager sharedInstance] markAsCompleted: 3];
+    
     [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
 }
-
 
 @end

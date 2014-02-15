@@ -45,8 +45,8 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        stagesUnblocked = [[NSArray alloc] initWithObjects:@"70_joc", @"71_joc", @"72_joc", @"73_joc", @"74_joc", @"75_joc", @"76_joc", @"77_joc", nil];
-        stagesBlocked = [[NSArray alloc] initWithObjects:@"lock", @"lock", @"lock", @"lock", @"lock", @"lock", @"lock", @"lock", nil];
+        stagesUnblocked = [[NSArray alloc] initWithObjects:@"nivell01", @"nivell02a", @"nivell03a", @"nivell04a", @"nivell05a", @"nivell06a", @"nivell07a", @"nivell08a", nil];
+        stagesBlocked = [[NSArray alloc] initWithObjects:@"nivell01", @"nivell02b", @"nivell03b", @"nivell04b", @"nivell05b", @"nivell06b", @"nivell07b", @"nivell08b", nil];
     }
     return self;
 }

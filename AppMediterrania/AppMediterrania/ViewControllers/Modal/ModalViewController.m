@@ -32,8 +32,6 @@
     [self.dataSource initView];
     
     [self loadViewController];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nextSubLevel:) name:NOT_NEXT_SUB_LEVEL object:nil];
 }
 
 - (void) loadViewController{
@@ -63,8 +61,9 @@
 
 
 #pragma mark - Notifications
-- (void) nextSubLevel:(NSNotification *)notification
-{
+- (IBAction)nextButton:(id)sender{
+    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];
+
     if([self.dataSource respondsToSelector:@selector(goNextSubLevel)]){
         [self.dataSource goNextSubLevel];
         [self loadViewController];

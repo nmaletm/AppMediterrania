@@ -17,7 +17,6 @@
 
 @property (strong, nonatomic) IBOutlet UIImageView *background;
 
-- (IBAction)nextButton:(id)sender;
 
 - (IBAction)changeSeason:(id)sender;
 

@@ -13,7 +13,6 @@
 @property (strong, nonatomic) IBOutlet UIImageView *backgroundImage;
 @property (strong, nonatomic) IBOutlet UIButton *nextButton;
 
-- (IBAction)nextButton:(id)sender;
 - (IBAction)nextSubStage:(id)sender;
 - (void) setBackground:(NSString*) newBackground;
 - (void) nextButtonEnabled:(BOOL) enabled;

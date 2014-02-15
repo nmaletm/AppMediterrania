@@ -14,7 +14,6 @@
 @property (strong, nonatomic) IBOutlet UIButton *nextButton;
 @property (strong, nonatomic) IBOutlet UIButton *nextSubStageButton;
 
-- (IBAction)nextButton:(id)sender;
 - (IBAction)nextSubStage:(id)sender;
 - (void) setBackground:(NSString*) newBackground;
 - (void) nextButtonEnabled:(BOOL) enabled;

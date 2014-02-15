@@ -10,6 +10,4 @@
 
 @interface StageGameIntroViewController : UIViewController
 
-- (IBAction)nextButton:(id)sender;
-
 @end

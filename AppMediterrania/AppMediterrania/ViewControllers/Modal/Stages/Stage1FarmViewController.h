@@ -12,7 +12,6 @@
 
 @property (strong, nonatomic) IBOutlet UIButton *nextButton;
 
-- (IBAction)nextButton:(id)sender;
 
 - (IBAction)clickGoat:(id)sender;
 - (IBAction)clickSheep:(id)sender;

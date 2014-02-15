@@ -10,6 +10,4 @@
 
 @interface Stage8IntroViewController : UIViewController
 
-- (IBAction)nextButton:(id)sender;
-
 @end

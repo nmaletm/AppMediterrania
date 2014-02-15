@@ -53,12 +53,8 @@
 - (void) nextSubStageButtonEnabled:(BOOL) enabled{
     [nextSubStageButton setEnabled:enabled];
 }
-#pragma mark - Actions
 
-- (IBAction)nextButton:(id)sender{
-    
-    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];
-}
+#pragma mark - Actions
 
 - (IBAction)nextSubStage:(id)sender{
     [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];

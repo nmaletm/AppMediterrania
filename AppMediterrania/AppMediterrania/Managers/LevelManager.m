@@ -40,10 +40,8 @@
 #pragma mark - Level managment
 
 - (void) setNewLevel:(NSNumber *)newLevel{
-    if(newLevel > level){
-        level = newLevel;
-        [self storeData];
-    }
+    level = newLevel;
+    [self storeData];
 }
 
 

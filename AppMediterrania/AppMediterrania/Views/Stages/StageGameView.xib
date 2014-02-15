@@ -16,7 +16,6 @@
                 <outlet property="button_31" destination="Zj3-Ga-uXI" id="hK4-xw-s5T"/>
                 <outlet property="button_32" destination="Nef-fj-y2u" id="45l-Z3-hUD"/>
                 <outlet property="button_33" destination="11O-9I-ofE" id="AdV-bK-6XW"/>
-                <outlet property="nextButton" destination="u8e-He-XBL" id="VO3-Cv-49N"/>
                 <outlet property="questionTextView" destination="Y39-nK-vGy" id="eR5-ZH-btc"/>
                 <outlet property="scoreLabel" destination="LxJ-KZ-NTh" id="ezU-5o-OK9"/>
                 <outlet property="view" destination="1" id="Sb1-2n-rX2"/>
@@ -31,7 +30,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y39-nK-vGy" userLabel="Question Text">
+                <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y39-nK-vGy" userLabel="Question Text">
                     <rect key="frame" x="104" y="38" width="748" height="104"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.70000000000000007" colorSpace="calibratedRGB"/>
@@ -47,17 +46,6 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8e-He-XBL">
-                    <rect key="frame" x="874" y="647" width="124" height="101"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <state key="normal" title="Next">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="nextButton:" destination="-1" eventType="touchDown" id="o8K-Yf-tfI"/>
-                    </connections>
-                </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3HL-oR-pOQ" userLabel="b_11">
                     <rect key="frame" x="192" y="150" width="150" height="150"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
