@@ -16,8 +16,8 @@
 @end
 
 @implementation Stage2ViewController
-@synthesize nextButton;
 @synthesize backgroundImage;
+@synthesize nextSubStageButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil;
 {
@@ -32,9 +32,6 @@
 {
     [super viewDidLoad];
 
-    [nextButton setEnabled: NO];
-
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nextSubLevel:) name:NOT_NEXT_SUB_LEVEL object:nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -49,19 +46,15 @@
     [backgroundImage setImage:image];
 }
 
-- (void) nextButtonEnabled:(BOOL) enabled{
-    [nextButton setEnabled:enabled];
+- (void) nextSubStageButtonEnabled:(BOOL) enabled{
+    [nextSubStageButton setEnabled:enabled];
 }
 
-#pragma mark - Notifications
-- (void) nextSubLevel:(NSNotification *)notification{
-    [[StageManager sharedInstance] markAsCompleted: 2];
-    
-    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
-}
+
+#pragma mark - Actions
 
 - (IBAction)nextSubStage:(id)sender{
-    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];
+    [[NSNotificationCenter defaultCenter] postNotificationName:CLICK_NEXT_BUTTON object:self];
 }
 
 

@@ -10,3 +10,8 @@
 
 extern NSString * const NOT_BACK_TO_MAP;
 extern NSString * const NOT_NEXT_SUB_LEVEL;
+
+extern NSString * const NEXT_BUTTON_ENABLED;
+extern NSString * const NEXT_BUTTON_DISABLED;
+
+extern NSString * const CLICK_NEXT_BUTTON;

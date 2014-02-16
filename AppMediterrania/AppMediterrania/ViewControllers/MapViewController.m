@@ -112,13 +112,17 @@
 
 
 #pragma mark Actions
-- (IBAction)showAbout:(id)sender{
-    
-    if(DEBUG_APP){
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Debug" message:@"Acabes d'esborrar tot, si us plau tanca l'app i torna a iniciar-la" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Ara la tanco...",nil];
-        [alert show];
+- (IBAction)showReset:(id)sender{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NAME_APP message:@"¿Estas seguro que quieres volver al inicio del juego?" delegate:self cancelButtonTitle:@"Cancelar" otherButtonTitles:@"Resetear juego",nil];
+    [alert show];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (buttonIndex != [alertView cancelButtonIndex]) {
         [[LevelManager sharedInstance] reset];
         [[StageManager sharedInstance] reset];
+        [self refreshStageStatus];
+        [self showLevelSelector:nil];
     }
 }
 

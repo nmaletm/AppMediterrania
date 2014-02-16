@@ -31,6 +31,10 @@
     return NO;
 }
 
+- (BOOL ) hasNextButton{
+    return YES;
+}
+
 - (void) initView{
     currentSubStage = 0;
     

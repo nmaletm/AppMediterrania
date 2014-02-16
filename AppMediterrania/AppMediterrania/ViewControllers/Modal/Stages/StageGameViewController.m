@@ -21,7 +21,6 @@
 @end
 
 @implementation StageGameViewController
-@synthesize nextButton;
 @synthesize scoreLabel;
 @synthesize questionTextView;
 @synthesize button_11;
@@ -61,8 +60,9 @@
 }
 
 - (void) initGame{
+    [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_DISABLED object:self];
     correctSelected = [[NSMutableArray alloc] init];
-    [nextButton setEnabled: NO];
+    
     
     dashboardFigures = [[NSMutableArray alloc] init];
     [dashboardFigures addObjectsFromArray:question.figuresCorrect];
@@ -70,7 +70,6 @@
     [dashboardFigures shuffle];
     
     
-    [nextButton setEnabled: NO];
     [questionTextView setText:question.text];
     [self refreshScore];
     [self refreshButtons];
@@ -134,7 +133,7 @@
             }
         }
         [UIView commitAnimations];
-        [nextButton setEnabled:YES];
+        [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_ENABLED object:self];
     }
 }
 

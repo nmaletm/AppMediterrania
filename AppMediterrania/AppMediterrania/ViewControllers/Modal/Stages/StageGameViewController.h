@@ -11,7 +11,6 @@
 
 @interface StageGameViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UIButton *nextButton;
 @property (strong, nonatomic) IBOutlet UITextView *questionTextView;
 @property (strong, nonatomic) IBOutlet UILabel *scoreLabel;
 

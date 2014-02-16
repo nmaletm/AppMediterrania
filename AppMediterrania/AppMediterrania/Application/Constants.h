@@ -12,3 +12,5 @@ extern BOOL const DEBUG_APP;
 
 extern NSString * const ST_DEFAULTS_STAGE;
 extern NSString * const ST_DEFAULTS_LEVEL;
+
+extern NSString * const NAME_APP;

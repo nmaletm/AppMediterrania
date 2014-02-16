@@ -15,7 +15,6 @@
 @end
 
 @implementation Stage3ViewController
-@synthesize nextButton;
 @synthesize nextSubStageButton;
 @synthesize backgroundImage;
 
@@ -32,7 +31,7 @@
 {
     [super viewDidLoad];
     
-    [nextButton setEnabled: NO];
+    [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_DISABLED object:self];
 }
 
 - (void)didReceiveMemoryWarning
@@ -47,9 +46,6 @@
     [backgroundImage setImage:image];
 }
 
-- (void) nextButtonEnabled:(BOOL) enabled{
-    [nextButton setEnabled:enabled];
-}
 - (void) nextSubStageButtonEnabled:(BOOL) enabled{
     [nextSubStageButton setEnabled:enabled];
 }
@@ -57,7 +53,7 @@
 #pragma mark - Actions
 
 - (IBAction)nextSubStage:(id)sender{
-    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_NEXT_SUB_LEVEL object:self];
+    [[NSNotificationCenter defaultCenter] postNotificationName:CLICK_NEXT_BUTTON object:self];
 }
 
 @end

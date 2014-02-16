@@ -15,6 +15,7 @@
     NSMutableDictionary *texts;
     NSArray *backgrounds;
     int currentSubStage;
+    BOOL nextEnabled;
 }
 
 @end
@@ -26,11 +27,19 @@
     return YES;
 }
 
+- (BOOL ) hasNextButton{
+    return YES;
+}
+
 - (void) initView{
     currentSubStage = 0;
+    nextEnabled = NO;
+    [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_DISABLED object:self];
+
     viewController = [[Stage2ViewController alloc] initWithNibName:@"Stage2View" bundle:nil];
     backgrounds = [[NSArray alloc] initWithObjects:
-                  @"pantalla_cuina_1",
+                   @"pantalla_cuina",
+                   @"pantalla_cuina_1",
                   @"pantalla_cuina_2",
                   @"pantalla_cuina_3",
                   nil];
@@ -78,10 +87,20 @@
     Stage2ViewController *stageViewController = (Stage2ViewController*) viewController;
     
     if(currentSubStage+1 >= [backgrounds count]){
-        [stageViewController nextButtonEnabled:YES];
+        if(!nextEnabled){
+            [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_ENABLED object:self];
+            nextEnabled = YES;
+            [stageViewController nextSubStageButtonEnabled:NO];
+        }
+        else{
+            [[StageManager sharedInstance] markAsCompleted: 2];
+        
+            [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
+        }
     }
     else{
         currentSubStage++;
+        [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_DISABLED object:self];
     }
     
     [stageViewController setBackground:[backgrounds objectAtIndex:currentSubStage]];

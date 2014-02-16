@@ -28,11 +28,15 @@
     return YES;
 }
 
+- (BOOL ) hasNextButton{
+    return YES;
+}
+
 - (void) initView{
     currentSubStage = 0;
     views = [[NSArray alloc] initWithObjects:
              [[Stage1SeasonsViewController alloc] initWithNibName:@"Stage1SeasonsView" bundle:nil withBackground:@"pantalla_agricultura_01"],
-             [[Stage1SeasonsViewController alloc] initWithNibName:@"Stage1SeasonsView" bundle:nil withBackground:@"pantalla_camp"],
+             [[Stage1SeasonsViewController alloc] initWithNibName:@"Stage1SeasonsView" bundle:nil withBackground:@"pantalla_agricultura_02"],
              [[Stage1FarmViewController alloc] initWithNibName:@"Stage1FarmView" bundle:nil],
              [[Stage1FishingViewController alloc] initWithNibName:@"Stage1FishingView" bundle:nil],
              nil];
@@ -76,7 +80,9 @@
 }
 
 - (void) goNextSubLevel{
-    currentSubStage++;
+    if(currentSubStage < [views count]-1){
+        currentSubStage++;
+    }
 }
 
 @end

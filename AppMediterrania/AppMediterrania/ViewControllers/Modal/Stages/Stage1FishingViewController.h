@@ -10,9 +10,6 @@
 
 @interface Stage1FishingViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UIButton *nextButton;
-
-
 - (IBAction)clickSea:(id)sender;
 - (IBAction)clickSky:(id)sender;
 @end

@@ -16,6 +16,10 @@
     return NO;
 }
 
+- (BOOL ) hasNextButton{
+    return NO;
+}
+
 - (NSString *) text{
     return nil;
 }

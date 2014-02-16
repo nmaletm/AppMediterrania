@@ -240,10 +240,6 @@
 		6CD2DB4718AF49900063D94B /* pantalla_agricultura_01_spring.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA6C18AF49900063D94B /* pantalla_agricultura_01_spring.png */; };
 		6CD2DB4818AF49900063D94B /* pantalla_agricultura_01_summer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA6D18AF49900063D94B /* pantalla_agricultura_01_summer.png */; };
 		6CD2DB4918AF49900063D94B /* pantalla_agricultura_01_winter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA6E18AF49900063D94B /* pantalla_agricultura_01_winter.png */; };
-		6CD2DB4A18AF49900063D94B /* pantalla_agricultura_01a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA6F18AF49900063D94B /* pantalla_agricultura_01a.png */; };
-		6CD2DB4B18AF49900063D94B /* pantalla_agricultura_01b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA7018AF49900063D94B /* pantalla_agricultura_01b.png */; };
-		6CD2DB4C18AF49900063D94B /* pantalla_agricultura_01c.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA7118AF49900063D94B /* pantalla_agricultura_01c.png */; };
-		6CD2DB4D18AF49900063D94B /* pantalla_agricultura_01d.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA7218AF49900063D94B /* pantalla_agricultura_01d.png */; };
 		6CD2DB4E18AF49900063D94B /* pantalla_cuina.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA7318AF49900063D94B /* pantalla_cuina.png */; };
 		6CD2DB4F18AF49900063D94B /* pantalla_granja.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA7418AF49900063D94B /* pantalla_granja.png */; };
 		6CD2DB5018AF49900063D94B /* pantalla_joc_coordenades.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA7518AF49900063D94B /* pantalla_joc_coordenades.png */; };
@@ -252,10 +248,6 @@
 		6CD2DB5318AF49900063D94B /* pantalla_pesca.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA7818AF49900063D94B /* pantalla_pesca.png */; };
 		6CD2DB5418AF49900063D94B /* pantalla_ramaderia.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA7918AF49900063D94B /* pantalla_ramaderia.png */; };
 		6CD2DB5518AF49900063D94B /* LogoFDMed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA7B18AF49900063D94B /* LogoFDMed.png */; };
-		6CD2DB5618AF49900063D94B /* pantalla_camp_autumn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA7C18AF49900063D94B /* pantalla_camp_autumn.png */; };
-		6CD2DB5718AF49900063D94B /* pantalla_camp_spring.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA7D18AF49900063D94B /* pantalla_camp_spring.png */; };
-		6CD2DB5818AF49900063D94B /* pantalla_camp_summer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA7E18AF49900063D94B /* pantalla_camp_summer.png */; };
-		6CD2DB5918AF49900063D94B /* pantalla_camp_winter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA7F18AF49900063D94B /* pantalla_camp_winter.png */; };
 		6CD2DB5A18AF49900063D94B /* pantalla_cuina_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA8018AF49900063D94B /* pantalla_cuina_1.png */; };
 		6CD2DB5B18AF49900063D94B /* pantalla_cuina_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA8118AF49900063D94B /* pantalla_cuina_2.png */; };
 		6CD2DB5C18AF49900063D94B /* pantalla_cuina_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA8218AF49900063D94B /* pantalla_cuina_3.png */; };
@@ -264,6 +256,10 @@
 		6CD2DB5F18AF49900063D94B /* pantalla_receptes_mitja.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA8518AF49900063D94B /* pantalla_receptes_mitja.png */; };
 		6CD2DB6018AF49900063D94B /* piramide_mitja_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA8618AF49900063D94B /* piramide_mitja_1.png */; };
 		6CD2DB6118AF49900063D94B /* piramide_mitja_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DA8718AF49900063D94B /* piramide_mitja_2.png */; };
+		6CD2DB6B18B0B18E0063D94B /* pantalla_agricultura_02_autumn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DB6718B0B18E0063D94B /* pantalla_agricultura_02_autumn.png */; };
+		6CD2DB6C18B0B18E0063D94B /* pantalla_agricultura_02_spring.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DB6818B0B18E0063D94B /* pantalla_agricultura_02_spring.png */; };
+		6CD2DB6D18B0B18E0063D94B /* pantalla_agricultura_02_summer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DB6918B0B18E0063D94B /* pantalla_agricultura_02_summer.png */; };
+		6CD2DB6E18B0B18E0063D94B /* pantalla_agricultura_02_winter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DB6A18B0B18E0063D94B /* pantalla_agricultura_02_winter.png */; };
 		6CD57A37189B9918005538D1 /* Stage8View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD57A36189B9918005538D1 /* Stage8View.xib */; };
 		6CD57A3A189B9C63005538D1 /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A39189B9C63005538D1 /* Notifications.m */; };
 		6CD57A3D189BA29C005538D1 /* StageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A3C189BA29C005538D1 /* StageManager.m */; };
@@ -558,10 +554,6 @@
 		6CD2DA6C18AF49900063D94B /* pantalla_agricultura_01_spring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_01_spring.png; sourceTree = "<group>"; };
 		6CD2DA6D18AF49900063D94B /* pantalla_agricultura_01_summer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_01_summer.png; sourceTree = "<group>"; };
 		6CD2DA6E18AF49900063D94B /* pantalla_agricultura_01_winter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_01_winter.png; sourceTree = "<group>"; };
-		6CD2DA6F18AF49900063D94B /* pantalla_agricultura_01a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_01a.png; sourceTree = "<group>"; };
-		6CD2DA7018AF49900063D94B /* pantalla_agricultura_01b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_01b.png; sourceTree = "<group>"; };
-		6CD2DA7118AF49900063D94B /* pantalla_agricultura_01c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_01c.png; sourceTree = "<group>"; };
-		6CD2DA7218AF49900063D94B /* pantalla_agricultura_01d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_01d.png; sourceTree = "<group>"; };
 		6CD2DA7318AF49900063D94B /* pantalla_cuina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_cuina.png; sourceTree = "<group>"; };
 		6CD2DA7418AF49900063D94B /* pantalla_granja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_granja.png; sourceTree = "<group>"; };
 		6CD2DA7518AF49900063D94B /* pantalla_joc_coordenades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_joc_coordenades.png; sourceTree = "<group>"; };
@@ -570,10 +562,6 @@
 		6CD2DA7818AF49900063D94B /* pantalla_pesca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_pesca.png; sourceTree = "<group>"; };
 		6CD2DA7918AF49900063D94B /* pantalla_ramaderia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_ramaderia.png; sourceTree = "<group>"; };
 		6CD2DA7B18AF49900063D94B /* LogoFDMed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoFDMed.png; sourceTree = "<group>"; };
-		6CD2DA7C18AF49900063D94B /* pantalla_camp_autumn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_camp_autumn.png; sourceTree = "<group>"; };
-		6CD2DA7D18AF49900063D94B /* pantalla_camp_spring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_camp_spring.png; sourceTree = "<group>"; };
-		6CD2DA7E18AF49900063D94B /* pantalla_camp_summer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_camp_summer.png; sourceTree = "<group>"; };
-		6CD2DA7F18AF49900063D94B /* pantalla_camp_winter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_camp_winter.png; sourceTree = "<group>"; };
 		6CD2DA8018AF49900063D94B /* pantalla_cuina_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_cuina_1.png; sourceTree = "<group>"; };
 		6CD2DA8118AF49900063D94B /* pantalla_cuina_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_cuina_2.png; sourceTree = "<group>"; };
 		6CD2DA8218AF49900063D94B /* pantalla_cuina_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_cuina_3.png; sourceTree = "<group>"; };
@@ -585,6 +573,10 @@
 		6CD2DB6418AF4ABC0063D94B /* illa_completada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = illa_completada.jpg; path = ../../../../../../../../../Downloads/illa_completada.jpg; sourceTree = "<group>"; };
 		6CD2DB6518AF4ABC0063D94B /* illa_inici.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = illa_inici.jpg; path = ../../../../../../../../../Downloads/illa_inici.jpg; sourceTree = "<group>"; };
 		6CD2DB6618AF4ABC0063D94B /* mostra_grafica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mostra_grafica.jpg; path = ../../../../../../../../../Downloads/mostra_grafica.jpg; sourceTree = "<group>"; };
+		6CD2DB6718B0B18E0063D94B /* pantalla_agricultura_02_autumn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_02_autumn.png; sourceTree = "<group>"; };
+		6CD2DB6818B0B18E0063D94B /* pantalla_agricultura_02_spring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_02_spring.png; sourceTree = "<group>"; };
+		6CD2DB6918B0B18E0063D94B /* pantalla_agricultura_02_summer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_02_summer.png; sourceTree = "<group>"; };
+		6CD2DB6A18B0B18E0063D94B /* pantalla_agricultura_02_winter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_02_winter.png; sourceTree = "<group>"; };
 		6CD57A36189B9918005538D1 /* Stage8View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage8View.xib; path = Stages/Stage8View.xib; sourceTree = "<group>"; };
 		6CD57A38189B9C63005538D1 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
 		6CD57A39189B9C63005538D1 /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
@@ -770,10 +762,10 @@
 				6CD2DA6C18AF49900063D94B /* pantalla_agricultura_01_spring.png */,
 				6CD2DA6D18AF49900063D94B /* pantalla_agricultura_01_summer.png */,
 				6CD2DA6E18AF49900063D94B /* pantalla_agricultura_01_winter.png */,
-				6CD2DA6F18AF49900063D94B /* pantalla_agricultura_01a.png */,
-				6CD2DA7018AF49900063D94B /* pantalla_agricultura_01b.png */,
-				6CD2DA7118AF49900063D94B /* pantalla_agricultura_01c.png */,
-				6CD2DA7218AF49900063D94B /* pantalla_agricultura_01d.png */,
+				6CD2DB6718B0B18E0063D94B /* pantalla_agricultura_02_autumn.png */,
+				6CD2DB6818B0B18E0063D94B /* pantalla_agricultura_02_spring.png */,
+				6CD2DB6918B0B18E0063D94B /* pantalla_agricultura_02_summer.png */,
+				6CD2DB6A18B0B18E0063D94B /* pantalla_agricultura_02_winter.png */,
 				6CD2DA7318AF49900063D94B /* pantalla_cuina.png */,
 				6CD2DA7418AF49900063D94B /* pantalla_granja.png */,
 				6CD2DA7518AF49900063D94B /* pantalla_joc_coordenades.png */,
@@ -987,10 +979,6 @@
 			isa = PBXGroup;
 			children = (
 				6CD2DA7B18AF49900063D94B /* LogoFDMed.png */,
-				6CD2DA7C18AF49900063D94B /* pantalla_camp_autumn.png */,
-				6CD2DA7D18AF49900063D94B /* pantalla_camp_spring.png */,
-				6CD2DA7E18AF49900063D94B /* pantalla_camp_summer.png */,
-				6CD2DA7F18AF49900063D94B /* pantalla_camp_winter.png */,
 				6CD2DA8018AF49900063D94B /* pantalla_cuina_1.png */,
 				6CD2DA8118AF49900063D94B /* pantalla_cuina_2.png */,
 				6CD2DA8218AF49900063D94B /* pantalla_cuina_3.png */,
@@ -1278,16 +1266,17 @@
 				6CD2DB3418AF49900063D94B /* 79_joc_b.png in Resources */,
 				6CD2DAE818AF49900063D94B /* 41_joc_b.png in Resources */,
 				6CD2DB5118AF49900063D94B /* pantalla_joc.png in Resources */,
+				6CD2DB6C18B0B18E0063D94B /* pantalla_agricultura_02_spring.png in Resources */,
 				6CD2DB6118AF49900063D94B /* piramide_mitja_2.png in Resources */,
 				6CD2DAE318AF49900063D94B /* 39_joc.png in Resources */,
 				6CD2DA9018AF49900063D94B /* button_spring_h.png in Resources */,
 				6CAB3A84189E4D9C00F7F4EB /* Stage3View.xib in Resources */,
 				6CD2DAAE18AF49900063D94B /* 12_joc_b.png in Resources */,
-				6CD2DB4A18AF49900063D94B /* pantalla_agricultura_01a.png in Resources */,
 				6CD2DACD18AF49900063D94B /* 28_joc.png in Resources */,
 				6CD2DAFF18AF49900063D94B /* 53_joc.png in Resources */,
 				6CD2DB4618AF49900063D94B /* pantalla_agricultura_01_autumn.png in Resources */,
 				6CD2DB0618AF49900063D94B /* 56_joc_b.png in Resources */,
+				6CD2DB6D18B0B18E0063D94B /* pantalla_agricultura_02_summer.png in Resources */,
 				6CD2DAC418AF49900063D94B /* 23_joc_b.png in Resources */,
 				6CD2DAB918AF49900063D94B /* 18_joc.png in Resources */,
 				6CD2DAA818AF49900063D94B /* 09_joc_b.png in Resources */,
@@ -1297,7 +1286,6 @@
 				6CD2DB5218AF49900063D94B /* pantalla_mapa.png in Resources */,
 				6CD2DAFB18AF49900063D94B /* 51_joc.png in Resources */,
 				6CD2DB0918AF49900063D94B /* 58_joc.png in Resources */,
-				6CD2DB5918AF49900063D94B /* pantalla_camp_winter.png in Resources */,
 				6CD2DB0D18AF49900063D94B /* 60_joc.png in Resources */,
 				6CD2DAEC18AF49900063D94B /* 43_joc_b.png in Resources */,
 				6CD2DB0218AF49900063D94B /* 54_joc_b.png in Resources */,
@@ -1340,7 +1328,6 @@
 				6CD2DAEE18AF49900063D94B /* 44_joc_b.png in Resources */,
 				6CD2DAD418AF49900063D94B /* 31_joc_b.png in Resources */,
 				6CD2DAF018AF49900063D94B /* 45_joc_b.png in Resources */,
-				6CD2DB4B18AF49900063D94B /* pantalla_agricultura_01b.png in Resources */,
 				6CD2DB1E18AF49900063D94B /* 68_joc_b.png in Resources */,
 				6CD2DA9C18AF49900063D94B /* 03_joc_b.png in Resources */,
 				6CD2DABC18AF49900063D94B /* 19_joc_b.png in Resources */,
@@ -1358,6 +1345,7 @@
 				6CD2DB0418AF49900063D94B /* 55_joc_b.png in Resources */,
 				6CD2DB3818AF49900063D94B /* nivell02a.png in Resources */,
 				6CD2DB4418AF49900063D94B /* nivell08a.png in Resources */,
+				6CD2DB6B18B0B18E0063D94B /* pantalla_agricultura_02_autumn.png in Resources */,
 				6CD2DAFC18AF49900063D94B /* 51_joc_b.png in Resources */,
 				6CD2DAE018AF49900063D94B /* 37_joc_b.png in Resources */,
 				6CD2DB3318AF49900063D94B /* 79_joc.png in Resources */,
@@ -1367,13 +1355,11 @@
 				6CD2DACE18AF49900063D94B /* 28_joc_b.png in Resources */,
 				6CD2DABB18AF49900063D94B /* 19_joc.png in Resources */,
 				6CD2DB2018AF49900063D94B /* 69_joc_b.png in Resources */,
-				6CD2DB4C18AF49900063D94B /* pantalla_agricultura_01c.png in Resources */,
 				6CD2DAC218AF49900063D94B /* 22_joc_b.png in Resources */,
 				6CD2DAB518AF49900063D94B /* 16_joc.png in Resources */,
 				6CD2DB2C18AF49900063D94B /* 75_joc_b.png in Resources */,
 				6CD2DAF818AF49900063D94B /* 49_joc_b.png in Resources */,
 				6CD2DA8E18AF49900063D94B /* button_autumn_h.png in Resources */,
-				6CD2DB4D18AF49900063D94B /* pantalla_agricultura_01d.png in Resources */,
 				6CD2DB3E18AF49900063D94B /* nivell05a.png in Resources */,
 				6CD2DB2418AF49900063D94B /* 71_joc_b.png in Resources */,
 				6CD2DB1118AF49900063D94B /* 62_joc.png in Resources */,
@@ -1407,7 +1393,6 @@
 				6CD2DB5E18AF49900063D94B /* pantalla_receptes_facil.png in Resources */,
 				6CD2DAD218AF49900063D94B /* 30_joc_b.png in Resources */,
 				6CD2DB5018AF49900063D94B /* pantalla_joc_coordenades.png in Resources */,
-				6CD2DB5618AF49900063D94B /* pantalla_camp_autumn.png in Resources */,
 				6CD2DB1418AF49900063D94B /* 63_joc_b.png in Resources */,
 				6CD2DAB418AF49900063D94B /* 15_joc_b.png in Resources */,
 				6CD2DAC318AF49900063D94B /* 23_joc.png in Resources */,
@@ -1435,7 +1420,6 @@
 				6CD2DACB18AF49900063D94B /* 27_joc.png in Resources */,
 				6CD2DB3118AF49900063D94B /* 78_joc.png in Resources */,
 				6CD2DAD918AF49900063D94B /* 34_joc.png in Resources */,
-				6CD2DB5818AF49900063D94B /* pantalla_camp_summer.png in Resources */,
 				6CAB3A82189E4D8A00F7F4EB /* Stage2View.xib in Resources */,
 				6CD2DB0E18AF49900063D94B /* 60_joc_b.png in Resources */,
 				6CD2DB2618AF49900063D94B /* 72_joc_b.png in Resources */,
@@ -1475,8 +1459,8 @@
 				6CD2DA9618AF49900063D94B /* fletxa_disabled.png in Resources */,
 				6CD2DAD018AF49900063D94B /* 29_joc_b.png in Resources */,
 				6CAB3A5F189E27D400F7F4EB /* goat.mp3 in Resources */,
-				6CD2DB5718AF49900063D94B /* pantalla_camp_spring.png in Resources */,
 				6CD2DB2918AF49900063D94B /* 74_joc.png in Resources */,
+				6CD2DB6E18B0B18E0063D94B /* pantalla_agricultura_02_winter.png in Resources */,
 				6C2A8414189BD67A002EEA2C /* Stage1SeasonsView.xib in Resources */,
 				6CD2DAF718AF49900063D94B /* 49_joc.png in Resources */,
 				6CD2DAA318AF49900063D94B /* 07_joc.png in Resources */,

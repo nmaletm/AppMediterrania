@@ -24,7 +24,11 @@
 
 - (BOOL ) hasText{
     NSArray *arrayBackgrounds = [backgrounds valueForKey:[[LevelManager sharedInstance] levelString]];
-    return (currentSubStage-1 <= [arrayBackgrounds count]);
+    return (currentSubStage <= [arrayBackgrounds count]);
+}
+
+- (BOOL ) hasNextButton{
+    return YES;
 }
 
 - (void) initView{
@@ -66,11 +70,12 @@
     if(currentSubStage <= [arrayBackgrounds count]){
         Stage3ViewController *stageViewController = (Stage3ViewController*) viewController;
         [stageViewController setBackground:[arrayBackgrounds objectAtIndex: currentSubStage-1]];
-    }
-    else if(currentSubStage == [arrayBackgrounds count] + 1){
-        Stage3ViewController *stageViewController = (Stage3ViewController*) viewController;
-        [stageViewController nextButtonEnabled:YES];
-        [stageViewController nextSubStageButtonEnabled:NO];
+        
+        if(currentSubStage == [arrayBackgrounds count]){
+            Stage3ViewController *stageViewController = (Stage3ViewController*) viewController;
+            [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_ENABLED object:self];
+            [stageViewController nextSubStageButtonEnabled:NO];
+        }
     }
     else {
         viewController = [[Stage3ConclusionViewController alloc] initWithNibName:@"Stage3ConclusionView" bundle:nil];

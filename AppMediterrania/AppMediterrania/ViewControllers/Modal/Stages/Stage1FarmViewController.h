@@ -10,9 +10,6 @@
 
 @interface Stage1FarmViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UIButton *nextButton;
-
-
 - (IBAction)clickGoat:(id)sender;
 - (IBAction)clickSheep:(id)sender;
 - (IBAction)clickCow:(id)sender;
