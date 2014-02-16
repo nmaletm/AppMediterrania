@@ -43,7 +43,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJ1-o9-6X8" userLabel="Reset Button">
-                    <rect key="frame" x="15" y="681" width="70" height="70"/>
+                    <rect key="frame" x="15" y="678" width="70" height="70"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="boto_salir.png">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>

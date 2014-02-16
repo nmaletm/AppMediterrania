@@ -260,6 +260,9 @@
 		6CD2DB6C18B0B18E0063D94B /* pantalla_agricultura_02_spring.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DB6818B0B18E0063D94B /* pantalla_agricultura_02_spring.png */; };
 		6CD2DB6D18B0B18E0063D94B /* pantalla_agricultura_02_summer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DB6918B0B18E0063D94B /* pantalla_agricultura_02_summer.png */; };
 		6CD2DB6E18B0B18E0063D94B /* pantalla_agricultura_02_winter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DB6A18B0B18E0063D94B /* pantalla_agricultura_02_winter.png */; };
+		6CD2DB7018B0C34B0063D94B /* Stage8EndView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DB6F18B0C34B0063D94B /* Stage8EndView.xib */; };
+		6CD2DB7218B0C4360063D94B /* cara.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DB7118B0C4360063D94B /* cara.png */; };
+		6CD2DB7518B0C5520063D94B /* Stage8EndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD2DB7418B0C5520063D94B /* Stage8EndViewController.m */; };
 		6CD57A37189B9918005538D1 /* Stage8View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD57A36189B9918005538D1 /* Stage8View.xib */; };
 		6CD57A3A189B9C63005538D1 /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A39189B9C63005538D1 /* Notifications.m */; };
 		6CD57A3D189BA29C005538D1 /* StageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A3C189BA29C005538D1 /* StageManager.m */; };
@@ -577,6 +580,10 @@
 		6CD2DB6818B0B18E0063D94B /* pantalla_agricultura_02_spring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_02_spring.png; sourceTree = "<group>"; };
 		6CD2DB6918B0B18E0063D94B /* pantalla_agricultura_02_summer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_02_summer.png; sourceTree = "<group>"; };
 		6CD2DB6A18B0B18E0063D94B /* pantalla_agricultura_02_winter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_agricultura_02_winter.png; sourceTree = "<group>"; };
+		6CD2DB6F18B0C34B0063D94B /* Stage8EndView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage8EndView.xib; path = Stages/Stage8EndView.xib; sourceTree = "<group>"; };
+		6CD2DB7118B0C4360063D94B /* cara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cara.png; sourceTree = "<group>"; };
+		6CD2DB7318B0C5520063D94B /* Stage8EndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage8EndViewController.h; sourceTree = "<group>"; };
+		6CD2DB7418B0C5520063D94B /* Stage8EndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage8EndViewController.m; sourceTree = "<group>"; };
 		6CD57A36189B9918005538D1 /* Stage8View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage8View.xib; path = Stages/Stage8View.xib; sourceTree = "<group>"; };
 		6CD57A38189B9C63005538D1 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
 		6CD57A39189B9C63005538D1 /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
@@ -664,14 +671,16 @@
 				6C99FA4218A7AD8500D027E0 /* Stage3ConclusionViewController.m */,
 				6C99FA4318A7AD8500D027E0 /* Stage3ViewController.h */,
 				6C99FA4418A7AD8500D027E0 /* Stage3ViewController.m */,
-				6C99FA4518A7AD8500D027E0 /* Stage8IntroViewController.h */,
-				6C99FA4618A7AD8500D027E0 /* Stage8IntroViewController.m */,
-				6C99FA4718A7AD8500D027E0 /* Stage8ViewController.h */,
-				6C99FA4818A7AD8500D027E0 /* Stage8ViewController.m */,
 				6C99FA4918A7AD8500D027E0 /* StageGameIntroViewController.h */,
 				6C99FA4A18A7AD8500D027E0 /* StageGameIntroViewController.m */,
 				6C99FA4B18A7AD8500D027E0 /* StageGameViewController.h */,
 				6C99FA4C18A7AD8500D027E0 /* StageGameViewController.m */,
+				6C99FA4518A7AD8500D027E0 /* Stage8IntroViewController.h */,
+				6C99FA4618A7AD8500D027E0 /* Stage8IntroViewController.m */,
+				6C99FA4718A7AD8500D027E0 /* Stage8ViewController.h */,
+				6C99FA4818A7AD8500D027E0 /* Stage8ViewController.m */,
+				6CD2DB7318B0C5520063D94B /* Stage8EndViewController.h */,
+				6CD2DB7418B0C5520063D94B /* Stage8EndViewController.m */,
 			);
 			path = Stages;
 			sourceTree = "<group>";
@@ -978,6 +987,7 @@
 		6CD2DA7A18AF49900063D94B /* temp */ = {
 			isa = PBXGroup;
 			children = (
+				6CD2DB7118B0C4360063D94B /* cara.png */,
 				6CD2DA7B18AF49900063D94B /* LogoFDMed.png */,
 				6CD2DA8018AF49900063D94B /* pantalla_cuina_1.png */,
 				6CD2DA8118AF49900063D94B /* pantalla_cuina_2.png */,
@@ -1159,6 +1169,7 @@
 				6CF823FA189F68F000716310 /* StageGameIntroView.xib */,
 				6C99FA1D18A79C3F00D027E0 /* Stage8IntroView.xib */,
 				6CD57A36189B9918005538D1 /* Stage8View.xib */,
+				6CD2DB6F18B0C34B0063D94B /* Stage8EndView.xib */,
 			);
 			name = Stages;
 			sourceTree = "<group>";
@@ -1389,6 +1400,7 @@
 				6CD2DA9E18AF49900063D94B /* 04_joc_b.png in Resources */,
 				6CD2DB1A18AF49900063D94B /* 66_joc_b.png in Resources */,
 				6CD2DB0C18AF49900063D94B /* 59_joc_b.png in Resources */,
+				6CD2DB7218B0C4360063D94B /* cara.png in Resources */,
 				6CD2DAA118AF49900063D94B /* 06_joc.png in Resources */,
 				6CD2DB5E18AF49900063D94B /* pantalla_receptes_facil.png in Resources */,
 				6CD2DAD218AF49900063D94B /* 30_joc_b.png in Resources */,
@@ -1423,6 +1435,7 @@
 				6CAB3A82189E4D8A00F7F4EB /* Stage2View.xib in Resources */,
 				6CD2DB0E18AF49900063D94B /* 60_joc_b.png in Resources */,
 				6CD2DB2618AF49900063D94B /* 72_joc_b.png in Resources */,
+				6CD2DB7018B0C34B0063D94B /* Stage8EndView.xib in Resources */,
 				6CD2DAC518AF49900063D94B /* 24_joc.png in Resources */,
 				6CD2DAF618AF49900063D94B /* 48_joc_b.png in Resources */,
 				6CD2DA8818AF49900063D94B /* blog_text_info.png in Resources */,
@@ -1558,6 +1571,7 @@
 				6CD57A55189BA472005538D1 /* LevelManager.m in Sources */,
 				6C99FA6518A7AD8500D027E0 /* StageGameIntroViewController.m in Sources */,
 				6CDCDDBE1897F07A002EBDED /* AppDelegate.m in Sources */,
+				6CD2DB7518B0C5520063D94B /* Stage8EndViewController.m in Sources */,
 				6C99FA6118A7AD8500D027E0 /* Stage3ConclusionViewController.m in Sources */,
 				6CD57A51189BA39B005538D1 /* Constants.m in Sources */,
 				6C99FA5D18A7AD8500D027E0 /* Stage1FarmViewController.m in Sources */,
