@@ -10,6 +10,28 @@
 		6C2A8414189BD67A002EEA2C /* Stage1SeasonsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A840F189BD67A002EEA2C /* Stage1SeasonsView.xib */; };
 		6C2A8417189BD67A002EEA2C /* Stage1FarmView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8412189BD67A002EEA2C /* Stage1FarmView.xib */; };
 		6C2A8418189BD67A002EEA2C /* Stage1FishingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8413189BD67A002EEA2C /* Stage1FishingView.xib */; };
+		6C4788CD18B1DE3700E6E657 /* cuina_niv01_1a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788B718B1DE3700E6E657 /* cuina_niv01_1a.png */; };
+		6C4788CE18B1DE3700E6E657 /* cuina_niv01_1b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788B818B1DE3700E6E657 /* cuina_niv01_1b.png */; };
+		6C4788CF18B1DE3700E6E657 /* cuina_niv01_2a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788B918B1DE3700E6E657 /* cuina_niv01_2a.png */; };
+		6C4788D018B1DE3700E6E657 /* cuina_niv01_2b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788BA18B1DE3700E6E657 /* cuina_niv01_2b.png */; };
+		6C4788D118B1DE3700E6E657 /* cuina_niv01_3a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788BB18B1DE3700E6E657 /* cuina_niv01_3a.png */; };
+		6C4788D218B1DE3700E6E657 /* cuina_niv01_3b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788BC18B1DE3700E6E657 /* cuina_niv01_3b.png */; };
+		6C4788D318B1DE3700E6E657 /* cuina_niv01_4a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788BD18B1DE3700E6E657 /* cuina_niv01_4a.png */; };
+		6C4788D418B1DE3700E6E657 /* cuina_niv01_4b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788BE18B1DE3700E6E657 /* cuina_niv01_4b.png */; };
+		6C4788D518B1DE3700E6E657 /* cuina_niv02_1a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788BF18B1DE3700E6E657 /* cuina_niv02_1a.png */; };
+		6C4788D618B1DE3700E6E657 /* cuina_niv02_1b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788C018B1DE3700E6E657 /* cuina_niv02_1b.png */; };
+		6C4788D718B1DE3700E6E657 /* cuina_niv02_2a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788C118B1DE3700E6E657 /* cuina_niv02_2a.png */; };
+		6C4788D818B1DE3700E6E657 /* cuina_niv02_2b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788C218B1DE3700E6E657 /* cuina_niv02_2b.png */; };
+		6C4788D918B1DE3700E6E657 /* cuina_niv02_3a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788C318B1DE3700E6E657 /* cuina_niv02_3a.png */; };
+		6C4788DA18B1DE3700E6E657 /* cuina_niv02_3b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788C418B1DE3700E6E657 /* cuina_niv02_3b.png */; };
+		6C4788DB18B1DE3700E6E657 /* cuina_niv02_4a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788C518B1DE3700E6E657 /* cuina_niv02_4a.png */; };
+		6C4788DC18B1DE3700E6E657 /* cuina_niv02_4b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788C618B1DE3700E6E657 /* cuina_niv02_4b.png */; };
+		6C4788DD18B1DE3700E6E657 /* cuina_niv03_1a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788C718B1DE3700E6E657 /* cuina_niv03_1a.png */; };
+		6C4788DE18B1DE3700E6E657 /* cuina_niv03_1b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788C818B1DE3700E6E657 /* cuina_niv03_1b.png */; };
+		6C4788DF18B1DE3700E6E657 /* cuina_niv03_2a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788C918B1DE3700E6E657 /* cuina_niv03_2a.png */; };
+		6C4788E018B1DE3700E6E657 /* cuina_niv03_2b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788CA18B1DE3700E6E657 /* cuina_niv03_2b.png */; };
+		6C4788E118B1DE3700E6E657 /* cuina_niv03_3a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788CB18B1DE3700E6E657 /* cuina_niv03_3a.png */; };
+		6C4788E218B1DE3700E6E657 /* cuina_niv03_3b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4788CC18B1DE3700E6E657 /* cuina_niv03_3b.png */; };
 		6C99FA1E18A79C3F00D027E0 /* Stage8IntroView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA1D18A79C3F00D027E0 /* Stage8IntroView.xib */; };
 		6C99FA2618A79F0900D027E0 /* Stage3ConclusionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA2518A79F0900D027E0 /* Stage3ConclusionView.xib */; };
 		6C99FA2918A7A91A00D027E0 /* InformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C99FA2818A7A91A00D027E0 /* InformationView.xib */; };
@@ -304,6 +326,28 @@
 		6C2A840F189BD67A002EEA2C /* Stage1SeasonsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1SeasonsView.xib; path = Stages/Stage1SeasonsView.xib; sourceTree = "<group>"; };
 		6C2A8412189BD67A002EEA2C /* Stage1FarmView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1FarmView.xib; path = Stages/Stage1FarmView.xib; sourceTree = "<group>"; };
 		6C2A8413189BD67A002EEA2C /* Stage1FishingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1FishingView.xib; path = Stages/Stage1FishingView.xib; sourceTree = "<group>"; };
+		6C4788B718B1DE3700E6E657 /* cuina_niv01_1a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv01_1a.png; sourceTree = "<group>"; };
+		6C4788B818B1DE3700E6E657 /* cuina_niv01_1b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv01_1b.png; sourceTree = "<group>"; };
+		6C4788B918B1DE3700E6E657 /* cuina_niv01_2a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv01_2a.png; sourceTree = "<group>"; };
+		6C4788BA18B1DE3700E6E657 /* cuina_niv01_2b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv01_2b.png; sourceTree = "<group>"; };
+		6C4788BB18B1DE3700E6E657 /* cuina_niv01_3a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv01_3a.png; sourceTree = "<group>"; };
+		6C4788BC18B1DE3700E6E657 /* cuina_niv01_3b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv01_3b.png; sourceTree = "<group>"; };
+		6C4788BD18B1DE3700E6E657 /* cuina_niv01_4a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv01_4a.png; sourceTree = "<group>"; };
+		6C4788BE18B1DE3700E6E657 /* cuina_niv01_4b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv01_4b.png; sourceTree = "<group>"; };
+		6C4788BF18B1DE3700E6E657 /* cuina_niv02_1a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv02_1a.png; sourceTree = "<group>"; };
+		6C4788C018B1DE3700E6E657 /* cuina_niv02_1b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv02_1b.png; sourceTree = "<group>"; };
+		6C4788C118B1DE3700E6E657 /* cuina_niv02_2a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv02_2a.png; sourceTree = "<group>"; };
+		6C4788C218B1DE3700E6E657 /* cuina_niv02_2b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv02_2b.png; sourceTree = "<group>"; };
+		6C4788C318B1DE3700E6E657 /* cuina_niv02_3a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv02_3a.png; sourceTree = "<group>"; };
+		6C4788C418B1DE3700E6E657 /* cuina_niv02_3b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv02_3b.png; sourceTree = "<group>"; };
+		6C4788C518B1DE3700E6E657 /* cuina_niv02_4a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv02_4a.png; sourceTree = "<group>"; };
+		6C4788C618B1DE3700E6E657 /* cuina_niv02_4b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv02_4b.png; sourceTree = "<group>"; };
+		6C4788C718B1DE3700E6E657 /* cuina_niv03_1a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv03_1a.png; sourceTree = "<group>"; };
+		6C4788C818B1DE3700E6E657 /* cuina_niv03_1b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv03_1b.png; sourceTree = "<group>"; };
+		6C4788C918B1DE3700E6E657 /* cuina_niv03_2a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv03_2a.png; sourceTree = "<group>"; };
+		6C4788CA18B1DE3700E6E657 /* cuina_niv03_2b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv03_2b.png; sourceTree = "<group>"; };
+		6C4788CB18B1DE3700E6E657 /* cuina_niv03_3a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv03_3a.png; sourceTree = "<group>"; };
+		6C4788CC18B1DE3700E6E657 /* cuina_niv03_3b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuina_niv03_3b.png; sourceTree = "<group>"; };
 		6C99FA1D18A79C3F00D027E0 /* Stage8IntroView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage8IntroView.xib; path = Stages/Stage8IntroView.xib; sourceTree = "<group>"; };
 		6C99FA2518A79F0900D027E0 /* Stage3ConclusionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage3ConclusionView.xib; path = Stages/Stage3ConclusionView.xib; sourceTree = "<group>"; };
 		6C99FA2718A7A74B00D027E0 /* DietMed-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DietMed-Prefix.pch"; sourceTree = "<group>"; };
@@ -644,6 +688,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C4788B518B1DE1700E6E657 /* MapButtons */ = {
+			isa = PBXGroup;
+			children = (
+				6CD2DA5C18AF49900063D94B /* nivell01.png */,
+				6CD2DA5D18AF49900063D94B /* nivell02a.png */,
+				6CD2DA5E18AF49900063D94B /* nivell02b.png */,
+				6CD2DA5F18AF49900063D94B /* nivell03a.png */,
+				6CD2DA6018AF49900063D94B /* nivell03b.png */,
+				6CD2DA6118AF49900063D94B /* nivell04a.png */,
+				6CD2DA6218AF49900063D94B /* nivell04b.png */,
+				6CD2DA6318AF49900063D94B /* nivell05a.png */,
+				6CD2DA6418AF49900063D94B /* nivell05b.png */,
+				6CD2DA6518AF49900063D94B /* nivell06a.png */,
+				6CD2DA6618AF49900063D94B /* nivell06b.png */,
+				6CD2DA6718AF49900063D94B /* nivell07a.png */,
+				6CD2DA6818AF49900063D94B /* nivell07b.png */,
+				6CD2DA6918AF49900063D94B /* nivell08a.png */,
+				6CD2DA6A18AF49900063D94B /* nivell08b.png */,
+			);
+			name = MapButtons;
+			sourceTree = "<group>";
+		};
+		6C4788B618B1DE3700E6E657 /* Aliments */ = {
+			isa = PBXGroup;
+			children = (
+				6C4788B718B1DE3700E6E657 /* cuina_niv01_1a.png */,
+				6C4788B818B1DE3700E6E657 /* cuina_niv01_1b.png */,
+				6C4788B918B1DE3700E6E657 /* cuina_niv01_2a.png */,
+				6C4788BA18B1DE3700E6E657 /* cuina_niv01_2b.png */,
+				6C4788BB18B1DE3700E6E657 /* cuina_niv01_3a.png */,
+				6C4788BC18B1DE3700E6E657 /* cuina_niv01_3b.png */,
+				6C4788BD18B1DE3700E6E657 /* cuina_niv01_4a.png */,
+				6C4788BE18B1DE3700E6E657 /* cuina_niv01_4b.png */,
+				6C4788BF18B1DE3700E6E657 /* cuina_niv02_1a.png */,
+				6C4788C018B1DE3700E6E657 /* cuina_niv02_1b.png */,
+				6C4788C118B1DE3700E6E657 /* cuina_niv02_2a.png */,
+				6C4788C218B1DE3700E6E657 /* cuina_niv02_2b.png */,
+				6C4788C318B1DE3700E6E657 /* cuina_niv02_3a.png */,
+				6C4788C418B1DE3700E6E657 /* cuina_niv02_3b.png */,
+				6C4788C518B1DE3700E6E657 /* cuina_niv02_4a.png */,
+				6C4788C618B1DE3700E6E657 /* cuina_niv02_4b.png */,
+				6C4788C718B1DE3700E6E657 /* cuina_niv03_1a.png */,
+				6C4788C818B1DE3700E6E657 /* cuina_niv03_1b.png */,
+				6C4788C918B1DE3700E6E657 /* cuina_niv03_2a.png */,
+				6C4788CA18B1DE3700E6E657 /* cuina_niv03_2b.png */,
+				6C4788CB18B1DE3700E6E657 /* cuina_niv03_3a.png */,
+				6C4788CC18B1DE3700E6E657 /* cuina_niv03_3b.png */,
+			);
+			path = Aliments;
+			sourceTree = "<group>";
+		};
 		6C99FA3318A7AD8400D027E0 /* Modal */ = {
 			isa = PBXGroup;
 			children = (
@@ -752,21 +847,8 @@
 				6CD2D9AB18AF498F0063D94B /* blog_text_info.png */,
 				6CD2D9AC18AF498F0063D94B /* Buttons */,
 				6CD2D9BB18AF498F0063D94B /* GameFigures */,
-				6CD2DA5C18AF49900063D94B /* nivell01.png */,
-				6CD2DA5D18AF49900063D94B /* nivell02a.png */,
-				6CD2DA5E18AF49900063D94B /* nivell02b.png */,
-				6CD2DA5F18AF49900063D94B /* nivell03a.png */,
-				6CD2DA6018AF49900063D94B /* nivell03b.png */,
-				6CD2DA6118AF49900063D94B /* nivell04a.png */,
-				6CD2DA6218AF49900063D94B /* nivell04b.png */,
-				6CD2DA6318AF49900063D94B /* nivell05a.png */,
-				6CD2DA6418AF49900063D94B /* nivell05b.png */,
-				6CD2DA6518AF49900063D94B /* nivell06a.png */,
-				6CD2DA6618AF49900063D94B /* nivell06b.png */,
-				6CD2DA6718AF49900063D94B /* nivell07a.png */,
-				6CD2DA6818AF49900063D94B /* nivell07b.png */,
-				6CD2DA6918AF49900063D94B /* nivell08a.png */,
-				6CD2DA6A18AF49900063D94B /* nivell08b.png */,
+				6C4788B518B1DE1700E6E657 /* MapButtons */,
+				6C4788B618B1DE3700E6E657 /* Aliments */,
 				6CD2DA6B18AF49900063D94B /* pantalla_agricultura_01_autumn.png */,
 				6CD2DA6C18AF49900063D94B /* pantalla_agricultura_01_spring.png */,
 				6CD2DA6D18AF49900063D94B /* pantalla_agricultura_01_summer.png */,
@@ -1266,14 +1348,17 @@
 				6CD2DB2F18AF49900063D94B /* 77_joc.png in Resources */,
 				6CD2DA9218AF49900063D94B /* button_summer_h.png in Resources */,
 				6CD2DACF18AF49900063D94B /* 29_joc.png in Resources */,
+				6C4788E218B1DE3700E6E657 /* cuina_niv03_3b.png in Resources */,
 				6CD2DB4818AF49900063D94B /* pantalla_agricultura_01_summer.png in Resources */,
 				6CAB3A60189E27D400F7F4EB /* hen.mp3 in Resources */,
+				6C4788DF18B1DE3700E6E657 /* cuina_niv03_2a.png in Resources */,
 				6CD2DAF318AF49900063D94B /* 47_joc.png in Resources */,
 				6CD2DB3A18AF49900063D94B /* nivell03a.png in Resources */,
 				6CDCDDBF1897F07A002EBDED /* DietMed-Info.plist in Resources */,
 				6CD2DAD718AF49900063D94B /* 33_joc.png in Resources */,
 				6CD2DB2318AF49900063D94B /* 71_joc.png in Resources */,
 				6CD2DB1618AF49900063D94B /* 64_joc_b.png in Resources */,
+				6C4788D118B1DE3700E6E657 /* cuina_niv01_3a.png in Resources */,
 				6CD2DB3418AF49900063D94B /* 79_joc_b.png in Resources */,
 				6CD2DAE818AF49900063D94B /* 41_joc_b.png in Resources */,
 				6CD2DB5118AF49900063D94B /* pantalla_joc.png in Resources */,
@@ -1282,8 +1367,10 @@
 				6CD2DAE318AF49900063D94B /* 39_joc.png in Resources */,
 				6CD2DA9018AF49900063D94B /* button_spring_h.png in Resources */,
 				6CAB3A84189E4D9C00F7F4EB /* Stage3View.xib in Resources */,
+				6C4788DA18B1DE3700E6E657 /* cuina_niv02_3b.png in Resources */,
 				6CD2DAAE18AF49900063D94B /* 12_joc_b.png in Resources */,
 				6CD2DACD18AF49900063D94B /* 28_joc.png in Resources */,
+				6C4788CE18B1DE3700E6E657 /* cuina_niv01_1b.png in Resources */,
 				6CD2DAFF18AF49900063D94B /* 53_joc.png in Resources */,
 				6CD2DB4618AF49900063D94B /* pantalla_agricultura_01_autumn.png in Resources */,
 				6CD2DB0618AF49900063D94B /* 56_joc_b.png in Resources */,
@@ -1297,6 +1384,7 @@
 				6CD2DB5218AF49900063D94B /* pantalla_mapa.png in Resources */,
 				6CD2DAFB18AF49900063D94B /* 51_joc.png in Resources */,
 				6CD2DB0918AF49900063D94B /* 58_joc.png in Resources */,
+				6C4788D518B1DE3700E6E657 /* cuina_niv02_1a.png in Resources */,
 				6CD2DB0D18AF49900063D94B /* 60_joc.png in Resources */,
 				6CD2DAEC18AF49900063D94B /* 43_joc_b.png in Resources */,
 				6CD2DB0218AF49900063D94B /* 54_joc_b.png in Resources */,
@@ -1314,6 +1402,7 @@
 				6CD2DA9F18AF49900063D94B /* 05_joc.png in Resources */,
 				6CD2DADC18AF49900063D94B /* 35_joc_b.png in Resources */,
 				6CD2DB4518AF49900063D94B /* nivell08b.png in Resources */,
+				6C4788D018B1DE3700E6E657 /* cuina_niv01_2b.png in Resources */,
 				6CD2DAEA18AF49900063D94B /* 42_joc_b.png in Resources */,
 				6CD2DB3B18AF49900063D94B /* nivell03b.png in Resources */,
 				6CD2DA8918AF49900063D94B /* boto_informacio.png in Resources */,
@@ -1324,6 +1413,7 @@
 				6CAB3A62189E27D400F7F4EB /* sheep.mp3 in Resources */,
 				6CFD1BC9189A122400CB7B15 /* ModalView.xib in Resources */,
 				6CD2DB0818AF49900063D94B /* 57_joc_b.png in Resources */,
+				6C4788CF18B1DE3700E6E657 /* cuina_niv01_2a.png in Resources */,
 				6CD2DB3518AF49900063D94B /* 80_joc.png in Resources */,
 				6CD2DA8C18AF49900063D94B /* boto_tornar_mapa.png in Resources */,
 				6CD2DADF18AF49900063D94B /* 37_joc.png in Resources */,
@@ -1337,6 +1427,7 @@
 				6CD2DB0118AF49900063D94B /* 54_joc.png in Resources */,
 				6CD2DB1718AF49900063D94B /* 65_joc.png in Resources */,
 				6CD2DAEE18AF49900063D94B /* 44_joc_b.png in Resources */,
+				6C4788D418B1DE3700E6E657 /* cuina_niv01_4b.png in Resources */,
 				6CD2DAD418AF49900063D94B /* 31_joc_b.png in Resources */,
 				6CD2DAF018AF49900063D94B /* 45_joc_b.png in Resources */,
 				6CD2DB1E18AF49900063D94B /* 68_joc_b.png in Resources */,
@@ -1350,6 +1441,7 @@
 				6CD2DB1F18AF49900063D94B /* 69_joc.png in Resources */,
 				6CD2DA9818AF49900063D94B /* 01_joc_b.png in Resources */,
 				6CD2DB1918AF49900063D94B /* 66_joc.png in Resources */,
+				6C4788D818B1DE3700E6E657 /* cuina_niv02_2b.png in Resources */,
 				6CD2DAA718AF49900063D94B /* 09_joc.png in Resources */,
 				6CD2DB5B18AF49900063D94B /* pantalla_cuina_2.png in Resources */,
 				6CD2DAEB18AF49900063D94B /* 43_joc.png in Resources */,
@@ -1360,7 +1452,9 @@
 				6CD2DAFC18AF49900063D94B /* 51_joc_b.png in Resources */,
 				6CD2DAE018AF49900063D94B /* 37_joc_b.png in Resources */,
 				6CD2DB3318AF49900063D94B /* 79_joc.png in Resources */,
+				6C4788D318B1DE3700E6E657 /* cuina_niv01_4a.png in Resources */,
 				6CAB3A9C189E59EC00F7F4EB /* StageGameView.xib in Resources */,
+				6C4788D718B1DE3700E6E657 /* cuina_niv02_2a.png in Resources */,
 				6CD2DB2A18AF49900063D94B /* 74_joc_b.png in Resources */,
 				6CD2DB1318AF49900063D94B /* 63_joc.png in Resources */,
 				6CD2DACE18AF49900063D94B /* 28_joc_b.png in Resources */,
@@ -1378,6 +1472,7 @@
 				6CAB3A72189E408300F7F4EB /* seagull.mp3 in Resources */,
 				6CD2DB0518AF49900063D94B /* 56_joc.png in Resources */,
 				6CD2DAD118AF49900063D94B /* 30_joc.png in Resources */,
+				6C4788D218B1DE3700E6E657 /* cuina_niv01_3b.png in Resources */,
 				6CD2DB0018AF49900063D94B /* 53_joc_b.png in Resources */,
 				6CD2DA8F18AF49900063D94B /* button_spring.png in Resources */,
 				6CD2DAAC18AF49900063D94B /* 11_joc_b.png in Resources */,
@@ -1395,6 +1490,7 @@
 				6CD2DB4F18AF49900063D94B /* pantalla_granja.png in Resources */,
 				6CD2DAB618AF49900063D94B /* 16_joc_b.png in Resources */,
 				6CD2DA9B18AF49900063D94B /* 03_joc.png in Resources */,
+				6C4788DC18B1DE3700E6E657 /* cuina_niv02_4b.png in Resources */,
 				6CD2DB2518AF49900063D94B /* 72_joc.png in Resources */,
 				6CD57A57189BA699005538D1 /* LevelSelectorView.xib in Resources */,
 				6CD2DA9E18AF49900063D94B /* 04_joc_b.png in Resources */,
@@ -1407,6 +1503,7 @@
 				6CD2DB5018AF49900063D94B /* pantalla_joc_coordenades.png in Resources */,
 				6CD2DB1418AF49900063D94B /* 63_joc_b.png in Resources */,
 				6CD2DAB418AF49900063D94B /* 15_joc_b.png in Resources */,
+				6C4788E118B1DE3700E6E657 /* cuina_niv03_3a.png in Resources */,
 				6CD2DAC318AF49900063D94B /* 23_joc.png in Resources */,
 				6CD2DACA18AF49900063D94B /* 26_joc_b.png in Resources */,
 				6CD2DB0318AF49900063D94B /* 55_joc.png in Resources */,
@@ -1424,6 +1521,7 @@
 				6CD57A37189B9918005538D1 /* Stage8View.xib in Resources */,
 				6CD2DAAA18AF49900063D94B /* 10_joc_b.png in Resources */,
 				6CD2DAA218AF49900063D94B /* 06_joc_b.png in Resources */,
+				6C4788E018B1DE3700E6E657 /* cuina_niv03_2b.png in Resources */,
 				6CD2DAE118AF49900063D94B /* 38_joc.png in Resources */,
 				6CD2DB3618AF49900063D94B /* 80_joc_b.png in Resources */,
 				6CD2DB1018AF49900063D94B /* 61_joc_b.png in Resources */,
@@ -1473,27 +1571,33 @@
 				6CD2DAD018AF49900063D94B /* 29_joc_b.png in Resources */,
 				6CAB3A5F189E27D400F7F4EB /* goat.mp3 in Resources */,
 				6CD2DB2918AF49900063D94B /* 74_joc.png in Resources */,
+				6C4788D918B1DE3700E6E657 /* cuina_niv02_3a.png in Resources */,
 				6CD2DB6E18B0B18E0063D94B /* pantalla_agricultura_02_winter.png in Resources */,
 				6C2A8414189BD67A002EEA2C /* Stage1SeasonsView.xib in Resources */,
 				6CD2DAF718AF49900063D94B /* 49_joc.png in Resources */,
 				6CD2DAA318AF49900063D94B /* 07_joc.png in Resources */,
 				6CD2DB1B18AF49900063D94B /* 67_joc.png in Resources */,
 				6CD2DA9518AF49900063D94B /* fletxa.png in Resources */,
+				6C4788DE18B1DE3700E6E657 /* cuina_niv03_1b.png in Resources */,
 				6CD2DAE218AF49900063D94B /* 38_joc_b.png in Resources */,
 				6CD2DB3018AF49900063D94B /* 77_joc_b.png in Resources */,
 				6CF823FB189F68F000716310 /* StageGameIntroView.xib in Resources */,
 				6CD2DB5418AF49900063D94B /* pantalla_ramaderia.png in Resources */,
 				6CD2DAAF18AF49900063D94B /* 13_joc.png in Resources */,
+				6C4788DD18B1DE3700E6E657 /* cuina_niv03_1a.png in Resources */,
 				6CD2DB3C18AF49900063D94B /* nivell04a.png in Resources */,
 				6CD2DA9A18AF49900063D94B /* 02_joc_b.png in Resources */,
 				6CD2DB2718AF49900063D94B /* 73_joc.png in Resources */,
+				6C4788CD18B1DE3700E6E657 /* cuina_niv01_1a.png in Resources */,
 				6CD2DAAB18AF49900063D94B /* 11_joc.png in Resources */,
 				6CD2DAE718AF49900063D94B /* 41_joc.png in Resources */,
 				6CD2DB2818AF49900063D94B /* 73_joc_b.png in Resources */,
+				6C4788DB18B1DE3700E6E657 /* cuina_niv02_4a.png in Resources */,
 				6CD2DAFD18AF49900063D94B /* 52_joc.png in Resources */,
 				6CDCDDCC1897F236002EBDED /* MapView.xib in Resources */,
 				6CD2DB4718AF49900063D94B /* pantalla_agricultura_01_spring.png in Resources */,
 				6CD2DADE18AF49900063D94B /* 36_joc_b.png in Resources */,
+				6C4788D618B1DE3700E6E657 /* cuina_niv02_1b.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,7 +17,11 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pantalla_cuina.png" translatesAutoresizingMaskIntoConstraints="NO" id="jlx-Dk-nsn">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pantalla_cuina.png" translatesAutoresizingMaskIntoConstraints="NO" id="ri9-FE-Fy5">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cuina_niv01_1a.png" translatesAutoresizingMaskIntoConstraints="NO" id="jlx-Dk-nsn">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
@@ -38,6 +42,7 @@
         </view>
     </objects>
     <resources>
+        <image name="cuina_niv01_1a.png" width="2048" height="1536"/>
         <image name="pantalla_cuina.png" width="2048" height="1536"/>
     </resources>
 </document>
