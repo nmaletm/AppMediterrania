@@ -11,5 +11,10 @@
 @interface Stage8ViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) IBOutlet UIButton *backButton;
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil background:(NSString *)background hasBackButton:(BOOL)hasBackButton;
+
+- (IBAction)backAction:(id)sender;
 
 @end

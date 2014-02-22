@@ -44,4 +44,8 @@
     [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
 }
 
+- (IBAction)backMap:(id)sender{
+    [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
+}
+
 @end

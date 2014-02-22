@@ -18,6 +18,7 @@
 @synthesize informationTextView;
 @synthesize informationView;
 @synthesize nextButton;
+@synthesize backMapButton;
 
 - (id)initWithDataSource:(id<ModalDataSource>)theDataSource
 {
@@ -37,6 +38,8 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nextButtonEnabled:) name:NEXT_BUTTON_ENABLED object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nextButtonDisabled:) name:NEXT_BUTTON_DISABLED object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(clickNextButton:) name:CLICK_NEXT_BUTTON object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(clickBackButton:) name:CLICK_BACK_BUTTON object:nil];
+
     
     [self.dataSource initView];
     
@@ -62,13 +65,18 @@
     
     
     [nextButton setHidden: ![self.dataSource hasNextButton]];
+    [backMapButton setHidden: ![self.dataSource hasBackMapButton]];
     [informationView setHidden: ![self.dataSource hasText]];
     [informationTextView setText: [self.dataSource text]];
     
     lastViewController = [self.dataSource viewController];
+    
+    if([self.dataSource respondsToSelector:@selector(willLoad)]){
+        [self.dataSource willLoad];
+    }
 
 }
-
+ 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -94,6 +102,13 @@
 
 - (void) clickNextButton:(NSNotification *)notification{
     [self nextButton:nil];
+}
+
+- (void) clickBackButton:(NSNotification *)notification{
+    if([self.dataSource respondsToSelector:@selector(goPreviousSubLevel)]){
+        [self.dataSource goPreviousSubLevel];
+        [self loadViewController];
+    }
 }
 
 - (void) nextButtonEnabled:(NSNotification *)notification{

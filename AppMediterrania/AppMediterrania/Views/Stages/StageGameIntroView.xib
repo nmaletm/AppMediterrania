@@ -15,18 +15,10 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cara.png" translatesAutoresizingMaskIntoConstraints="NO" id="XhF-Mk-npg">
-                    <rect key="frame" x="25" y="192" width="356" height="398"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pantalla_presentacio_joc.png" translatesAutoresizingMaskIntoConstraints="NO" id="XhF-Mk-npg">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93h-u2-2w5">
-                    <rect key="frame" x="376" y="390" width="560" height="122"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    <string key="text">Fíjate bien en los alimentos y las actividades que irán saliendo en cada pantalla. Si respondes bien te convertirás en un verdadero chef de la Dieta Mediterránea!!</string>
-                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                </textView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
@@ -34,6 +26,6 @@
         </view>
     </objects>
     <resources>
-        <image name="cara.png" width="338" height="401"/>
+        <image name="pantalla_presentacio_joc.png" width="2048" height="1536"/>
     </resources>
 </document>

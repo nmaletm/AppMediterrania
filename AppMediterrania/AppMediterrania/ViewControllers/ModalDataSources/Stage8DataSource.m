@@ -18,6 +18,10 @@
 }
 @synthesize viewController;
 
+- (BOOL ) hasBackMapButton{
+    return currentSubStage < [views count];
+}
+
 - (BOOL ) hasText{
     return NO;
 }
@@ -40,7 +44,12 @@
     
     views = [[NSArray alloc] initWithObjects:
              [[Stage8IntroViewController alloc] initWithNibName:@"Stage8IntroView" bundle:nil],
-             [[Stage8ViewController alloc] initWithNibName:@"Stage8View" bundle:nil],
+             [[Stage8ViewController alloc] initWithNibName:@"Stage8View" bundle:nil background:@"recepta_01a" hasBackButton: NO],
+             [[Stage8ViewController alloc] initWithNibName:@"Stage8View" bundle:nil background:@"recepta_01b" hasBackButton: YES],
+             [[Stage8ViewController alloc] initWithNibName:@"Stage8View" bundle:nil background:@"recepta_02a" hasBackButton: YES],
+             [[Stage8ViewController alloc] initWithNibName:@"Stage8View" bundle:nil background:@"recepta_02b" hasBackButton: YES],
+             [[Stage8ViewController alloc] initWithNibName:@"Stage8View" bundle:nil background:@"recepta_03a" hasBackButton: YES],
+             [[Stage8ViewController alloc] initWithNibName:@"Stage8View" bundle:nil background:@"recepta_03b" hasBackButton: YES],
              [[Stage8EndViewController alloc] initWithNibName:@"Stage8EndView" bundle:nil],
              nil];
 }
@@ -54,6 +63,12 @@
         [[StageManager sharedInstance] markAsCompleted: 8];
     }
     
+}
+
+- (void) goPreviousSubLevel{
+    if(currentSubStage > 0){
+        currentSubStage--;
+    }
 }
 
 @end

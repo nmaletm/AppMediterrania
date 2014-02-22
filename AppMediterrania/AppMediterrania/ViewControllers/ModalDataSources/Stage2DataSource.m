@@ -22,6 +22,10 @@
 @implementation Stage2DataSource
 @synthesize viewController;
 
+- (BOOL ) hasBackMapButton{
+    return YES;
+}
+
 - (BOOL ) hasText{
     return YES;
 }
@@ -45,7 +49,7 @@
                                @"cuina_niv01_3a",
                                @"cuina_niv01_3b",
                                @"cuina_niv01_4a",
-                               @"cuina_niv01_4b",
+                        //       @"cuina_niv01_4b",
                          nil];
     [backgrounds setObject:backgroundEasy forKey:@"1"];
     
@@ -57,7 +61,7 @@
                                  @"cuina_niv02_3a",
                                  @"cuina_niv02_3b",
                                  @"cuina_niv02_4a",
-                                 @"cuina_niv02_4b",
+                       //          @"cuina_niv02_4b",
                            nil];
     [backgrounds setObject:backgroundMedium forKey:@"2"];
     
@@ -67,7 +71,7 @@
                                    @"cuina_niv03_2a",
                                    @"cuina_niv03_2b",
                                    @"cuina_niv03_3a",
-                                   @"cuina_niv03_3b",
+                           //        @"cuina_niv03_3b",
                              nil];
     [backgrounds setObject:backgroundDificult forKey:@"3"];
     
@@ -106,7 +110,10 @@
                              @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
                              nil];
     [texts setObject:textDificult forKey:@"3"];
-    
+
+}
+
+- (void) willLoad{
     Stage2ViewController *stageViewController = (Stage2ViewController*) viewController;
     NSArray *backgroundsLevel = [backgrounds objectForKey:[[LevelManager sharedInstance] levelString]];
     [stageViewController setBackground:[backgroundsLevel objectAtIndex:currentSubStage-1]];

@@ -8,9 +8,7 @@
 
 #import "Stage3ViewController.h"
 
-@interface Stage3ViewController (){
-    NSString *background;
-}
+@interface Stage3ViewController ()
 
 @end
 
@@ -31,7 +29,6 @@
 {
     [super viewDidLoad];
     
-    [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_DISABLED object:self];
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,7 +38,7 @@
 }
 
 - (void) setBackground:(NSString*) newBackground{
-    background = newBackground;
+    NSString *background = newBackground;
     UIImage *image = [UIImage imageNamed: background];
     [backgroundImage setImage:image];
 }

@@ -24,6 +24,10 @@
 @implementation Stage1DataSource
 @synthesize viewController;
 
+- (BOOL ) hasBackMapButton{
+    return YES;
+}
+
 - (BOOL ) hasText{
     return YES;
 }

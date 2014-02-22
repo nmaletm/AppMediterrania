@@ -15,3 +15,4 @@ extern NSString * const NEXT_BUTTON_ENABLED;
 extern NSString * const NEXT_BUTTON_DISABLED;
 
 extern NSString * const CLICK_NEXT_BUTTON;
+extern NSString * const CLICK_BACK_BUTTON;

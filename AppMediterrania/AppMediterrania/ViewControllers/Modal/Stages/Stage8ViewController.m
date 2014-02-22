@@ -13,15 +13,20 @@
 
 @end
 
-@implementation Stage8ViewController
+@implementation Stage8ViewController{
+    NSString *background;
+    BOOL hasBackButton;
+}
 
 @synthesize imageView;
+@synthesize backButton;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil background:(NSString *)theBackground hasBackButton:(BOOL)itHasBackButton
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        background = theBackground;
+        hasBackButton = itHasBackButton;
     }
     return self;
 }
@@ -29,14 +34,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
-    NSMutableDictionary *images = [[NSMutableDictionary alloc] init];
-    [images setObject:@"pantalla_receptes_facil" forKey:@"1"];
-    [images setObject:@"pantalla_receptes_mitja" forKey:@"2"];
-    [images setObject:@"pantalla_receptes_dificil" forKey:@"3"];
-    
-    UIImage *image = [UIImage imageNamed: [images objectForKey:[[LevelManager sharedInstance] levelString]]];
+	   
+    UIImage *image = [UIImage imageNamed: background];
     [imageView setImage:image];
+    
+    if(!hasBackButton){
+        [backButton setHidden: YES];
+    }
     
 }
 
@@ -44,6 +48,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)backAction:(id)sender{
+    [[NSNotificationCenter defaultCenter] postNotificationName:CLICK_BACK_BUTTON object:self];
 }
 
 @end

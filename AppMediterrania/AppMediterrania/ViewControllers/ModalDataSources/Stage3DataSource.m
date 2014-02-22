@@ -22,6 +22,10 @@
 @implementation Stage3DataSource
 @synthesize viewController;
 
+- (BOOL ) hasBackMapButton{
+    return YES;
+}
+
 - (BOOL ) hasText{
     NSArray *arrayBackgrounds = [backgrounds valueForKey:[[LevelManager sharedInstance] levelString]];
     return (currentSubStage <= [arrayBackgrounds count]);
@@ -37,25 +41,39 @@
 
     backgrounds = [[NSMutableDictionary alloc] init];
     NSArray *backgroundsEasy = [[NSArray alloc] initWithObjects:
-                                @"piramide_mitja_1",
-                                @"piramide_mitja_2",
+                                @"pantalla_piramide_nivell01",
                                 nil];
     [backgrounds setObject:backgroundsEasy forKey:@"1"];
     
+    
     NSArray *backgroundsMedium = [[NSArray alloc] initWithObjects:
-                                  @"pantalla_cuina_1",
-                                  @"piramide_mitja_2",
+                                  @"pantalla_plat_nivell02",
                                   nil];
     [backgrounds setObject:backgroundsMedium forKey:@"2"];
     
+    
     NSArray *backgroundsDifficult = [[NSArray alloc] initWithObjects:
-                                     @"piramide_mitja_1",
-                                     @"piramide_mitja_2",
-                                     @"piramide_mitja_1",
-                                     @"piramide_mitja_2",
+                                     @"pantalla_piramide_nivell03",
                                      nil];
     [backgrounds setObject:backgroundsDifficult forKey:@"3"];
+
 }
+
+- (void) willLoad{
+    NSArray *arrayBackgrounds = [backgrounds valueForKey:[[LevelManager sharedInstance] levelString]];
+    if(currentSubStage <= [arrayBackgrounds count]){
+        Stage3ViewController *stageViewController = (Stage3ViewController*) viewController;
+        [stageViewController setBackground:[arrayBackgrounds objectAtIndex: currentSubStage-1]];
+        
+        if([arrayBackgrounds count] == 1){
+            [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_ENABLED object:self];
+        }
+        else{
+            [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_DISABLED object:self];
+        }
+    }
+}
+
 
 - (NSString *) text{
     return @"Para practicar una correcta alimentación dieta mediterránea debes seguir las medidas y raciones que te aconsejamos en la siguiente imagen:";

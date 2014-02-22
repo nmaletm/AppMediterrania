@@ -14,6 +14,7 @@
 @property (nonatomic, retain) id<ModalDataSource> dataSource;
 @property (strong, nonatomic) IBOutlet UIView *stageView;
 @property (strong, nonatomic) IBOutlet UIButton *nextButton;
+@property (strong, nonatomic) IBOutlet UIButton *backMapButton;
 @property (strong, nonatomic) IBOutlet UIView *informationView;
 @property (strong, nonatomic) IBOutlet UITextView *informationTextView;
 

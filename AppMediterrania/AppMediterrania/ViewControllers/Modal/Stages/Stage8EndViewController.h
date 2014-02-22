@@ -11,5 +11,6 @@
 @interface Stage8EndViewController : UIViewController
 
 - (IBAction)resetButton:(id)sender;
+- (IBAction)backMap:(id)sender;
 
 @end

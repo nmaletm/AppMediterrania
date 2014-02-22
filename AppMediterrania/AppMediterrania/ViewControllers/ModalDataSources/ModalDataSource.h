@@ -15,6 +15,7 @@
 
 @property (readonly) BOOL hasText;
 @property (readonly) BOOL hasNextButton;
+@property (readonly) BOOL hasBackMapButton;
 @property (readwrite) UIViewController *viewController;
 
 - (void) initView;
@@ -25,5 +26,7 @@
 @property (readonly) NSString *text;
 
 - (void) goNextSubLevel;
+- (void) goPreviousSubLevel;
+- (void) willLoad;
 
 @end

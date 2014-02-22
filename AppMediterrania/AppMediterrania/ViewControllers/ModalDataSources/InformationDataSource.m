@@ -12,6 +12,10 @@
 @implementation InformationDataSource
 @synthesize viewController;
 
+- (BOOL ) hasBackMapButton{
+    return YES;
+}
+
 - (BOOL ) hasText{
     return NO;
 }

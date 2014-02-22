@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ModalViewController">
             <connections>
+                <outlet property="backMapButton" destination="Ml4-Xg-3qm" id="sen-T8-VOW"/>
                 <outlet property="informationTextView" destination="Id2-n2-C6h" id="ccK-UF-S6j"/>
                 <outlet property="informationView" destination="QnE-qk-dJj" id="PWa-8M-ZxW"/>
                 <outlet property="nextButton" destination="ywL-s2-jab" id="8hR-rv-Fj2"/>
@@ -19,24 +20,20 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mostra_grafica.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Bd4-bT-0a1">
-                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ftw-JR-Pdk" userLabel="StageView">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QnE-qk-dJj" userLabel="InformationView">
-                    <rect key="frame" x="0.0" y="554" width="829" height="214"/>
+                    <rect key="frame" x="0.0" y="578" width="829" height="190"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blog_text_info.png" translatesAutoresizingMaskIntoConstraints="NO" id="lep-PK-8bq">
-                            <rect key="frame" x="20" y="10" width="803" height="193"/>
+                            <rect key="frame" x="20" y="-2" width="803" height="193"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         </imageView>
                         <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Id2-n2-C6h">
-                            <rect key="frame" x="194" y="39" width="592" height="133"/>
+                            <rect key="frame" x="194" y="27" width="592" height="133"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
                             <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="32"/>
@@ -55,7 +52,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ywL-s2-jab">
-                    <rect key="frame" x="850" y="620" width="149" height="76"/>
+                    <rect key="frame" x="850" y="635" width="149" height="76"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="fletxa.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -76,6 +73,5 @@
         <image name="boto_tornar_mapa.png" width="150" height="150"/>
         <image name="fletxa.png" width="278" height="170"/>
         <image name="fletxa_disabled.png" width="278" height="170"/>
-        <image name="mostra_grafica.jpg" width="2560" height="1600"/>
     </resources>
 </document>

@@ -27,6 +27,10 @@
 @synthesize viewController;
 @synthesize stage;
 
+- (BOOL ) hasBackMapButton{
+    return YES;
+}
+
 - (BOOL ) hasText{
     return NO;
 }

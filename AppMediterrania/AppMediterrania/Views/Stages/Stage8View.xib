@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Stage8ViewController">
             <connections>
+                <outlet property="backButton" destination="3hi-zN-7qS" id="fT3-4s-PQG"/>
                 <outlet property="imageView" destination="TSQ-BP-aRd" id="vgS-bt-5NX"/>
                 <outlet property="view" destination="1" id="rws-Bj-hAM"/>
             </connections>
@@ -16,10 +17,21 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pantalla_receptes_facil.png" translatesAutoresizingMaskIntoConstraints="NO" id="TSQ-BP-aRd" userLabel="Recipe Image">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="recepta_01a.png" translatesAutoresizingMaskIntoConstraints="NO" id="TSQ-BP-aRd" userLabel="Recipe Image">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hi-zN-7qS">
+                    <rect key="frame" x="25" y="635" width="149" height="76"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="fletxa_2.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" image="fletxa_disabled.png"/>
+                    <connections>
+                        <action selector="backAction:" destination="-1" eventType="touchDown" id="yCc-1k-RER"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
@@ -27,6 +39,8 @@
         </view>
     </objects>
     <resources>
-        <image name="pantalla_receptes_facil.png" width="903" height="598"/>
+        <image name="fletxa_2.png" width="278" height="170"/>
+        <image name="fletxa_disabled.png" width="278" height="170"/>
+        <image name="recepta_01a.png" width="2048" height="1536"/>
     </resources>
 </document>
