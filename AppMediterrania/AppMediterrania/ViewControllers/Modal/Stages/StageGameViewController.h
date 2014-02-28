@@ -13,6 +13,7 @@
 
 @property (strong, nonatomic) IBOutlet UITextView *questionTextView;
 @property (strong, nonatomic) IBOutlet UILabel *scoreLabel;
+@property (strong, nonatomic) IBOutlet UILabel *maxScoreLabel;
 
 @property (strong, nonatomic) IBOutlet UIButton *button_11;
 @property (strong, nonatomic) IBOutlet UIButton *button_12;

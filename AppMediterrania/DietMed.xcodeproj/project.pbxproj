@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C17EBF118C056BF009FDE28 /* boto_reiniciar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C17EBF018C056BF009FDE28 /* boto_reiniciar.png */; };
+		6C17EBF418C057AB009FDE28 /* freescpt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C17EBF318C057AB009FDE28 /* freescpt.ttf */; };
 		6C2A8414189BD67A002EEA2C /* Stage1SeasonsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A840F189BD67A002EEA2C /* Stage1SeasonsView.xib */; };
 		6C2A8417189BD67A002EEA2C /* Stage1FarmView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8412189BD67A002EEA2C /* Stage1FarmView.xib */; };
 		6C2A8418189BD67A002EEA2C /* Stage1FishingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8413189BD67A002EEA2C /* Stage1FishingView.xib */; };
@@ -313,6 +315,7 @@
 		6CE84C1B18B887FF007B4DD9 /* nivell08b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE84C0C18B887FF007B4DD9 /* nivell08b.png */; };
 		6CE84C1D18B894D0007B4DD9 /* fletxa_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE84C1C18B894D0007B4DD9 /* fletxa_2.png */; };
 		6CF823FB189F68F000716310 /* StageGameIntroView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CF823FA189F68F000716310 /* StageGameIntroView.xib */; };
+		6CF8C21018BCF7D400DAB0DD /* blog_text_joc.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF8C20F18BCF7D400DAB0DD /* blog_text_joc.png */; };
 		6CFD1BC9189A122400CB7B15 /* ModalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD1BC8189A122400CB7B15 /* ModalView.xib */; };
 		A30DAFA89DC54179A73C47B8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32090DB783EC4BBCAA45FA48 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -329,6 +332,8 @@
 
 /* Begin PBXFileReference section */
 		32090DB783EC4BBCAA45FA48 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C17EBF018C056BF009FDE28 /* boto_reiniciar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boto_reiniciar.png; sourceTree = "<group>"; };
+		6C17EBF318C057AB009FDE28 /* freescpt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = freescpt.ttf; sourceTree = "<group>"; };
 		6C2A840F189BD67A002EEA2C /* Stage1SeasonsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1SeasonsView.xib; path = Stages/Stage1SeasonsView.xib; sourceTree = "<group>"; };
 		6C2A8412189BD67A002EEA2C /* Stage1FarmView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1FarmView.xib; path = Stages/Stage1FarmView.xib; sourceTree = "<group>"; };
 		6C2A8413189BD67A002EEA2C /* Stage1FishingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1FishingView.xib; path = Stages/Stage1FishingView.xib; sourceTree = "<group>"; };
@@ -667,6 +672,7 @@
 		6CE84C0C18B887FF007B4DD9 /* nivell08b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nivell08b.png; path = MapButtons/nivell08b.png; sourceTree = "<group>"; };
 		6CE84C1C18B894D0007B4DD9 /* fletxa_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fletxa_2.png; sourceTree = "<group>"; };
 		6CF823FA189F68F000716310 /* StageGameIntroView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StageGameIntroView.xib; path = Stages/StageGameIntroView.xib; sourceTree = "<group>"; };
+		6CF8C20F18BCF7D400DAB0DD /* blog_text_joc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blog_text_joc.png; sourceTree = "<group>"; };
 		6CFD1BC8189A122400CB7B15 /* ModalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ModalView.xib; path = Stages/ModalView.xib; sourceTree = "<group>"; };
 		EB8E7677BE7646DC9EB10533 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -697,6 +703,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C17EBF218C057AB009FDE28 /* Typos */ = {
+			isa = PBXGroup;
+			children = (
+				6C17EBF318C057AB009FDE28 /* freescpt.ttf */,
+			);
+			path = Typos;
+			sourceTree = "<group>";
+		};
 		6C4788B518B1DE1700E6E657 /* MapButtons */ = {
 			isa = PBXGroup;
 			children = (
@@ -828,6 +842,7 @@
 		6CAB3A2F189E254400F7F4EB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6C17EBF218C057AB009FDE28 /* Typos */,
 				6C99FA6E18A7CB4400D027E0 /* Data */,
 				6CAB3A30189E254400F7F4EB /* Audio */,
 				6CAB3A32189E254400F7F4EB /* Images */,
@@ -858,6 +873,7 @@
 				6C4788B618B1DE3700E6E657 /* Aliments */,
 				6CE84BF118B8827D007B4DD9 /* Reciepts */,
 				6CD2D9AB18AF498F0063D94B /* blog_text_info.png */,
+				6CF8C20F18BCF7D400DAB0DD /* blog_text_joc.png */,
 				6CE84BD118B8821E007B4DD9 /* pantalla_felicitacio_formacio.png */,
 				6CE84BD218B8821E007B4DD9 /* pantalla_felicitacio_receptes.png */,
 				6CE84BD318B8821E007B4DD9 /* pantalla_final_reset.png */,
@@ -900,6 +916,7 @@
 			children = (
 				6CE84C1C18B894D0007B4DD9 /* fletxa_2.png */,
 				6CD2D9AD18AF498F0063D94B /* boto_informacio.png */,
+				6C17EBF018C056BF009FDE28 /* boto_reiniciar.png */,
 				6CD2D9AE18AF498F0063D94B /* boto_nivell.png */,
 				6CD2D9AF18AF498F0063D94B /* boto_salir.png */,
 				6CD2D9B018AF498F0063D94B /* boto_tornar_mapa.png */,
@@ -1478,6 +1495,7 @@
 				6CE84C1418B887FF007B4DD9 /* nivell05a.png in Resources */,
 				6CAB3A72189E408300F7F4EB /* seagull.mp3 in Resources */,
 				6CD2DB0518AF49900063D94B /* 56_joc.png in Resources */,
+				6C17EBF118C056BF009FDE28 /* boto_reiniciar.png in Resources */,
 				6CD2DAD118AF49900063D94B /* 30_joc.png in Resources */,
 				6C4788D218B1DE3700E6E657 /* cuina_niv01_3b.png in Resources */,
 				6CD2DB0018AF49900063D94B /* 53_joc_b.png in Resources */,
@@ -1530,10 +1548,12 @@
 				6CD2DAE118AF49900063D94B /* 38_joc.png in Resources */,
 				6CE84C1018B887FF007B4DD9 /* nivell03a.png in Resources */,
 				6CE84C1A18B887FF007B4DD9 /* nivell08a.png in Resources */,
+				6C17EBF418C057AB009FDE28 /* freescpt.ttf in Resources */,
 				6CD2DB3618AF49900063D94B /* 80_joc_b.png in Resources */,
 				6CD2DB1018AF49900063D94B /* 61_joc_b.png in Resources */,
 				6CD2DAF518AF49900063D94B /* 48_joc.png in Resources */,
 				6CD2DA8B18AF49900063D94B /* boto_salir.png in Resources */,
+				6CF8C21018BCF7D400DAB0DD /* blog_text_joc.png in Resources */,
 				6CE84BFD18B8827D007B4DD9 /* recepta_03b.png in Resources */,
 				6CD2DACB18AF49900063D94B /* 27_joc.png in Resources */,
 				6CD2DB3118AF49900063D94B /* 78_joc.png in Resources */,
@@ -1803,12 +1823,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Nestor Malet (J9LF2ZH5P8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nestor Malet (J9LF2ZH5P8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppMediterrania/Application/DietMed-Prefix.pch";
 				INFOPLIST_FILE = "AppMediterrania/Application/DietMed-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = DietMed;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "ACB7ACD7-2B18-418E-A6AA-C4B8C5CED7A7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1820,12 +1841,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Nestor Malet Montolio (SR5N93Y59Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nestor Malet Montolio (SR5N93Y59Y)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppMediterrania/Application/DietMed-Prefix.pch";
 				INFOPLIST_FILE = "AppMediterrania/Application/DietMed-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = DietMed;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "ACB7ACD7-2B18-418E-A6AA-C4B8C5CED7A7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

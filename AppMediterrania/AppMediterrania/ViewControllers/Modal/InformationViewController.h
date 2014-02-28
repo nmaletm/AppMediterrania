@@ -10,4 +10,6 @@
 
 @interface InformationViewController : UIViewController
 
+- (IBAction)showReset:(id)sender;
+
 @end

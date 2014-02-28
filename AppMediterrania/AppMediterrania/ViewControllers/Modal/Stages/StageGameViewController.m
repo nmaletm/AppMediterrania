@@ -22,6 +22,7 @@
 
 @implementation StageGameViewController
 @synthesize scoreLabel;
+@synthesize maxScoreLabel;
 @synthesize questionTextView;
 @synthesize button_11;
 @synthesize button_12;
@@ -55,7 +56,9 @@
     dashboardButtons = [[NSArray alloc] initWithObjects: button_11, button_12, button_13,
                                                         button_21, button_22, button_23,
                                                         button_31, button_32, button_33, nil];
-    
+
+    [self.questionTextView setFont:[UIFont fontWithName:@"Freestyle Script" size:30]];
+
     [self initGame];
 }
 
@@ -99,7 +102,8 @@
 #pragma mark - Screen
 
 - (void) refreshScore{
-    [scoreLabel setText:[NSString stringWithFormat:@"%lu/%lu", (unsigned long)[correctSelected count], (unsigned long)[question.figuresCorrect count]]];
+    [scoreLabel setText:[NSString stringWithFormat:@"%lu", (unsigned long)[correctSelected count]]];
+    [maxScoreLabel setText:[NSString stringWithFormat:@"%lu", (unsigned long)[question.figuresCorrect count]]];
 }
 
 - (void) refreshButtons{
