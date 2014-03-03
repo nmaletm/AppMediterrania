@@ -37,7 +37,8 @@
 {
     [super viewDidLoad];
     
-    
+    [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_DISABLED object:self];
+
     buttons = [[NSArray alloc] initWithObjects:button_summer, button_autumn, button_winter, button_spring, nil];
     seasons = [[NSArray alloc] initWithObjects: @"summer", @"autumn", @"winter", @"spring", nil];
     currentSeason = 0;
@@ -93,6 +94,8 @@
 
     [self refreshBackground];
     [self refreshButtonStatus];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_ENABLED object:self];
 }
 
 @end
