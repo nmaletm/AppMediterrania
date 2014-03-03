@@ -39,7 +39,7 @@
 
 #pragma mark Actions
 - (IBAction)showReset:(id)sender{
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NAME_APP message:@"¿Estas seguro que quieres volver al inicio del juego?" delegate:self cancelButtonTitle:@"Cancelar" otherButtonTitles:@"Resetear juego",nil];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NAME_APP message:@"¿Seguro que quieres reiniciar el juego? Esto va a resetear todas las pantallas." delegate:self cancelButtonTitle:@"Cancelar" otherButtonTitles:@"Resetear juego",nil];
     [alert show];
 }
 

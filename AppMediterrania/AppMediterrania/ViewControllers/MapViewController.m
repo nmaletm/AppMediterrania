@@ -113,7 +113,7 @@
 
 #pragma mark Actions
 - (IBAction)showReset:(id)sender{
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NAME_APP message:@"¿Estas seguro que quieres volver al inicio del juego?" delegate:self cancelButtonTitle:@"Cancelar" otherButtonTitles:@"Resetear juego",nil];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NAME_APP message:@"¿Seguro que quieres reiniciar el juego? Esto va a resetear todas las pantallas." delegate:self cancelButtonTitle:@"Cancelar" otherButtonTitles:@"Resetear juego",nil];
     [alert show];
 }
 
@@ -150,27 +150,27 @@
 
 - (IBAction)stage4:(id)sender{
     StageGameDataSource *stage =[[StageGameDataSource alloc] init];
-    stage.stage = 1;
+    stage.stage = 4;
     [self presentStage: stage];
 }
 
 - (IBAction)stage5:(id)sender{
     StageGameDataSource *stage =[[StageGameDataSource alloc] init];
-    stage.stage = 2;
+    stage.stage = 5;
     [self presentStage: stage];
     
 }
 
 - (IBAction)stage6:(id)sender{
     StageGameDataSource *stage =[[StageGameDataSource alloc] init];
-    stage.stage = 3;
+    stage.stage = 6;
     [self presentStage: stage];
     
 }
 
 - (IBAction)stage7:(id)sender{
     StageGameDataSource *stage =[[StageGameDataSource alloc] init];
-    stage.stage = 4;
+    stage.stage = 7;
     [self presentStage: stage];
     
 }

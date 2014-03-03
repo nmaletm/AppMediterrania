@@ -44,6 +44,43 @@
     
     NSMutableArray *questions = [[NSMutableArray alloc] init];
     
+    NSString *path = [NSString stringWithFormat:@"//juego/pregunta[dificultad='%d' and actividad='%d']",level,stage];
+    
+    [rootGameData iterateWithRootXPath:path usingBlock: ^(RXMLElement *data) {
+        
+        QuestionModel *question = [[QuestionModel alloc] init];
+        question.text = [[data child:@"texto"] text];
+        
+        
+        NSArray *validFigures = [data children:@"correcta"];
+        NSMutableArray * validMutableArray = [[NSMutableArray alloc] init];
+        for (RXMLElement *object in validFigures) {
+            NSString *name = [NSString stringWithFormat:@"%@_joc",[object text]];
+            [validMutableArray addObject:name];
+        }
+        
+        NSArray *invalidFigures = [data children:@"incorrecta"];
+        NSMutableArray *invalidMutableArray = [[NSMutableArray alloc] init];
+        for (RXMLElement *object in invalidFigures) {
+            NSString *name = [NSString stringWithFormat:@"%@_joc",[object text]];
+            [invalidMutableArray addObject:name];
+        }
+        
+        question.figuresCorrect = [NSArray arrayWithArray:validMutableArray];
+        question.figuresIncorrect = [NSArray arrayWithArray:invalidMutableArray];
+
+        [questions addObject:question];
+    }];
+    
+    return questions;
+}
+
+/*
+ Parser pel format del xml de Question2.xml
+-(NSArray *)questionsAt:(int)level atStage:(int)stage{
+    
+    NSMutableArray *questions = [[NSMutableArray alloc] init];
+    
     NSString *path = [NSString stringWithFormat:@"//game/stage[@value='%d']/level[@value='%d']/question",stage,level];
     
     [rootGameData iterateWithRootXPath:path usingBlock: ^(RXMLElement *data) {
@@ -68,11 +105,12 @@
         
         question.figuresCorrect = [NSArray arrayWithArray:validMutableArray];
         question.figuresIncorrect = [NSArray arrayWithArray:invalidMutableArray];
-
+        
         [questions addObject:question];
     }];
     
     return questions;
 }
+*/
 
 @end

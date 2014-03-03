@@ -314,6 +314,7 @@
 		6CE84C1A18B887FF007B4DD9 /* nivell08a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE84C0B18B887FF007B4DD9 /* nivell08a.png */; };
 		6CE84C1B18B887FF007B4DD9 /* nivell08b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE84C0C18B887FF007B4DD9 /* nivell08b.png */; };
 		6CE84C1D18B894D0007B4DD9 /* fletxa_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE84C1C18B894D0007B4DD9 /* fletxa_2.png */; };
+		6CF0B62018C4DB2000F37B38 /* Questions2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0B61F18C4DB2000F37B38 /* Questions2.xml */; };
 		6CF823FB189F68F000716310 /* StageGameIntroView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CF823FA189F68F000716310 /* StageGameIntroView.xib */; };
 		6CF8C21018BCF7D400DAB0DD /* blog_text_joc.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF8C20F18BCF7D400DAB0DD /* blog_text_joc.png */; };
 		6CFD1BC9189A122400CB7B15 /* ModalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD1BC8189A122400CB7B15 /* ModalView.xib */; };
@@ -671,6 +672,7 @@
 		6CE84C0B18B887FF007B4DD9 /* nivell08a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nivell08a.png; path = MapButtons/nivell08a.png; sourceTree = "<group>"; };
 		6CE84C0C18B887FF007B4DD9 /* nivell08b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nivell08b.png; path = MapButtons/nivell08b.png; sourceTree = "<group>"; };
 		6CE84C1C18B894D0007B4DD9 /* fletxa_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fletxa_2.png; sourceTree = "<group>"; };
+		6CF0B61F18C4DB2000F37B38 /* Questions2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Questions2.xml; sourceTree = "<group>"; };
 		6CF823FA189F68F000716310 /* StageGameIntroView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StageGameIntroView.xib; path = Stages/StageGameIntroView.xib; sourceTree = "<group>"; };
 		6CF8C20F18BCF7D400DAB0DD /* blog_text_joc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blog_text_joc.png; sourceTree = "<group>"; };
 		6CFD1BC8189A122400CB7B15 /* ModalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ModalView.xib; path = Stages/ModalView.xib; sourceTree = "<group>"; };
@@ -835,6 +837,7 @@
 			isa = PBXGroup;
 			children = (
 				6C99FA6F18A7CB6400D027E0 /* Questions.xml */,
+				6CF0B61F18C4DB2000F37B38 /* Questions2.xml */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -1399,6 +1402,7 @@
 				6CD2DAC618AF49900063D94B /* 24_joc_b.png in Resources */,
 				6C99FA2618A79F0900D027E0 /* Stage3ConclusionView.xib in Resources */,
 				6CE84C1218B887FF007B4DD9 /* nivell04a.png in Resources */,
+				6CF0B62018C4DB2000F37B38 /* Questions2.xml in Resources */,
 				6C99FA2918A7A91A00D027E0 /* InformationView.xib in Resources */,
 				6CD2DB5218AF49900063D94B /* pantalla_mapa.png in Resources */,
 				6CE84C0F18B887FF007B4DD9 /* nivell02b.png in Resources */,

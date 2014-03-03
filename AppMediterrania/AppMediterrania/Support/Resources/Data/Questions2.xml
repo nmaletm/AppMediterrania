@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <stage value="1">
+        <level value="1">
+            <question>
+                <text>Escoge tres frutas.</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="07" />
+                </valid>
+                <invalid>
+                    <figure id="26" />
+                    <figure id="27" />
+                    <figure id="42" />
+                    <figure id="45" />
+                    <figure id="61" />
+                    <figure id="65" />
+                </invalid>
+            </question>
+            <question>
+                <text>¿Cuáles de estos alimentos nos dan más energía para empezar el día?</text>
+                <valid>
+                    <figure id="49" />
+                </valid>
+                <invalid>
+                    <figure id="65" />
+                    <figure id="68" />
+                    <figure id="57" />
+                    <figure id="52" />
+                    <figure id="37" />
+                    <figure id="10" />
+                    <figure id="36" />
+                    <figure id="25" />
+                </invalid>
+            </question>
+        </level>
+        <level value="2">
+            <question>
+                <text>Escoge tu menú de desayuno equilibrado con cereales, fruta y lácteos.</text>
+                <valid>
+                    <figure id="63" />
+                    <figure id="48" />
+                    <figure id="11" />
+                </valid>
+                <invalid>
+                    <figure id="34" />
+                    <figure id="45" />
+                    <figure id="46" />
+                    <figure id="59" />
+                    <figure id="54" />
+                    <figure id="44" />
+                </invalid>
+            </question>
+            <question>
+                <text>¿Cuáles de estos alimentos nos aportan carbohidratos?</text>
+                <valid>
+                    <figure id="47" />
+                </valid>
+                <invalid>
+                    <figure id="09" />
+                    <figure id="18" />
+                    <figure id="28" />
+                    <figure id="33" />
+                    <figure id="12" />
+                    <figure id="63" />
+                    <figure id="34" />
+                    <figure id="44" />
+                </invalid>
+            </question>
+            <question>
+                <text>¿Cuáles de estos alimentos nos proporcionan calcio?</text>
+                <valid>
+                    <figure id="63" />
+                </valid>
+                <invalid>
+                    <figure id="68" />
+                    <figure id="59" />
+                    <figure id="58" />
+                    <figure id="19" />
+                    <figure id="62" />
+                    <figure id="24" />
+                    <figure id="50" />
+                    <figure id="05" />
+                </invalid>
+            </question>
+        </level>
+        <level value="3">
+            <question>
+                <text>¿Cuáles de estos alimentos nos proporcionan calcio?</text>
+                <valid>
+                    <figure id="03" />
+                    <figure id="49" />
+                    <figure id="63" />
+                </valid>
+                <invalid>
+                    <figure id="30" />
+                    <figure id="45" />
+                    <figure id="57" />
+                    <figure id="53" />
+                    <figure id="51" />
+                    <figure id="20" />
+                </invalid>
+            </question>
+            <question>
+                <text>¿Cuáles de estos alimentos nos aportan carbohidratos?</text>
+                <valid>
+                    <figure id="48" />
+                </valid>
+                <invalid>
+                    <figure id="08" />
+                    <figure id="06" />
+                    <figure id="02" />
+                    <figure id="43" />
+                    <figure id="30" />
+                    <figure id="39" />
+                    <figure id="38" />
+                    <figure id="53" />
+                </invalid>
+            </question>
+        </level>
+        
+    </stage>
+    
+    <stage value="2">
+        <level value="1">
+            <question>
+                <text>Segona etapa, nivell facil, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        <level value="2">
+            <question>
+                <text>Segona etapa, nivell mitja, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        <level value="3">
+            <question>
+                <text>Segona etapa, nivell dificil, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        
+    </stage>
+    
+    
+    <stage value="3">
+        <level value="1">
+            <question>
+                <text>Tercera etapa, nivell facil, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        <level value="2">
+            <question>
+                <text>Tercera etapa, nivell mitja, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        <level value="3">
+            <question>
+                <text>Tercera etapa, nivell dificil, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        
+    </stage>
+    
+    
+    <stage value="4">
+        <level value="1">
+            <question>
+                <text>Quarta etapa, nivell facil, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        <level value="2">
+            <question>
+                <text>Quarta etapa, nivell mitja, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        <level value="3">
+            <question>
+                <text>Quarta etapa, nivell dificil, pregunta 1 Bla bla bla</text>
+                <valid>
+                    <figure id="01" />
+                    <figure id="02" />
+                    <figure id="03" />
+                </valid>
+                <invalid>
+                    <figure id="04" />
+                    <figure id="05" />
+                    <figure id="06" />
+                    <figure id="07" />
+                    <figure id="08" />
+                    <figure id="09" />
+                </invalid>
+            </question>
+        </level>
+        
+    </stage>
+
+    
+</game>

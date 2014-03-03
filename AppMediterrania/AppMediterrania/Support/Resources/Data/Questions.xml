@@ -1,286 +1,616 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<game>
-    <stage value="1">
-        <level value="1">
-            <question>
-                <text>Primera etapa, nivell facil, pregunta 1 Bla bla bla</text>
-                <valid>
-                    <figure id="01" />
-                    <figure id="02" />
-                    <figure id="03" />
-                </valid>
-                <invalid>
-                    <figure id="04" />
-                    <figure id="05" />
-                    <figure id="06" />
-                    <figure id="07" />
-                    <figure id="08" />
-                    <figure id="09" />
-                </invalid>
-            </question>
-            <question>
-                <text>Primera etapa, nivell facil, pregunta 2 Bla bla bla</text>
-                <valid>
-                    <figure id="01" />
-                    <figure id="02" />
-                    <figure id="03" />
-                </valid>
-                <invalid>
-                    <figure id="04" />
-                    <figure id="05" />
-                    <figure id="06" />
-                    <figure id="07" />
-                    <figure id="08" />
-                    <figure id="09" />
-                </invalid>
-            </question>
-        </level>
-        <level value="2">
-            <question>
-                <text>Primera etapa, nivell mitja, pregunta 1 Bla bla bla</text>
-                <valid>
-                    <figure id="01" />
-                    <figure id="02" />
-                    <figure id="03" />
-                </valid>
-                <invalid>
-                    <figure id="04" />
-                    <figure id="05" />
-                    <figure id="06" />
-                    <figure id="07" />
-                    <figure id="08" />
-                    <figure id="09" />
-                </invalid>
-            </question>
-            <question>
-                <text>Primera etapa, nivell mitja, pregunta 2 Bla bla bla</text>
-                <valid>
-                    <figure id="01" />
-                    <figure id="02" />
-                    <figure id="03" />
-                </valid>
-                <invalid>
-                    <figure id="04" />
-                    <figure id="05" />
-                    <figure id="06" />
-                    <figure id="07" />
-                    <figure id="08" />
-                    <figure id="09" />
-                </invalid>
-            </question>
-        </level>
-        <level value="3">
-            <question>
-                <text>Primera etapa, nivell dificil, pregunta 1 Bla bla bla</text>
-                <valid>
-                    <figure id="01" />
-                    <figure id="02" />
-                    <figure id="03" />
-                </valid>
-                <invalid>
-                    <figure id="04" />
-                    <figure id="05" />
-                    <figure id="06" />
-                    <figure id="07" />
-                    <figure id="08" />
-                    <figure id="09" />
-                </invalid>
-            </question>
-            <question>
-                <text>Primera etapa, nivell dificil, pregunta 2 Bla bla bla</text>
-                <valid>
-                    <figure id="01" />
-                    <figure id="02" />
-                    <figure id="03" />
-                </valid>
-                <invalid>
-                    <figure id="04" />
-                    <figure id="05" />
-                    <figure id="06" />
-                    <figure id="07" />
-                    <figure id="08" />
-                    <figure id="09" />
-                </invalid>
-            </question>
-        </level>
-        
-    </stage>
+<juego>
+    <pregunta>
+        <dificultad>1</dificultad>
+        <orden>1</orden>
+        <fondo>1</fondo>
+        <actividad>4</actividad>
+        <texto>Escoge tres frutas.</texto>
+        <correcta>01</correcta>
+        <correcta>03</correcta>
+        <correcta>07</correcta>
+        <incorrecta>26</incorrecta>
+        <incorrecta>27</incorrecta>
+        <incorrecta>42</incorrecta>
+        <incorrecta>45</incorrecta>
+        <incorrecta>61</incorrecta>
+        <incorrecta>65</incorrecta>
+    </pregunta>
     
-    <stage value="2">
-        <level value="1">
-            <question>
-                <text>Segona etapa, nivell facil, pregunta 1 Bla bla bla</text>
-                <valid>
-                    <figure id="01" />
-                    <figure id="02" />
-                    <figure id="03" />
-                </valid>
-                <invalid>
-                    <figure id="04" />
-                    <figure id="05" />
-                    <figure id="06" />
-                    <figure id="07" />
-                    <figure id="08" />
-                    <figure id="09" />
-                </invalid>
-            </question>
-        </level>
-        <level value="2">
-            <question>
-                <text>Segona etapa, nivell mitja, pregunta 1 Bla bla bla</text>
-                <valid>
-                    <figure id="01" />
-                    <figure id="02" />
-                    <figure id="03" />
-                </valid>
-                <invalid>
-                    <figure id="04" />
-                    <figure id="05" />
-                    <figure id="06" />
-                    <figure id="07" />
-                    <figure id="08" />
-                    <figure id="09" />
-                </invalid>
-            </question>
-        </level>
-        <level value="3">
-            <question>
-                <text>Segona etapa, nivell dificil, pregunta 1 Bla bla bla</text>
-                <valid>
-                    <figure id="01" />
-                    <figure id="02" />
-                    <figure id="03" />
-                </valid>
-                <invalid>
-                    <figure id="04" />
-                    <figure id="05" />
-                    <figure id="06" />
-                    <figure id="07" />
-                    <figure id="08" />
-                    <figure id="09" />
-                </invalid>
-            </question>
-        </level>
-        
-    </stage>
+    <pregunta>
+        <dificultad>1</dificultad>
+        <orden>2</orden>
+        <fondo>1</fondo>
+        <actividad>4</actividad>
+        <texto>¿Cuáles de estos alimentos nos dan más energía para empezar el día?</texto>
+        <correcta>49</correcta>
+        <incorrecta>65</incorrecta>
+        <incorrecta>68</incorrecta>
+        <incorrecta>57</incorrecta>
+        <incorrecta>52</incorrecta>
+        <incorrecta>37</incorrecta>
+        <incorrecta>10</incorrecta>
+        <incorrecta>36</incorrecta>
+        <incorrecta>25</incorrecta>
+    </pregunta>
     
+    <pregunta>
+        <dificultad>2</dificultad>
+        <orden>1</orden>
+        <fondo>1</fondo>
+        <actividad>4</actividad>
+        <texto>Escoge tu menú de desayuno equilibrado con cereales, fruta y lácteos.</texto>
+        <correcta>63</correcta>
+        <correcta>48</correcta>
+        <correcta>11</correcta>
+        <incorrecta>34</incorrecta>
+        <incorrecta>45</incorrecta>
+        <incorrecta>46</incorrecta>
+        <incorrecta>59</incorrecta>
+        <incorrecta>54</incorrecta>
+        <incorrecta>44</incorrecta>
+    </pregunta>
     
-    <stage value="3">
-        <level value="1">
-            <question>
-                <text>Tercera etapa, nivell facil, pregunta 1 Bla bla bla</text>
-                <valid>
-                    <figure id="01" />
-                    <figure id="02" />
-                    <figure id="03" />
-                </valid>
-                <invalid>
-                    <figure id="04" />
-                    <figure id="05" />
-                    <figure id="06" />
-                    <figure id="07" />
-                    <figure id="08" />
-                    <figure id="09" />
-                </invalid>
-            </question>
-        </level>
-        <level value="2">
-            <question>
-                <text>Tercera etapa, nivell mitja, pregunta 1 Bla bla bla</text>
-                <valid>
-                    <figure id="01" />
-                    <figure id="02" />
-                    <figure id="03" />
-                </valid>
-                <invalid>
-                    <figure id="04" />
-                    <figure id="05" />
-                    <figure id="06" />
-                    <figure id="07" />
-                    <figure id="08" />
-                    <figure id="09" />
-                </invalid>
-            </question>
-        </level>
-        <level value="3">
-            <question>
-                <text>Tercera etapa, nivell dificil, pregunta 1 Bla bla bla</text>
-                <valid>
-                    <figure id="01" />
-                    <figure id="02" />
-                    <figure id="03" />
-                </valid>
-                <invalid>
-                    <figure id="04" />
-                    <figure id="05" />
-                    <figure id="06" />
-                    <figure id="07" />
-                    <figure id="08" />
-                    <figure id="09" />
-                </invalid>
-            </question>
-        </level>
-        
-    </stage>
+    <pregunta>
+        <dificultad>2</dificultad>
+        <orden>2</orden>
+        <fondo>1</fondo>
+        <actividad>4</actividad>
+        <texto>¿Cuáles de estos alimentos nos aportan carbohidratos?</texto>
+        <correcta>47</correcta>
+        <incorrecta>09</incorrecta>
+        <incorrecta>18</incorrecta>
+        <incorrecta>28</incorrecta>
+        <incorrecta>33</incorrecta>
+        <incorrecta>12</incorrecta>
+        <incorrecta>63</incorrecta>
+        <incorrecta>31</incorrecta>
+        <incorrecta>44</incorrecta>
+    </pregunta>
     
+    <pregunta>
+        <dificultad>2</dificultad>
+        <orden>3</orden>
+        <fondo>1</fondo>
+        <actividad>4</actividad>
+        <texto>¿Cuáles de estos alimentos nos proporcionan calcio?</texto>
+        <correcta>63</correcta>
+        <incorrecta>68</incorrecta>
+        <incorrecta>59</incorrecta>
+        <incorrecta>58</incorrecta>
+        <incorrecta>19</incorrecta>
+        <incorrecta>62</incorrecta>
+        <incorrecta>24</incorrecta>
+        <incorrecta>50</incorrecta>
+        <incorrecta>05</incorrecta>
+    </pregunta>
     
-    <stage value="4">
-        <level value="1">
-            <question>
-                <text>Quarta etapa, nivell facil, pregunta 1 Bla bla bla</text>
-                <valid>
-                    <figure id="01" />
-                    <figure id="02" />
-                    <figure id="03" />
-                </valid>
-                <invalid>
-                    <figure id="04" />
-                    <figure id="05" />
-                    <figure id="06" />
-                    <figure id="07" />
-                    <figure id="08" />
-                    <figure id="09" />
-                </invalid>
-            </question>
-        </level>
-        <level value="2">
-            <question>
-                <text>Quarta etapa, nivell mitja, pregunta 1 Bla bla bla</text>
-                <valid>
-                    <figure id="01" />
-                    <figure id="02" />
-                    <figure id="03" />
-                </valid>
-                <invalid>
-                    <figure id="04" />
-                    <figure id="05" />
-                    <figure id="06" />
-                    <figure id="07" />
-                    <figure id="08" />
-                    <figure id="09" />
-                </invalid>
-            </question>
-        </level>
-        <level value="3">
-            <question>
-                <text>Quarta etapa, nivell dificil, pregunta 1 Bla bla bla</text>
-                <valid>
-                    <figure id="01" />
-                    <figure id="02" />
-                    <figure id="03" />
-                </valid>
-                <invalid>
-                    <figure id="04" />
-                    <figure id="05" />
-                    <figure id="06" />
-                    <figure id="07" />
-                    <figure id="08" />
-                    <figure id="09" />
-                </invalid>
-            </question>
-        </level>
-        
-    </stage>
-
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>1</orden>
+        <fondo>1</fondo>
+        <actividad>4</actividad>
+        <texto>Escoge tu menú de desayuno equilibrado a base de cereales, fruta y lácteos.</texto>
+        <correcta>03</correcta>
+        <correcta>49</correcta>
+        <correcta>63</correcta>
+        <incorrecta>30</incorrecta>
+        <incorrecta>45</incorrecta>
+        <incorrecta>57</incorrecta>
+        <incorrecta>53</incorrecta>
+        <incorrecta>51</incorrecta>
+        <incorrecta>20</incorrecta>
+    </pregunta>
     
-</game>
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>2</orden>
+        <fondo>1</fondo>
+        <actividad>4</actividad>
+        <texto>¿Cuáles de estos alimentos nos aportan carbohidratos?</texto>
+        <correcta>48</correcta>
+        <incorrecta>08</incorrecta>
+        <incorrecta>06</incorrecta>
+        <incorrecta>02</incorrecta>
+        <incorrecta>43</incorrecta>
+        <incorrecta>30</incorrecta>
+        <incorrecta>39</incorrecta>
+        <incorrecta>38</incorrecta>
+        <incorrecta>53</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>3</orden>
+        <fondo>1</fondo>
+        <actividad>4</actividad>
+        <texto>¿Cuáles de estos alimentos nos proporcionan calcio?</texto>
+        <correcta>67</correcta>
+        <incorrecta>42</incorrecta>
+        <incorrecta>50</incorrecta>
+        <incorrecta>32</incorrecta>
+        <incorrecta>16</incorrecta>
+        <incorrecta>14</incorrecta>
+        <incorrecta>12</incorrecta>
+        <incorrecta>42</incorrecta>
+        <incorrecta>23</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>4</orden>
+        <fondo>1</fondo>
+        <actividad>4</actividad>
+        <texto>¿Cuáles de estos alimentos son fuente de fibra, vitaminas y minerales?</texto>
+        <correcta>06</correcta>
+        <incorrecta>22</incorrecta>
+        <incorrecta>23</incorrecta>
+        <incorrecta>41</incorrecta>
+        <incorrecta>46</incorrecta>
+        <incorrecta>25</incorrecta>
+        <incorrecta>24</incorrecta>
+        <incorrecta>52</incorrecta>
+        <incorrecta>57</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>1</dificultad>
+        <orden>1</orden>
+        <fondo>1</fondo>
+        <actividad>5</actividad>
+        <texto>¿Cuál es el ingrediente principal de un bocadillo?</texto>
+        <correcta>47</correcta>
+        <incorrecta>01</incorrecta>
+        <incorrecta>24</incorrecta>
+        <incorrecta>33</incorrecta>
+        <incorrecta>45</incorrecta>
+        <incorrecta>46</incorrecta>
+        <incorrecta>53</incorrecta>
+        <incorrecta>59</incorrecta>
+        <incorrecta>66</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>1</dificultad>
+        <orden>2</orden>
+        <fondo>1</fondo>
+        <actividad>5</actividad>
+        <texto>¿Qué alimento sale de las aceitunas?</texto>
+        <correcta>69</correcta>
+        <incorrecta>62</incorrecta>
+        <incorrecta>45</incorrecta>
+        <incorrecta>59</incorrecta>
+        <incorrecta>66</incorrecta>
+        <incorrecta>68</incorrecta>
+        <incorrecta>54</incorrecta>
+        <incorrecta>49</incorrecta>
+        <incorrecta>56</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>2</dificultad>
+        <orden>1</orden>
+        <fondo>1</fondo>
+        <actividad>5</actividad>
+        <texto>¿De qué está hecho tu bocadillo saludable?</texto>
+        <correcta>47</correcta>
+        <correcta>38</correcta>
+        <correcta>69</correcta>
+        <incorrecta>60</incorrecta>
+        <incorrecta>24</incorrecta>
+        <incorrecta>26</incorrecta>
+        <incorrecta>03</incorrecta>
+        <incorrecta>37</incorrecta>
+        <incorrecta>46</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>2</dificultad>
+        <orden>2</orden>
+        <fondo>1</fondo>
+        <actividad>5</actividad>
+        <texto>¿Cuál de los alimentos de tu bocadillo saludable sale del fruto de un árbol?</texto>
+        <correcta>69</correcta>
+        <incorrecta>31</incorrecta>
+        <incorrecta>44</incorrecta>
+        <incorrecta>34</incorrecta>
+        <incorrecta>52</incorrecta>
+        <incorrecta>64</incorrecta>
+        <incorrecta>67</incorrecta>
+        <incorrecta>61</incorrecta>
+        <incorrecta>16</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>2</dificultad>
+        <orden>3</orden>
+        <fondo>1</fondo>
+        <actividad>5</actividad>
+        <texto>¿Qué posible alimento de tu bocadillo saludable viene del cerdo?</texto>
+        <correcta>38</correcta>
+        <incorrecta>03</incorrecta>
+        <incorrecta>41</incorrecta>
+        <incorrecta>18</incorrecta>
+        <incorrecta>34</incorrecta>
+        <incorrecta>46</incorrecta>
+        <incorrecta>28</incorrecta>
+        <incorrecta>43</incorrecta>
+        <incorrecta>31</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>1</orden>
+        <fondo>1</fondo>
+        <actividad>5</actividad>
+        <texto>¿De qué está hecho tu bocadillo saludable?</texto>
+        <correcta>47</correcta>
+        <correcta>38</correcta>
+        <correcta>69</correcta>
+        <incorrecta>03</incorrecta>
+        <incorrecta>09</incorrecta>
+        <incorrecta>24</incorrecta>
+        <incorrecta>43</incorrecta>
+        <incorrecta>46</incorrecta>
+        <incorrecta>26</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>2</orden>
+        <fondo>1</fondo>
+        <actividad>5</actividad>
+        <texto>¿Cuál de estos alimentos se consideraba oro líquido en la antigüedad?</texto>
+        <correcta>69</correcta>
+        <incorrecta>62</incorrecta>
+        <incorrecta>68</incorrecta>
+        <incorrecta>59</incorrecta>
+        <incorrecta>25</incorrecta>
+        <incorrecta>10</incorrecta>
+        <incorrecta>05</incorrecta>
+        <incorrecta>24</incorrecta>
+        <incorrecta>17</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>3</orden>
+        <fondo>1</fondo>
+        <actividad>5</actividad>
+        <texto>¿Qué frutas son de temporada de primavera?</texto>
+        <correcta>08</correcta>
+        <correcta>14</correcta>
+        <correcta>15</correcta>
+        <correcta>12</correcta>
+        <correcta>11</correcta>
+        <correcta>04</correcta>
+        <correcta>07</correcta>
+        <incorrecta>10</incorrecta>
+        <incorrecta>09</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>4</orden>
+        <fondo>1</fondo>
+        <actividad>5</actividad>
+        <texto>¿Qué alimentos de tu bocadillo saludable se encuentran en la base de la pirámide?</texto>
+        <correcta>47</correcta>
+        <incorrecta>27</incorrecta>
+        <incorrecta>28</incorrecta>
+        <incorrecta>30</incorrecta>
+        <incorrecta>31</incorrecta>
+        <incorrecta>32</incorrecta>
+        <incorrecta>33</incorrecta>
+        <incorrecta>34</incorrecta>
+        <incorrecta>43</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>1</dificultad>
+        <orden>1</orden>
+        <fondo>1</fondo>
+        <actividad>6</actividad>
+        <texto>¿Cuáles de estos alimentos son verduras?</texto>
+        <correcta>16</correcta>
+        <correcta>17</correcta>
+        <correcta>18</correcta>
+        <incorrecta>40</incorrecta>
+        <incorrecta>12</incorrecta>
+        <incorrecta>13</incorrecta>
+        <incorrecta>45</incorrecta>
+        <incorrecta>49</incorrecta>
+        <incorrecta>28</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>1</dificultad>
+        <orden>2</orden>
+        <fondo>1</fondo>
+        <actividad>6</actividad>
+        <texto> ¿Cuáles de estos alimentos provienen del mar?</texto>
+        <correcta>42</correcta>
+        <correcta>27</correcta>
+        <correcta>36</correcta>
+        <incorrecta>43</incorrecta>
+        <incorrecta>47</incorrecta>
+        <incorrecta>51</incorrecta>
+        <incorrecta>53</incorrecta>
+        <incorrecta>58</incorrecta>
+        <incorrecta>03</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>2</dificultad>
+        <orden>1</orden>
+        <fondo>1</fondo>
+        <actividad>6</actividad>
+        <texto>¿Qué alimentos debe tener en mayor proporción tu plato saludable?</texto>
+        <correcta>16</correcta>
+        <correcta>23</correcta>
+        <correcta>18</correcta>
+        <incorrecta>30</incorrecta>
+        <incorrecta>31</incorrecta>
+        <incorrecta>32</incorrecta>
+        <incorrecta>47</incorrecta>
+        <incorrecta>50</incorrecta>
+        <incorrecta>56</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>2</dificultad>
+        <orden>2</orden>
+        <fondo>1</fondo>
+        <actividad>6</actividad>
+        <texto>¿Cuáles de estos alimentos son legumbres?</texto>
+        <correcta>52</correcta>
+        <correcta>53</correcta>
+        <correcta>54</correcta>
+        <incorrecta>51</incorrecta>
+        <incorrecta>57</incorrecta>
+        <incorrecta>61</incorrecta>
+        <incorrecta>68</incorrecta>
+        <incorrecta>39</incorrecta>
+        <incorrecta>09</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>2</dificultad>
+        <orden>3</orden>
+        <fondo>1</fondo>
+        <actividad>6</actividad>
+        <texto>¿Cuál de estos alimentos debe ser tu postre habitual?</texto>
+        <correcta>01</correcta>
+        <incorrecta>67</incorrecta>
+        <incorrecta>65</incorrecta>
+        <incorrecta>61</incorrecta>
+        <incorrecta>60</incorrecta>
+        <incorrecta>59</incorrecta>
+        <incorrecta>58</incorrecta>
+        <incorrecta>57</incorrecta>
+        <incorrecta>49</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>1</orden>
+        <fondo>1</fondo>
+        <actividad>6</actividad>
+        <texto>¿Cuáles de estos alimentos se encuentran en la base de la pirámide?</texto>
+        <correcta>45</correcta>
+        <correcta>16</correcta>
+        <correcta>11</correcta>
+        <incorrecta>28</incorrecta>
+        <incorrecta>29</incorrecta>
+        <incorrecta>30</incorrecta>
+        <incorrecta>31</incorrecta>
+        <incorrecta>39</incorrecta>
+        <incorrecta>41</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>2</orden>
+        <fondo>1</fondo>
+        <actividad>6</actividad>
+        <texto>¿Cuáles de estos alimentos nos proporcionan proteínas?</texto>
+        <correcta>26</correcta>
+        <correcta>34</correcta>
+        <correcta>43</correcta>
+        <incorrecta>46</incorrecta>
+        <incorrecta>47</incorrecta>
+        <incorrecta>49</incorrecta>
+        <incorrecta>56</incorrecta>
+        <incorrecta>58</incorrecta>
+        <incorrecta>61</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>3</orden>
+        <fondo>1</fondo>
+        <actividad>6</actividad>
+        <texto> ¿Cuál de estos alimentos se consideran pescado azul?
+        </texto>
+        <correcta>39</correcta>
+        <correcta>44</correcta>
+        <incorrecta>36</incorrecta>
+        <incorrecta>37</incorrecta>
+        <incorrecta>41</incorrecta>
+        <incorrecta>42</incorrecta>
+        <incorrecta>28</incorrecta>
+        <incorrecta>29</incorrecta>
+        <incorrecta>68</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>4</orden>
+        <fondo>1</fondo>
+        <actividad>6</actividad>
+        <texto>¿Cuál de estos alimentos reservamos para ocasiones especiales?</texto>
+        <correcta>59</correcta>
+        <correcta>60</correcta>
+        <correcta>61</correcta>
+        <incorrecta>43</incorrecta>
+        <incorrecta>38</incorrecta>
+        <incorrecta>33</incorrecta>
+        <incorrecta>25</incorrecta>
+        <incorrecta>22</incorrecta>
+        <incorrecta>13</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>1</dificultad>
+        <orden>1</orden>
+        <fondo>1</fondo>
+        <actividad>7</actividad>
+        <texto>¿Qué actividades son saludables para tu cuerpo?</texto>
+        <correcta>70</correcta>
+        <correcta>71</correcta>
+        <correcta>72</correcta>
+        <correcta>73</correcta>
+        <correcta>74</correcta>
+        <correcta>75</correcta>
+        <correcta>76</correcta>
+        <incorrecta>79</incorrecta>
+        <incorrecta>80</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>1</dificultad>
+        <orden>2</orden>
+        <fondo>1</fondo>
+        <actividad>7</actividad>
+        <texto>¿Qué bebida es la más refrescante y la más sana?</texto>
+        <correcta>68</correcta>
+        <incorrecta>69</incorrecta>
+        <incorrecta>67</incorrecta>
+        <incorrecta>63</incorrecta>
+        <incorrecta>25</incorrecta>
+        <incorrecta>53</incorrecta>
+        <incorrecta>58</incorrecta>
+        <incorrecta>65</incorrecta>
+        <incorrecta>64</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>2</dificultad>
+        <orden>1</orden>
+        <fondo>1</fondo>
+        <actividad>7</actividad>
+        <texto>¿Qué actividades debes limitar a menos de 2 horas al día?</texto>
+        <correcta>79</correcta>
+        <correcta>80</correcta>
+        <incorrecta>70</incorrecta>
+        <incorrecta>71</incorrecta>
+        <incorrecta>72</incorrecta>
+        <incorrecta>73</incorrecta>
+        <incorrecta>74</incorrecta>
+        <incorrecta>75</incorrecta>
+        <incorrecta>78</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>2</dificultad>
+        <orden>2</orden>
+        <fondo>1</fondo>
+        <actividad>7</actividad>
+        <texto>¿Qué bebida es la más refrescante y la más sana?</texto>
+        <correcta>68</correcta>
+        <incorrecta>69</incorrecta>
+        <incorrecta>67</incorrecta>
+        <incorrecta>63</incorrecta>
+        <incorrecta>25</incorrecta>
+        <incorrecta>53</incorrecta>
+        <incorrecta>58</incorrecta>
+        <incorrecta>65</incorrecta>
+        <incorrecta>64</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>2</dificultad>
+        <orden>3</orden>
+        <fondo>1</fondo>
+        <actividad>7</actividad>
+        <texto>¿Cuáles de estas actividades se consideran actividad física moderada?</texto>
+        <correcta>70</correcta>
+        <correcta>71</correcta>
+        <correcta>72</correcta>
+        <correcta>73</correcta>
+        <correcta>74</correcta>
+        <incorrecta>75</incorrecta>
+        <incorrecta>76</incorrecta>
+        <incorrecta>77</incorrecta>
+        <incorrecta>78</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>1</orden>
+        <fondo>1</fondo>
+        <actividad>7</actividad>
+        <texto>¿Qué actividades debes limitar a menos de 2 horas al día?</texto>
+        <correcta>79</correcta>
+        <correcta>80</correcta>
+        <incorrecta>70</incorrecta>
+        <incorrecta>71</incorrecta>
+        <incorrecta>72</incorrecta>
+        <incorrecta>73</incorrecta>
+        <incorrecta>74</incorrecta>
+        <incorrecta>75</incorrecta>
+        <incorrecta>76</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>2</orden>
+        <fondo>1</fondo>
+        <actividad>7</actividad>
+        <texto>Escoge la bebida más sana y que más nos hidrata.</texto>
+        <correcta>68</correcta>
+        <incorrecta>69</incorrecta>
+        <incorrecta>67</incorrecta>
+        <incorrecta>63</incorrecta>
+        <incorrecta>25</incorrecta>
+        <incorrecta>53</incorrecta>
+        <incorrecta>58</incorrecta>
+        <incorrecta>65</incorrecta>
+        <incorrecta>64</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>3</orden>
+        <fondo>1</fondo>
+        <actividad>7</actividad>
+        <texto>¿Cuáles de estas actividades se consideran actividad física moderada?</texto>
+        <correcta>70</correcta>
+        <correcta>71</correcta>
+        <correcta>72</correcta>
+        <correcta>73</correcta>
+        <correcta>74</correcta>
+        <incorrecta>75</incorrecta>
+        <incorrecta>76</incorrecta>
+        <incorrecta>77</incorrecta>
+        <incorrecta>79</incorrecta>
+    </pregunta>
+    
+    <pregunta>
+        <dificultad>3</dificultad>
+        <orden>4</orden>
+        <fondo>1</fondo>
+        <actividad>7</actividad>
+        <texto>¿Cuál de estos alimentos sirven para mantener los huesos fuertes?</texto>
+        <correcta>63</correcta>
+        <correcta>65</correcta>
+        <correcta>66</correcta>
+        <incorrecta>55</incorrecta>
+        <incorrecta>47</incorrecta>
+        <incorrecta>26</incorrecta>
+        <incorrecta>19</incorrecta>
+        <incorrecta>12</incorrecta>
+        <incorrecta>07</incorrecta>
+    </pregunta>
+    
+</juego>

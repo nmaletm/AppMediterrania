@@ -57,7 +57,7 @@
                                                         button_21, button_22, button_23,
                                                         button_31, button_32, button_33, nil];
 
-    [self.questionTextView setFont:[UIFont fontWithName:@"Freestyle Script" size:30]];
+    [self.questionTextView setFont:[UIFont fontWithName:@"Freestyle Script" size:45]];
 
     [self initGame];
 }
@@ -73,7 +73,8 @@
     [dashboardFigures shuffle];
     
     
-    [questionTextView setText:question.text];
+    // Al text posem un espai, ja que per la tipografia que es posa, si hi ha un '¿' al principi sino es talla
+    [questionTextView setText:[NSString stringWithFormat:@" %@", question.text]];
     [self refreshScore];
     [self refreshButtons];
 }
