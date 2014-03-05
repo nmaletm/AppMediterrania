@@ -11,11 +11,15 @@
 
 #import "NSMutableArray_Shuffling.h"
 
+#import <AudioToolbox/AudioToolbox.h>
+
 @interface StageGameViewController (){
     QuestionModel *question;
     NSMutableArray *correctSelected;
     NSMutableArray *dashboardFigures;
     NSArray *dashboardButtons;
+    
+    SystemSoundID soundID;
 }
 
 @end
@@ -56,6 +60,8 @@
     dashboardButtons = [[NSArray alloc] initWithObjects: button_11, button_12, button_13,
                                                         button_21, button_22, button_23,
                                                         button_31, button_32, button_33, nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nextSubLevel:) name:NOT_NEXT_SUB_LEVEL object:nil];
 
     [self.questionTextView setFont:[UIFont fontWithName:@"Freestyle Script" size:45]];
 
@@ -63,6 +69,8 @@
 }
 
 - (void) initGame{
+    [self stopAudio];
+
     [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_DISABLED object:self];
     correctSelected = [[NSMutableArray alloc] init];
     
@@ -85,6 +93,31 @@
     
 }
 
+#pragma mark - Audio
+
+- (void) stopAudio{
+    if(soundID){
+        AudioServicesDisposeSystemSoundID(soundID);
+    }
+}
+
+- (void) play:(NSString *)name{
+    [self stopAudio];
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath], name]];
+    
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)url, &soundID);
+    AudioServicesPlaySystemSound (soundID);
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_ENABLED object:self];
+}
+
+#pragma mark - Notifications
+- (void) nextSubLevel:(NSNotification *)notification
+{
+    [self stopAudio];
+}
+
+
 #pragma mark - Actions
 
 - (IBAction)figureButton:(id)sender{
@@ -94,6 +127,11 @@
     if([question.figuresCorrect containsObject:[dashboardFigures objectAtIndex:selected]]){
         [correctSelected addObject:[NSNumber numberWithInt:selected]];
         [self checkEndGame];
+        
+        [self play:@"correct.aiff"];
+    }
+    else{
+        [self play:@"incorrect.aiff"];
     }
     
     [self refreshScore];

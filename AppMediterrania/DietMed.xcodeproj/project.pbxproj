@@ -262,6 +262,14 @@
 		6CD2DB6E18B0B18E0063D94B /* pantalla_agricultura_02_winter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DB6A18B0B18E0063D94B /* pantalla_agricultura_02_winter.png */; };
 		6CD2DB7018B0C34B0063D94B /* Stage8EndView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2DB6F18B0C34B0063D94B /* Stage8EndView.xib */; };
 		6CD2DB7518B0C5520063D94B /* Stage8EndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD2DB7418B0C5520063D94B /* Stage8EndViewController.m */; };
+		6CD44AC818C773BD00247605 /* pantalla_piramide_nivell01a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD44AC218C773BD00247605 /* pantalla_piramide_nivell01a.png */; };
+		6CD44AC918C773BD00247605 /* pantalla_piramide_nivell03a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD44AC318C773BD00247605 /* pantalla_piramide_nivell03a.png */; };
+		6CD44ACA18C773BD00247605 /* pantalla_plat_nivell02a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD44AC418C773BD00247605 /* pantalla_plat_nivell02a.png */; };
+		6CD44ACB18C773BD00247605 /* pantalla_plat_nivell02b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD44AC518C773BD00247605 /* pantalla_plat_nivell02b.png */; };
+		6CD44ACC18C773BD00247605 /* pantalla_plat_nivell02c.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD44AC618C773BD00247605 /* pantalla_plat_nivell02c.png */; };
+		6CD44ACD18C773BD00247605 /* pantalla_plat_nivell02d.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD44AC718C773BD00247605 /* pantalla_plat_nivell02d.png */; };
+		6CD44AD018C776FE00247605 /* correct.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 6CD44ACE18C776FE00247605 /* correct.aiff */; };
+		6CD44AD118C776FE00247605 /* incorrect.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 6CD44ACF18C776FE00247605 /* incorrect.aiff */; };
 		6CD57A37189B9918005538D1 /* Stage8View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD57A36189B9918005538D1 /* Stage8View.xib */; };
 		6CD57A3A189B9C63005538D1 /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A39189B9C63005538D1 /* Notifications.m */; };
 		6CD57A3D189BA29C005538D1 /* StageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD57A3C189BA29C005538D1 /* StageManager.m */; };
@@ -612,6 +620,14 @@
 		6CD2DB6F18B0C34B0063D94B /* Stage8EndView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage8EndView.xib; path = Stages/Stage8EndView.xib; sourceTree = "<group>"; };
 		6CD2DB7318B0C5520063D94B /* Stage8EndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage8EndViewController.h; sourceTree = "<group>"; };
 		6CD2DB7418B0C5520063D94B /* Stage8EndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage8EndViewController.m; sourceTree = "<group>"; };
+		6CD44AC218C773BD00247605 /* pantalla_piramide_nivell01a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_piramide_nivell01a.png; sourceTree = "<group>"; };
+		6CD44AC318C773BD00247605 /* pantalla_piramide_nivell03a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_piramide_nivell03a.png; sourceTree = "<group>"; };
+		6CD44AC418C773BD00247605 /* pantalla_plat_nivell02a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_plat_nivell02a.png; sourceTree = "<group>"; };
+		6CD44AC518C773BD00247605 /* pantalla_plat_nivell02b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_plat_nivell02b.png; sourceTree = "<group>"; };
+		6CD44AC618C773BD00247605 /* pantalla_plat_nivell02c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_plat_nivell02c.png; sourceTree = "<group>"; };
+		6CD44AC718C773BD00247605 /* pantalla_plat_nivell02d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla_plat_nivell02d.png; sourceTree = "<group>"; };
+		6CD44ACE18C776FE00247605 /* correct.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = correct.aiff; sourceTree = "<group>"; };
+		6CD44ACF18C776FE00247605 /* incorrect.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = incorrect.aiff; sourceTree = "<group>"; };
 		6CD57A36189B9918005538D1 /* Stage8View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage8View.xib; path = Stages/Stage8View.xib; sourceTree = "<group>"; };
 		6CD57A38189B9C63005538D1 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
 		6CD57A39189B9C63005538D1 /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
@@ -856,6 +872,8 @@
 		6CAB3A30189E254400F7F4EB /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				6CD44ACE18C776FE00247605 /* correct.aiff */,
+				6CD44ACF18C776FE00247605 /* incorrect.aiff */,
 				6CAB3A31189E254400F7F4EB /* cow.mp3 */,
 				6CAB3A5B189E27D400F7F4EB /* goat.mp3 */,
 				6CAB3A5C189E27D400F7F4EB /* hen.mp3 */,
@@ -883,8 +901,14 @@
 				6CE84BD418B8821E007B4DD9 /* pantalla_info.png */,
 				6CE84BD618B8821E007B4DD9 /* pantalla_nivell.png */,
 				6CE84BD718B8821E007B4DD9 /* pantalla_piramide_nivell01.png */,
+				6CD44AC218C773BD00247605 /* pantalla_piramide_nivell01a.png */,
 				6CE84BD818B8821E007B4DD9 /* pantalla_piramide_nivell03.png */,
+				6CD44AC318C773BD00247605 /* pantalla_piramide_nivell03a.png */,
 				6CE84BD918B8821E007B4DD9 /* pantalla_plat_nivell02.png */,
+				6CD44AC418C773BD00247605 /* pantalla_plat_nivell02a.png */,
+				6CD44AC518C773BD00247605 /* pantalla_plat_nivell02b.png */,
+				6CD44AC618C773BD00247605 /* pantalla_plat_nivell02c.png */,
+				6CD44AC718C773BD00247605 /* pantalla_plat_nivell02d.png */,
 				6CE84BDA18B8821E007B4DD9 /* pantalla_presentacio_joc.png */,
 				6CD2DA6B18AF49900063D94B /* pantalla_agricultura_01_autumn.png */,
 				6CD2DA6C18AF49900063D94B /* pantalla_agricultura_01_spring.png */,
@@ -1363,6 +1387,7 @@
 				6CD2DADB18AF49900063D94B /* 35_joc.png in Resources */,
 				6CD2DAEF18AF49900063D94B /* 45_joc.png in Resources */,
 				6CD2DAB218AF49900063D94B /* 14_joc_b.png in Resources */,
+				6CD44ACC18C773BD00247605 /* pantalla_plat_nivell02c.png in Resources */,
 				6CD2DABA18AF49900063D94B /* 18_joc_b.png in Resources */,
 				6CD2DB2218AF49900063D94B /* 70_joc_b.png in Resources */,
 				6CD2DB1518AF49900063D94B /* 64_joc.png in Resources */,
@@ -1415,6 +1440,7 @@
 				6CD2DB0218AF49900063D94B /* 54_joc_b.png in Resources */,
 				6CD2DB2118AF49900063D94B /* 70_joc.png in Resources */,
 				6CD2DA9118AF49900063D94B /* button_summer.png in Resources */,
+				6CD44AD018C776FE00247605 /* correct.aiff in Resources */,
 				6CD2DA9918AF49900063D94B /* 02_joc.png in Resources */,
 				6CD2DA9318AF49900063D94B /* button_winter.png in Resources */,
 				6CE84BE718B8821E007B4DD9 /* pantalla_piramide_nivell01.png in Resources */,
@@ -1436,12 +1462,14 @@
 				6CD2DAF118AF49900063D94B /* 46_joc.png in Resources */,
 				6CAB3A62189E27D400F7F4EB /* sheep.mp3 in Resources */,
 				6CFD1BC9189A122400CB7B15 /* ModalView.xib in Resources */,
+				6CD44ACB18C773BD00247605 /* pantalla_plat_nivell02b.png in Resources */,
 				6CD2DB0818AF49900063D94B /* 57_joc_b.png in Resources */,
 				6CE84C1D18B894D0007B4DD9 /* fletxa_2.png in Resources */,
 				6C4788CF18B1DE3700E6E657 /* cuina_niv01_2a.png in Resources */,
 				6CD2DB3518AF49900063D94B /* 80_joc.png in Resources */,
 				6CD2DA8C18AF49900063D94B /* boto_tornar_mapa.png in Resources */,
 				6CD2DADF18AF49900063D94B /* 37_joc.png in Resources */,
+				6CD44AC918C773BD00247605 /* pantalla_piramide_nivell03a.png in Resources */,
 				6CD2DAA418AF49900063D94B /* 07_joc_b.png in Resources */,
 				6CD2DAE918AF49900063D94B /* 42_joc.png in Resources */,
 				6CD2DB0B18AF49900063D94B /* 59_joc.png in Resources */,
@@ -1543,11 +1571,13 @@
 				6CD2DAA018AF49900063D94B /* 05_joc_b.png in Resources */,
 				6CD2DAC018AF49900063D94B /* 21_joc_b.png in Resources */,
 				6CD2DAAD18AF49900063D94B /* 12_joc.png in Resources */,
+				6CD44AD118C776FE00247605 /* incorrect.aiff in Resources */,
 				6CE84C1918B887FF007B4DD9 /* nivell07b.png in Resources */,
 				6CD2DABD18AF49900063D94B /* 20_joc.png in Resources */,
 				6CD57A37189B9918005538D1 /* Stage8View.xib in Resources */,
 				6CD2DAAA18AF49900063D94B /* 10_joc_b.png in Resources */,
 				6CD2DAA218AF49900063D94B /* 06_joc_b.png in Resources */,
+				6CD44ACA18C773BD00247605 /* pantalla_plat_nivell02a.png in Resources */,
 				6C4788E018B1DE3700E6E657 /* cuina_niv03_2b.png in Resources */,
 				6CD2DAE118AF49900063D94B /* 38_joc.png in Resources */,
 				6CE84C1018B887FF007B4DD9 /* nivell03a.png in Resources */,
@@ -1586,6 +1616,7 @@
 				6CD2DB0A18AF49900063D94B /* 58_joc_b.png in Resources */,
 				6CD2DAB118AF49900063D94B /* 14_joc.png in Resources */,
 				6CD2DAF418AF49900063D94B /* 47_joc_b.png in Resources */,
+				6CD44AC818C773BD00247605 /* pantalla_piramide_nivell01a.png in Resources */,
 				6CAB3A61189E27D400F7F4EB /* pork.mp3 in Resources */,
 				6CD2DAE618AF49900063D94B /* 40_joc_b.png in Resources */,
 				6CD2DAFA18AF49900063D94B /* 50_joc_b.png in Resources */,
@@ -1611,6 +1642,7 @@
 				6CD2DB1B18AF49900063D94B /* 67_joc.png in Resources */,
 				6CD2DA9518AF49900063D94B /* fletxa.png in Resources */,
 				6CE84BE418B8821E007B4DD9 /* pantalla_info.png in Resources */,
+				6CD44ACD18C773BD00247605 /* pantalla_plat_nivell02d.png in Resources */,
 				6C4788DE18B1DE3700E6E657 /* cuina_niv03_1b.png in Resources */,
 				6CD2DAE218AF49900063D94B /* 38_joc_b.png in Resources */,
 				6CD2DB3018AF49900063D94B /* 77_joc_b.png in Resources */,

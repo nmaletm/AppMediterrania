@@ -41,18 +41,24 @@
 
     backgrounds = [[NSMutableDictionary alloc] init];
     NSArray *backgroundsEasy = [[NSArray alloc] initWithObjects:
+                                @"pantalla_piramide_nivell01a",
                                 @"pantalla_piramide_nivell01",
                                 nil];
     [backgrounds setObject:backgroundsEasy forKey:@"1"];
     
     
     NSArray *backgroundsMedium = [[NSArray alloc] initWithObjects:
+                                  @"pantalla_plat_nivell02a",
+                                  @"pantalla_plat_nivell02b",
+                                  @"pantalla_plat_nivell02c",
+                                  @"pantalla_plat_nivell02d",
                                   @"pantalla_plat_nivell02",
                                   nil];
     [backgrounds setObject:backgroundsMedium forKey:@"2"];
     
     
     NSArray *backgroundsDifficult = [[NSArray alloc] initWithObjects:
+                                     @"pantalla_piramide_nivell03a",
                                      @"pantalla_piramide_nivell03",
                                      nil];
     [backgrounds setObject:backgroundsDifficult forKey:@"3"];
@@ -65,7 +71,7 @@
         Stage3ViewController *stageViewController = (Stage3ViewController*) viewController;
         [stageViewController setBackground:[arrayBackgrounds objectAtIndex: currentSubStage-1]];
         
-        if([arrayBackgrounds count] == 1){
+        if([arrayBackgrounds count] == currentSubStage){
             [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_ENABLED object:self];
         }
         else{
@@ -91,7 +97,6 @@
         
         if(currentSubStage == [arrayBackgrounds count]){
             Stage3ViewController *stageViewController = (Stage3ViewController*) viewController;
-            [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_ENABLED object:self];
             [stageViewController nextSubStageButtonEnabled:NO];
         }
     }

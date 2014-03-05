@@ -41,6 +41,8 @@
     [super didReceiveMemoryWarning];
 }
 
+#pragma mark - Audio
+
 - (void) stopAudio{
     if(soundID){
         AudioServicesDisposeSystemSoundID(soundID);
