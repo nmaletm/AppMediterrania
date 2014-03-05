@@ -78,7 +78,7 @@
         [stageViewController changeQuestion:[questions objectAtIndex:currentSubStage]];
     }
     else{
-        [[StageManager sharedInstance] markAsCompleted: self.stage+3];
+        [[StageManager sharedInstance] markAsCompleted: self.stage];
         [[NSNotificationCenter defaultCenter] postNotificationName:NOT_BACK_TO_MAP object:self];
     }
   

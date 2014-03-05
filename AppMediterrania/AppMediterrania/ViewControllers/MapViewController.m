@@ -64,7 +64,7 @@
     [self refreshStageStatus];
     
     if(DEBUG_APP){
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"App en debug" message:@"La app està en debug, estan totes les etapes desbloquejades" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Pues vale...",nil];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"App en debug" message:@"La app està en debug, estan totes les etapes desbloquejades" delegate:self cancelButtonTitle:@"Pues vale..." otherButtonTitles:@"Reiniciar joc",nil];
         [alert show];
     }
 }

@@ -107,8 +107,6 @@
     
     AudioServicesCreateSystemSoundID((__bridge CFURLRef)url, &soundID);
     AudioServicesPlaySystemSound (soundID);
-    
-    [[NSNotificationCenter defaultCenter] postNotificationName:NEXT_BUTTON_ENABLED object:self];
 }
 
 #pragma mark - Notifications
