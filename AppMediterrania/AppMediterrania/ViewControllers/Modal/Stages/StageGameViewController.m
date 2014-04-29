@@ -63,7 +63,7 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nextSubLevel:) name:NOT_NEXT_SUB_LEVEL object:nil];
 
-    [self.questionTextView setFont:[UIFont fontWithName:@"Freestyle Script" size:45]];
+    //[self.questionTextView setFont:[UIFont fontWithName:@"Freestyle Script" size:45]];
 
     [self initGame];
 }

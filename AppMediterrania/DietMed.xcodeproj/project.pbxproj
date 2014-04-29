@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C17EBF418C057AB009FDE28 /* freescpt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C17EBF318C057AB009FDE28 /* freescpt.ttf */; };
 		6C2A8414189BD67A002EEA2C /* Stage1SeasonsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A840F189BD67A002EEA2C /* Stage1SeasonsView.xib */; };
 		6C2A8417189BD67A002EEA2C /* Stage1FarmView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8412189BD67A002EEA2C /* Stage1FarmView.xib */; };
 		6C2A8418189BD67A002EEA2C /* Stage1FishingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A8413189BD67A002EEA2C /* Stage1FishingView.xib */; };
@@ -340,7 +339,6 @@
 
 /* Begin PBXFileReference section */
 		32090DB783EC4BBCAA45FA48 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C17EBF318C057AB009FDE28 /* freescpt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = freescpt.ttf; sourceTree = "<group>"; };
 		6C2A840F189BD67A002EEA2C /* Stage1SeasonsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1SeasonsView.xib; path = Stages/Stage1SeasonsView.xib; sourceTree = "<group>"; };
 		6C2A8412189BD67A002EEA2C /* Stage1FarmView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1FarmView.xib; path = Stages/Stage1FarmView.xib; sourceTree = "<group>"; };
 		6C2A8413189BD67A002EEA2C /* Stage1FishingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Stage1FishingView.xib; path = Stages/Stage1FishingView.xib; sourceTree = "<group>"; };
@@ -720,14 +718,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C17EBF218C057AB009FDE28 /* Typos */ = {
-			isa = PBXGroup;
-			children = (
-				6C17EBF318C057AB009FDE28 /* freescpt.ttf */,
-			);
-			path = Typos;
-			sourceTree = "<group>";
-		};
 		6C99FA3318A7AD8400D027E0 /* Modal */ = {
 			isa = PBXGroup;
 			children = (
@@ -810,7 +800,6 @@
 			isa = PBXGroup;
 			children = (
 				6CD3AB5A18D43AA5000C3AA3 /* Images */,
-				6C17EBF218C057AB009FDE28 /* Typos */,
 				6C99FA6E18A7CB4400D027E0 /* Data */,
 				6CAB3A30189E254400F7F4EB /* Audio */,
 			);
@@ -1566,7 +1555,6 @@
 				6CD3ACE918D43AA5000C3AA3 /* 52_joc.png in Resources */,
 				6CD57A37189B9918005538D1 /* Stage8View.xib in Resources */,
 				6CD3ACC418D43AA5000C3AA3 /* 33_joc_b.png in Resources */,
-				6C17EBF418C057AB009FDE28 /* freescpt.ttf in Resources */,
 				6CD3AD0E18D43AA5000C3AA3 /* 70_joc_b.png in Resources */,
 				6CAB3A82189E4D8A00F7F4EB /* Stage2View.xib in Resources */,
 				6CD3AC6518D43AA5000C3AA3 /* cuina_niv02_2a.png in Resources */,
@@ -1863,7 +1851,7 @@
 				INFOPLIST_FILE = "AppMediterrania/Application/DietMed-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "MedDiet Chef";
-				PROVISIONING_PROFILE = "ACB7ACD7-2B18-418E-A6AA-C4B8C5CED7A7";
+				PROVISIONING_PROFILE = "B3248EEC-F07C-4E35-A5AA-4C99204BEE8B";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1881,7 +1869,7 @@
 				INFOPLIST_FILE = "AppMediterrania/Application/DietMed-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "MedDiet Chef";
-				PROVISIONING_PROFILE = "ACB7ACD7-2B18-418E-A6AA-C4B8C5CED7A7";
+				PROVISIONING_PROFILE = "B3248EEC-F07C-4E35-A5AA-4C99204BEE8B";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

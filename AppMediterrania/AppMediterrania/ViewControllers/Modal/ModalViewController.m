@@ -40,7 +40,7 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(clickNextButton:) name:CLICK_NEXT_BUTTON object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(clickBackButton:) name:CLICK_BACK_BUTTON object:nil];
 
-    [self.informationTextView setFont:[UIFont fontWithName:@"Freestyle Script" size:30]];
+    //[self.informationTextView setFont:[UIFont fontWithName:@"Freestyle Script" size:30]];
     
     [self.dataSource initView];
     
