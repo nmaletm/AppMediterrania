@@ -82,7 +82,7 @@
 
 
 - (NSString *) text{
-    return @"Para practicar una correcta alimentación dieta mediterránea debes seguir las medidas y raciones que te aconsejamos en la siguiente imagen:";
+    return @"Para practicar una correcta alimentación Dieta Mediterránea debes seguir las medidas y raciones que te aconsejamos en la siguiente imagen:";
 }
 
 

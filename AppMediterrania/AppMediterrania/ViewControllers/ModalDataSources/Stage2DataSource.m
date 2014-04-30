@@ -78,36 +78,36 @@
 
     texts = [[NSMutableDictionary alloc] init];
     NSArray *textEasy = [[NSArray alloc] initWithObjects:
-                         @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                         @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                         @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                         @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                         @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                         @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                         @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                         @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                         @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                         @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                         @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                         @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                         @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                         @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                         @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                         @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
                          nil];
     [texts setObject:textEasy forKey:@"1"];
     
     NSArray *textMedium = [[NSArray alloc] initWithObjects:
-                           @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                           @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                           @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                           @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                           @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                           @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                           @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                           @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                           @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                           @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                           @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                           @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                           @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                           @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                           @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                           @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
                            nil];
     [texts setObject:textMedium forKey:@"2"];
     
     NSArray *textDificult = [[NSArray alloc] initWithObjects:
-                             @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                             @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                             @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                             @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                             @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
-                             @"Antes de empezar a cocinar nuestros platos dieta mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                             @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                             @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                             @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                             @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                             @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
+                             @"Antes de empezar a cocinar nuestros platos Dieta Mediterránea, es muy importante saber qué alimentos precisamos y cómo los conservaremos.",
                              nil];
     [texts setObject:textDificult forKey:@"3"];
 

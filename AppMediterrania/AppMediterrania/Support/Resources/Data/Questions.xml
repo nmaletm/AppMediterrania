@@ -143,13 +143,13 @@
         <actividad>4</actividad>
         <texto>¿Cuáles de estos alimentos son fuente de fibra, vitaminas y minerales?</texto>
         <correcta>06</correcta>
-        <incorrecta>22</incorrecta>
-        <incorrecta>23</incorrecta>
+        <incorrecta>27</incorrecta>
+        <incorrecta>26</incorrecta>
+        <incorrecta>30</incorrecta>
+        <incorrecta>63</incorrecta>
         <incorrecta>41</incorrecta>
         <incorrecta>46</incorrecta>
-        <incorrecta>25</incorrecta>
         <incorrecta>24</incorrecta>
-        <incorrecta>52</incorrecta>
         <incorrecta>57</incorrecta>
     </pregunta>
     
